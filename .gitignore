@@ -1,5 +1,4 @@
-# Training outputs and model checkpoints
-Results/
+# Model checkpoints remain local; result logs and code snapshots are versioned
 *.pth
 
 # Python caches and local environments
@@ -12,4 +11,3 @@ venv/
 .idea/
 .vscode/
 .DS_Store
-

@@ -1,0 +1,107 @@
+import copy
+import logging
+import os
+
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+from model.vnet import VNet
+from prediction import test_calculate_metric
+from utils.losses import DiceLoss
+
+
+class PolyWarmRestartScheduler(torch.optim.lr_scheduler._LRScheduler):
+    """Unchanged scheduler from the released training code."""
+
+    def __init__(self, optimizer, base_lr, max_iters, power=0.9,
+                 warm_restart_iters=5000, last_epoch=-1):
+        self.base_lr = base_lr
+        self.max_iters = max_iters
+        self.power = power
+        self.warm_restart_iters = warm_restart_iters
+        self.current_cycle_start = 0
+        super().__init__(optimizer, last_epoch)
+
+    def get_lr(self):
+        t = self.last_epoch - self.current_cycle_start
+        if t >= self.warm_restart_iters:
+            self.current_cycle_start = self.last_epoch
+            t = 0
+        factor = (1 - t / self.warm_restart_iters) ** self.power
+        return [self.base_lr * factor for _ in self.base_lrs]
+
+
+@torch.no_grad()
+def update_ema_variables(model, ema_model, alpha, global_step):
+    """The released EMA helper, retained for the paper's MT baseline."""
+    alpha = min(1 - 1 / (global_step + 1), alpha)
+    for ema_param, param in zip(ema_model.parameters(), model.parameters()):
+        ema_param.data.mul_(alpha).add_(param.data, alpha=1 - alpha)
+
+
+class Trainer(nn.Module):
+    """Mean-Teacher baseline specified by the paper's no-SSP/BCI/CR ablation."""
+
+    def __init__(self, args):
+        super().__init__()
+        self.best_performance = 0.0
+        self.args = args
+        self.model = VNet(n_channels=args.in_channels, n_classes=args.num_classes).to(args.device)
+        self.ema_model = copy.deepcopy(self.model).to(args.device)
+        for parameter in self.ema_model.parameters():
+            parameter.requires_grad_(False)
+        self.optimizer = torch.optim.SGD(
+            self.model.parameters(), lr=args.base_lr, momentum=0.9, weight_decay=0.00001)
+        self.scheduler = PolyWarmRestartScheduler(
+            self.optimizer, base_lr=args.base_lr, max_iters=args.max_iterations,
+            power=0.9, warm_restart_iters=8000)
+        self.dice_loss = DiceLoss(args.num_classes)
+        self.ce_loss = nn.CrossEntropyLoss()
+
+    def sigmoid_rampup(self, current, rampup_length):
+        if rampup_length == 0:
+            return 1.0
+        current = np.clip(current, 0.0, rampup_length)
+        phase = 1.0 - current / rampup_length
+        return float(np.exp(-5.0 * phase * phase))
+
+    def get_current_consistency_weight(self, epoch):
+        return self.args.consistency * self.sigmoid_rampup(epoch, self.args.consistency_rampup)
+
+    def segmentation_loss(self, logits, labels):
+        return 0.5 * (self.ce_loss(logits, labels) + self.dice_loss(logits, labels, softmax=True))
+
+    def train(self, sampled_batch, iter_num, snapshot_path):
+        volume_batch = sampled_batch['image'].to(self.args.device)
+        label_batch = sampled_batch['label'].to(self.args.device)
+        labeled_bs = self.args.labeled_bs
+        student_logits = self.model(volume_batch)
+        with torch.no_grad():
+            teacher_logits = self.ema_model(volume_batch)
+        supervised_loss = self.segmentation_loss(student_logits[:labeled_bs], label_batch[:labeled_bs])
+        consistency_loss = F.mse_loss(
+            torch.softmax(student_logits[labeled_bs:], dim=1),
+            torch.softmax(teacher_logits[labeled_bs:], dim=1))
+        consistency_weight = self.get_current_consistency_weight(iter_num // 150)
+        loss = supervised_loss + consistency_weight * consistency_loss
+        self.optimizer.zero_grad()
+        loss.backward()
+        self.optimizer.step()
+        update_ema_variables(self.model, self.ema_model, self.args.ema_decay, iter_num)
+        self.scheduler.step()
+        logging.info('iteration %d : loss : %f supervised : %f consistency : %f lr : %f',
+                     iter_num, loss, supervised_loss, consistency_loss,
+                     self.optimizer.param_groups[0]['lr'])
+
+    def test(self, snapshot_path, iter_num):
+        self.ema_model.eval()
+        dice, hd95 = test_calculate_metric(self.args, self.ema_model, val=True)
+        if dice > self.best_performance:
+            self.best_performance = dice
+            torch.save(self.ema_model.state_dict(),
+                       os.path.join(snapshot_path, 'Model_iter_' + str(iter_num) + '.pth'))
+        logging.info('iteration %d : mean_dice : %f mean_hd95 : %f', iter_num, dice, hd95)
+        self.model.train()
+        self.ema_model.train()
