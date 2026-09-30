@@ -1,0 +1,15 @@
+# Training outputs and model checkpoints
+Results/
+*.pth
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+
