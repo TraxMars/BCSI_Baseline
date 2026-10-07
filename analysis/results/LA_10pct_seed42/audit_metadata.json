@@ -1,0 +1,122 @@
+{
+  "arguments": {
+    "data_path": "/home/duanxuelong/Dataset/LA",
+    "dataset": "LA",
+    "labeled_num": 10,
+    "model_path": "Results/seed_42/result_LA_10l/fold_0/Model_iter_27000.pth",
+    "patch_size": [
+      112,
+      112,
+      80
+    ],
+    "device": "cpu",
+    "patches_per_case": 3,
+    "topk_ratios": [
+      0.125,
+      0.25
+    ],
+    "output_dir": "analysis/results/LA_10pct_seed42",
+    "seed": 42,
+    "in_channels": 1,
+    "num_classes": 2,
+    "min_band_voxels": 8,
+    "min_foreground_voxels": 32,
+    "max_retries": 50,
+    "bootstrap_samples": 2000,
+    "random_samples": 5000,
+    "shuffle_repeats": 200,
+    "cpu_threads": 4
+  },
+  "protected_sha256_before": {
+    "/home/duanxuelong/BCSI_Baseline_BGCE/train.py": "38b2589526debcdeccd5a99a086779d8a85d245b7593f2bee1e1d3a99c875a86",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/trainer.py": "d1bce2ccfb53adbcd1e4d2b836838d46f746ec41517e859817183f215633f817",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/model/vnet.py": "c7d6e7bb755cf856e3a033c4fe5db17b09fb526f55f752ed08988d256c1a89ed",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/dataloader/dataset.py": "96834cc15d23116b991816d1eaccbf5c60dd9039e420a8691561cbd6f441c363",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/utils/transforms.py": "e5d4bdfa1232f2642beb69eaf03bc1ed7ac6eb722f57fc274a31f85298be258f",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/utils/utils.py": "d18a6619571fc466ce10fa7b8ca40161125d447c981ff25ac9138284120e3f31",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/prediction.py": "d65af70c8d240763933aa39df372a9323611bdd0f34ccbbc789159b9fdcaaca3",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/Results/seed_42/result_LA_10l/fold_0/Model_iter_27000.pth": "67ac4bda6f010bc28602c86cd73a45348c3a17cc081da6016f47217f9987e86c"
+  },
+  "torch_version": "1.10.2+cu113",
+  "numpy_version": "1.24.4",
+  "script_sha256": "b80ca1e8939cd8c7b83102beb2d628ae03ab5f839af80779f2d3b16d909a20c9",
+  "status": "complete",
+  "model_state_sha256_before": "5d0581ea990c912ae44397bf1308675c6900b0a73c76f667373eef9fb995b77e",
+  "labeled_cases_requested": 8,
+  "labeled_paths": [
+    "/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/06SR5RBREL16DQ6M8LWS/mri_norm2.h5",
+    "/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/0RZDK210BSMWAA6467LU/mri_norm2.h5",
+    "/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/1D7CUD1955YZPGK8XHJX/mri_norm2.h5",
+    "/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/1GU15S0GJ6PFNARO469W/mri_norm2.h5",
+    "/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/1MHBF3G6DCPWHSKG7XCP/mri_norm2.h5",
+    "/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/23X6SY44VT9KFHR7S7OC/mri_norm2.h5",
+    "/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/2XL5HSFSE93RMOJDRGR4/mri_norm2.h5",
+    "/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/38CWS74285MFGZZXR09Z/mri_norm2.h5"
+  ],
+  "total_training_entries": 80,
+  "split_rule": "first patients_to_slices(dataset, labeled_num) entries in baseline train.list",
+  "feature_shapes": {
+    "x2": [
+      [
+        1,
+        32,
+        56,
+        56,
+        40
+      ]
+    ],
+    "x3": [
+      [
+        1,
+        64,
+        28,
+        28,
+        20
+      ]
+    ],
+    "x4": [
+      [
+        1,
+        128,
+        14,
+        14,
+        10
+      ]
+    ]
+  },
+  "layer_counts": {
+    "x2": {
+      "valid_cases": 8,
+      "skipped_cases": 0,
+      "partial_cases": 0,
+      "valid_identity_patches": 24
+    },
+    "x3": {
+      "valid_cases": 8,
+      "skipped_cases": 0,
+      "partial_cases": 0,
+      "valid_identity_patches": 24
+    },
+    "x4": {
+      "valid_cases": 8,
+      "skipped_cases": 0,
+      "partial_cases": 0,
+      "valid_identity_patches": 24
+    }
+  },
+  "valid_cases_any_layer": 8,
+  "skipped_cases_all_layers": 0,
+  "nonfinite_d_count": 0,
+  "model_state_sha256_after": "5d0581ea990c912ae44397bf1308675c6900b0a73c76f667373eef9fb995b77e",
+  "protected_sha256_after": {
+    "/home/duanxuelong/BCSI_Baseline_BGCE/train.py": "38b2589526debcdeccd5a99a086779d8a85d245b7593f2bee1e1d3a99c875a86",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/trainer.py": "d1bce2ccfb53adbcd1e4d2b836838d46f746ec41517e859817183f215633f817",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/model/vnet.py": "c7d6e7bb755cf856e3a033c4fe5db17b09fb526f55f752ed08988d256c1a89ed",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/dataloader/dataset.py": "96834cc15d23116b991816d1eaccbf5c60dd9039e420a8691561cbd6f441c363",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/utils/transforms.py": "e5d4bdfa1232f2642beb69eaf03bc1ed7ac6eb722f57fc274a31f85298be258f",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/utils/utils.py": "d18a6619571fc466ce10fa7b8ca40161125d447c981ff25ac9138284120e3f31",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/prediction.py": "d65af70c8d240763933aa39df372a9323611bdd0f34ccbbc789159b9fdcaaca3",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/Results/seed_42/result_LA_10l/fold_0/Model_iter_27000.pth": "67ac4bda6f010bc28602c86cd73a45348c3a17cc081da6016f47217f9987e86c"
+  },
+  "protected_files_unchanged": true
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "numerical_unit_tests": 7,
+  "mandatory_artifacts": 11,
+  "labeled_cases": 8,
+  "identity_patches_per_layer": 24,
+  "augmentation_vectors_per_layer": 96,
+  "case_pairs_per_layer": 28,
+  "augmentation_csv_rows": 864,
+  "nonfinite_vector_elements": 0,
+  "baseline_files_match_initial_inspection_sha256": true,
+  "model_parameters_and_buffers_unchanged": true,
+  "independent_checks": [
+    "case mean from raw patch vectors",
+    "normalization after case mean",
+    "all pairwise signed cosine",
+    "all Top-K Jaccard",
+    "Spearman against scipy",
+    "all bands >= min_band_voxels",
+    "labeled IDs equal train.list prefix",
+    "all real-minus-null mean CIs positive"
+  ]
+}

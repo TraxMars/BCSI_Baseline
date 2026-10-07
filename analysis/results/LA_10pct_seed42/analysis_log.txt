@@ -1,0 +1,92 @@
+2026-10-07 16:48:22,024 INFO ARGUMENTS {"bootstrap_samples": 2000, "cpu_threads": 4, "data_path": "/home/duanxuelong/Dataset/LA", "dataset": "LA", "device": "cpu", "in_channels": 1, "labeled_num": 10, "max_retries": 50, "min_band_voxels": 8, "min_foreground_voxels": 32, "model_path": "Results/seed_42/result_LA_10l/fold_0/Model_iter_27000.pth", "num_classes": 2, "output_dir": "analysis/results/LA_10pct_seed42", "patch_size": [112, 112, 80], "patches_per_case": 3, "random_samples": 5000, "seed": 42, "shuffle_repeats": 200, "topk_ratios": [0.125, 0.25]}
+2026-10-07 16:48:22,025 INFO CHECKS source contains no training/gradient/update calls; protected SHA256 captured
+2026-10-07 16:48:22,252 INFO SPLIT labeled=8 total_training_entries=80; only labeled HDF5 files will be opened
+2026-10-07 16:48:22,252 INFO CASE_START index=1/8 case=06SR5RBREL16DQ6M8LWS path=/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/06SR5RBREL16DQ6M8LWS/mri_norm2.h5
+2026-10-07 16:48:22,782 INFO FEATURE_SHAPE layer=x2 shape=(1, 32, 56, 56, 40) view=identity
+2026-10-07 16:48:22,803 INFO FEATURE_SHAPE layer=x3 shape=(1, 64, 28, 28, 20) view=identity
+2026-10-07 16:48:22,807 INFO FEATURE_SHAPE layer=x4 shape=(1, 128, 14, 14, 10) view=identity
+2026-10-07 16:48:23,631 INFO PATCH_ACCEPTED case=06SR5RBREL16DQ6M8LWS patch=1 layer_counts={'x2': 1, 'x3': 1, 'x4': 1}
+2026-10-07 16:48:24,710 INFO PATCH_ACCEPTED case=06SR5RBREL16DQ6M8LWS patch=2 layer_counts={'x2': 2, 'x3': 2, 'x4': 2}
+2026-10-07 16:48:25,776 INFO PATCH_ACCEPTED case=06SR5RBREL16DQ6M8LWS patch=3 layer_counts={'x2': 3, 'x3': 3, 'x4': 3}
+2026-10-07 16:48:25,776 INFO CASE_DONE layer=x2 case=06SR5RBREL16DQ6M8LWS status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:25,777 INFO CASE_DONE layer=x3 case=06SR5RBREL16DQ6M8LWS status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:25,777 INFO CASE_DONE layer=x4 case=06SR5RBREL16DQ6M8LWS status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:25,777 INFO CASE_START index=2/8 case=0RZDK210BSMWAA6467LU path=/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/0RZDK210BSMWAA6467LU/mri_norm2.h5
+2026-10-07 16:48:27,057 INFO PATCH_ACCEPTED case=0RZDK210BSMWAA6467LU patch=1 layer_counts={'x2': 1, 'x3': 1, 'x4': 1}
+2026-10-07 16:48:28,121 INFO PATCH_ACCEPTED case=0RZDK210BSMWAA6467LU patch=2 layer_counts={'x2': 2, 'x3': 2, 'x4': 2}
+2026-10-07 16:48:29,213 INFO PATCH_ACCEPTED case=0RZDK210BSMWAA6467LU patch=3 layer_counts={'x2': 3, 'x3': 3, 'x4': 3}
+2026-10-07 16:48:29,213 INFO CASE_DONE layer=x2 case=0RZDK210BSMWAA6467LU status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:29,213 INFO CASE_DONE layer=x3 case=0RZDK210BSMWAA6467LU status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:29,213 INFO CASE_DONE layer=x4 case=0RZDK210BSMWAA6467LU status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:29,213 INFO CASE_START index=3/8 case=1D7CUD1955YZPGK8XHJX path=/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/1D7CUD1955YZPGK8XHJX/mri_norm2.h5
+2026-10-07 16:48:30,356 INFO PATCH_ACCEPTED case=1D7CUD1955YZPGK8XHJX patch=1 layer_counts={'x2': 1, 'x3': 1, 'x4': 1}
+2026-10-07 16:48:31,356 INFO PATCH_ACCEPTED case=1D7CUD1955YZPGK8XHJX patch=2 layer_counts={'x2': 2, 'x3': 2, 'x4': 2}
+2026-10-07 16:48:32,363 INFO PATCH_ACCEPTED case=1D7CUD1955YZPGK8XHJX patch=3 layer_counts={'x2': 3, 'x3': 3, 'x4': 3}
+2026-10-07 16:48:32,364 INFO CASE_DONE layer=x2 case=1D7CUD1955YZPGK8XHJX status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:32,364 INFO CASE_DONE layer=x3 case=1D7CUD1955YZPGK8XHJX status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:32,364 INFO CASE_DONE layer=x4 case=1D7CUD1955YZPGK8XHJX status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:32,364 INFO CASE_START index=4/8 case=1GU15S0GJ6PFNARO469W path=/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/1GU15S0GJ6PFNARO469W/mri_norm2.h5
+2026-10-07 16:48:33,502 INFO PATCH_ACCEPTED case=1GU15S0GJ6PFNARO469W patch=1 layer_counts={'x2': 1, 'x3': 1, 'x4': 1}
+2026-10-07 16:48:34,547 INFO PATCH_ACCEPTED case=1GU15S0GJ6PFNARO469W patch=2 layer_counts={'x2': 2, 'x3': 2, 'x4': 2}
+2026-10-07 16:48:35,616 INFO PATCH_ACCEPTED case=1GU15S0GJ6PFNARO469W patch=3 layer_counts={'x2': 3, 'x3': 3, 'x4': 3}
+2026-10-07 16:48:35,616 INFO CASE_DONE layer=x2 case=1GU15S0GJ6PFNARO469W status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:35,617 INFO CASE_DONE layer=x3 case=1GU15S0GJ6PFNARO469W status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:35,617 INFO CASE_DONE layer=x4 case=1GU15S0GJ6PFNARO469W status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:35,617 INFO CASE_START index=5/8 case=1MHBF3G6DCPWHSKG7XCP path=/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/1MHBF3G6DCPWHSKG7XCP/mri_norm2.h5
+2026-10-07 16:48:36,818 INFO PATCH_ACCEPTED case=1MHBF3G6DCPWHSKG7XCP patch=1 layer_counts={'x2': 1, 'x3': 1, 'x4': 1}
+2026-10-07 16:48:37,872 INFO PATCH_ACCEPTED case=1MHBF3G6DCPWHSKG7XCP patch=2 layer_counts={'x2': 2, 'x3': 2, 'x4': 2}
+2026-10-07 16:48:38,918 INFO PATCH_ACCEPTED case=1MHBF3G6DCPWHSKG7XCP patch=3 layer_counts={'x2': 3, 'x3': 3, 'x4': 3}
+2026-10-07 16:48:38,918 INFO CASE_DONE layer=x2 case=1MHBF3G6DCPWHSKG7XCP status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:38,918 INFO CASE_DONE layer=x3 case=1MHBF3G6DCPWHSKG7XCP status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:38,918 INFO CASE_DONE layer=x4 case=1MHBF3G6DCPWHSKG7XCP status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:38,918 INFO CASE_START index=6/8 case=23X6SY44VT9KFHR7S7OC path=/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/23X6SY44VT9KFHR7S7OC/mri_norm2.h5
+2026-10-07 16:48:40,121 INFO PATCH_ACCEPTED case=23X6SY44VT9KFHR7S7OC patch=1 layer_counts={'x2': 1, 'x3': 1, 'x4': 1}
+2026-10-07 16:48:41,153 INFO PATCH_ACCEPTED case=23X6SY44VT9KFHR7S7OC patch=2 layer_counts={'x2': 2, 'x3': 2, 'x4': 2}
+2026-10-07 16:48:42,177 INFO PATCH_ACCEPTED case=23X6SY44VT9KFHR7S7OC patch=3 layer_counts={'x2': 3, 'x3': 3, 'x4': 3}
+2026-10-07 16:48:42,178 INFO CASE_DONE layer=x2 case=23X6SY44VT9KFHR7S7OC status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:42,178 INFO CASE_DONE layer=x3 case=23X6SY44VT9KFHR7S7OC status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:42,178 INFO CASE_DONE layer=x4 case=23X6SY44VT9KFHR7S7OC status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:42,178 INFO CASE_START index=7/8 case=2XL5HSFSE93RMOJDRGR4 path=/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/2XL5HSFSE93RMOJDRGR4/mri_norm2.h5
+2026-10-07 16:48:43,392 INFO PATCH_ACCEPTED case=2XL5HSFSE93RMOJDRGR4 patch=1 layer_counts={'x2': 1, 'x3': 1, 'x4': 1}
+2026-10-07 16:48:44,524 INFO PATCH_ACCEPTED case=2XL5HSFSE93RMOJDRGR4 patch=2 layer_counts={'x2': 2, 'x3': 2, 'x4': 2}
+2026-10-07 16:48:45,595 INFO PATCH_ACCEPTED case=2XL5HSFSE93RMOJDRGR4 patch=3 layer_counts={'x2': 3, 'x3': 3, 'x4': 3}
+2026-10-07 16:48:45,595 INFO CASE_DONE layer=x2 case=2XL5HSFSE93RMOJDRGR4 status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:45,595 INFO CASE_DONE layer=x3 case=2XL5HSFSE93RMOJDRGR4 status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:45,595 INFO CASE_DONE layer=x4 case=2XL5HSFSE93RMOJDRGR4 status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:45,595 INFO CASE_START index=8/8 case=38CWS74285MFGZZXR09Z path=/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/38CWS74285MFGZZXR09Z/mri_norm2.h5
+2026-10-07 16:48:46,787 INFO PATCH_ACCEPTED case=38CWS74285MFGZZXR09Z patch=1 layer_counts={'x2': 1, 'x3': 1, 'x4': 1}
+2026-10-07 16:48:47,833 INFO PATCH_ACCEPTED case=38CWS74285MFGZZXR09Z patch=2 layer_counts={'x2': 2, 'x3': 2, 'x4': 2}
+2026-10-07 16:48:48,913 INFO PATCH_ACCEPTED case=38CWS74285MFGZZXR09Z patch=3 layer_counts={'x2': 3, 'x3': 3, 'x4': 3}
+2026-10-07 16:48:48,914 INFO CASE_DONE layer=x2 case=38CWS74285MFGZZXR09Z status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:48,914 INFO CASE_DONE layer=x3 case=38CWS74285MFGZZXR09Z status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:48,914 INFO CASE_DONE layer=x4 case=38CWS74285MFGZZXR09Z status=complete valid_patches=3 attempts=3
+2026-10-07 16:48:49,877 INFO SUBSPACE layer=x2 mode=centered_pca requested=1 used=1 cumulative=0.47388723253367376
+2026-10-07 16:48:49,877 INFO SUBSPACE layer=x2 mode=centered_pca requested=2 used=2 cumulative=0.733099400567919
+2026-10-07 16:48:49,877 INFO SUBSPACE layer=x2 mode=centered_pca requested=4 used=4 cumulative=0.9520814324857554
+2026-10-07 16:48:49,877 INFO SUBSPACE layer=x2 mode=centered_pca requested=8 used=7 cumulative=1.0
+2026-10-07 16:48:49,877 INFO SUBSPACE layer=x2 mode=uncentered_svd requested=1 used=1 cumulative=0.916898294404196
+2026-10-07 16:48:49,877 INFO SUBSPACE layer=x2 mode=uncentered_svd requested=2 used=2 cumulative=0.9563004796731299
+2026-10-07 16:48:49,877 INFO SUBSPACE layer=x2 mode=uncentered_svd requested=4 used=4 cumulative=0.9895020440141833
+2026-10-07 16:48:49,877 INFO SUBSPACE layer=x2 mode=uncentered_svd requested=8 used=8 cumulative=1.0
+2026-10-07 16:48:50,716 INFO SUBSPACE layer=x3 mode=centered_pca requested=1 used=1 cumulative=0.3707674907570827
+2026-10-07 16:48:50,716 INFO SUBSPACE layer=x3 mode=centered_pca requested=2 used=2 cumulative=0.5801009953681914
+2026-10-07 16:48:50,716 INFO SUBSPACE layer=x3 mode=centered_pca requested=4 used=4 cumulative=0.8505169258689159
+2026-10-07 16:48:50,716 INFO SUBSPACE layer=x3 mode=centered_pca requested=8 used=7 cumulative=1.0
+2026-10-07 16:48:50,716 INFO SUBSPACE layer=x3 mode=uncentered_svd requested=1 used=1 cumulative=0.9320807136466905
+2026-10-07 16:48:50,716 INFO SUBSPACE layer=x3 mode=uncentered_svd requested=2 used=2 cumulative=0.9572821937027216
+2026-10-07 16:48:50,716 INFO SUBSPACE layer=x3 mode=uncentered_svd requested=4 used=4 cumulative=0.9810113826456321
+2026-10-07 16:48:50,716 INFO SUBSPACE layer=x3 mode=uncentered_svd requested=8 used=8 cumulative=0.9999999999999999
+2026-10-07 16:48:51,499 INFO SUBSPACE layer=x4 mode=centered_pca requested=1 used=1 cumulative=0.37590023206256556
+2026-10-07 16:48:51,499 INFO SUBSPACE layer=x4 mode=centered_pca requested=2 used=2 cumulative=0.553523871952609
+2026-10-07 16:48:51,499 INFO SUBSPACE layer=x4 mode=centered_pca requested=4 used=4 cumulative=0.8229063241248028
+2026-10-07 16:48:51,499 INFO SUBSPACE layer=x4 mode=centered_pca requested=8 used=7 cumulative=1.0
+2026-10-07 16:48:51,499 INFO SUBSPACE layer=x4 mode=uncentered_svd requested=1 used=1 cumulative=0.8782057773361713
+2026-10-07 16:48:51,499 INFO SUBSPACE layer=x4 mode=uncentered_svd requested=2 used=2 cumulative=0.9239401164663035
+2026-10-07 16:48:51,499 INFO SUBSPACE layer=x4 mode=uncentered_svd requested=4 used=4 cumulative=0.966391337565438
+2026-10-07 16:48:51,499 INFO SUBSPACE layer=x4 mode=uncentered_svd requested=8 used=8 cumulative=1.0
+2026-10-07 16:48:53,113 INFO LAYER_TOTAL layer=x2 {'valid_cases': 8, 'skipped_cases': 0, 'partial_cases': 0, 'valid_identity_patches': 24}
+2026-10-07 16:48:53,113 INFO LAYER_TOTAL layer=x3 {'valid_cases': 8, 'skipped_cases': 0, 'partial_cases': 0, 'valid_identity_patches': 24}
+2026-10-07 16:48:53,113 INFO LAYER_TOTAL layer=x4 {'valid_cases': 8, 'skipped_cases': 0, 'partial_cases': 0, 'valid_identity_patches': 24}
+2026-10-07 16:48:53,162 INFO MODEL_STATE_UNCHANGED eval=True no_grad=True no_parameter_grads=True
+2026-10-07 16:48:53,218 INFO PROTECTED_FILES_UNCHANGED=True (train, trainer, VNet, data, transforms, utils, prediction, checkpoint)
+2026-10-07 16:48:53,218 INFO AUDIT_COMPLETE output=/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/LA_10pct_seed42
