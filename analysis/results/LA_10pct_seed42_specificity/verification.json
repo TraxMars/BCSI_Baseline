@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "numerical_unit_tests": 11,
+  "labeled_cases": 8,
+  "replayed_identity_patches": 24,
+  "matched_voxel_min": 12,
+  "matched_voxel_max": 284,
+  "nonfinite_vector_elements": 0,
+  "baseline_and_experiment0_unchanged": true,
+  "experiment0_full_near_patch_vectors_reproduced": true,
+  "independent_checks": [
+    "scipy morphology and nearest resize coordinates",
+    "equal unique voxel indices inside six disjoint regions",
+    "NumPy sampled standardized transitions from replayed x3 features",
+    "NumPy gradients and BGS from replayed features",
+    "case means and saved moments",
+    "all patch/case cosines",
+    "signed BGS Spearman and Top-K",
+    "BTV/BGS relationships",
+    "all augmentation pair scores",
+    "channel mean scores and ranks"
+  ]
+}
