@@ -1,5 +1,6 @@
 # Model checkpoints remain local; result logs and code snapshots are versioned
 *.pth
+*.pt
 
 # Python caches and local environments
 __pycache__/

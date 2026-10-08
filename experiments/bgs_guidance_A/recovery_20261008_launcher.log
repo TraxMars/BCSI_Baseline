@@ -1,0 +1,2 @@
+Experiment A starting; output=/home/duanxuelong/BCSI_Baseline_BGCE/Results/experiment_A_bgs_alpha0p1_seed42
+{"stage": "complete", "best_validation": {"iteration": 29000, "dice": 0.862856, "hd95": 11.416208}, "guidance_test": {"n_cases": 20, "dice": 0.8628580452755903, "jaccard": 0.7647211835772159, "hd95": 11.416208360297022, "asd": 3.0932342279830585}}

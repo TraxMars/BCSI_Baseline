@@ -74,11 +74,6 @@ parser.add_argument('--consistency_rampup', type=float, default=200.0, help='con
 parser.add_argument('--consistency', type=float, default=0.1, help='consistency')
 parser.add_argument('--ema_decay', type=float, default=0.9, help='ema_decay')
 
-parser.add_argument('--use_bgs_guidance', action='store_true', default=False,
-                    help='Experiment A: labeled BGS guidance on unlabeled student x3')
-parser.add_argument('--bgs_alpha', type=float, default=0.1,
-                    help='Fixed unlabeled x3 gain (no additional ramp-up)')
-
 parser.add_argument('--device', type=str, default='cuda')
 
 args = parser.parse_args()
@@ -171,9 +166,6 @@ if __name__ == '__main__':
         shutil.copyfile("./train.py", snapshot_path + "/code/train.py")
         shutil.copyfile("./trainer.py", snapshot_path + "/code/trainer.py")
         shutil.copyfile("./model/vnet.py", snapshot_path + "/code/vnet.py")
-        if args.use_bgs_guidance:
-            shutil.copyfile("./utils/boundary_guidance.py",
-                            snapshot_path + "/code/boundary_guidance.py")
 
         logging.basicConfig(filename=snapshot_path+"/log.txt", level=logging.INFO,
                             format='[%(asctime)s.%(msecs)03d] %(message)s', datefmt='%H:%M:%S')

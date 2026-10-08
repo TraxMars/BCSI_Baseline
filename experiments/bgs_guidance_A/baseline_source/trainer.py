@@ -10,7 +10,6 @@ import torch.nn.functional as F
 from model.vnet import VNet
 from prediction import test_calculate_metric
 from utils.losses import DiceLoss
-from utils.boundary_guidance import apply_labeled_bgs_guidance
 
 
 class PolyWarmRestartScheduler(torch.optim.lr_scheduler._LRScheduler):
@@ -78,34 +77,7 @@ class Trainer(nn.Module):
         volume_batch = sampled_batch['image'].to(self.args.device)
         label_batch = sampled_batch['label'].to(self.args.device)
         labeled_bs = self.args.labeled_bs
-        if getattr(self.args, 'use_bgs_guidance', False):
-            features = self.model.encoder(volume_batch)
-            try:
-                features[2], w, diagnostics = apply_labeled_bgs_guidance(
-                    features[2], label_batch[:labeled_bs], labeled_bs,
-                    alpha=getattr(self.args, 'bgs_alpha', 0.1))
-            except FloatingPointError:
-                logging.exception('BGS nonfinite measurement at iteration %d', iter_num)
-                raise
-            self.bgs_diagnostics = diagnostics
-            self.bgs_weights = w
-            logging.info(
-                'BGS iteration %d : valid %d mean %f max %f positive_fraction %f '
-                'w_mean %f w_max %f relative_change %f skip %s nonfinite %d',
-                iter_num, diagnostics['valid_samples'], diagnostics['mean_bgs'],
-                diagnostics['max_bgs'], diagnostics['positive_fraction'],
-                diagnostics['w_mean'], diagnostics['w_max'],
-                diagnostics['relative_change'], diagnostics['skipped'],
-                diagnostics['nonfinite'])
-            if iter_num % 500 == 0:
-                logging.info('BGS iteration %d : diagnostic Top-8 w channels %s', iter_num,
-                             torch.topk(w, min(8, w.numel())).indices.cpu().tolist())
-            student_logits = self.model.decoder(features)
-            if not torch.isfinite(student_logits).all():
-                logging.error('BGS nonfinite student logits at iteration %d', iter_num)
-                raise FloatingPointError('Nonfinite student logits')
-        else:
-            student_logits = self.model(volume_batch)
+        student_logits = self.model(volume_batch)
         with torch.no_grad():
             teacher_logits = self.ema_model(volume_batch)
         supervised_loss = self.segmentation_loss(student_logits[:labeled_bs], label_batch[:labeled_bs])
@@ -114,10 +86,6 @@ class Trainer(nn.Module):
             torch.softmax(teacher_logits[labeled_bs:], dim=1))
         consistency_weight = self.get_current_consistency_weight(iter_num // 150)
         loss = supervised_loss + consistency_weight * consistency_loss
-        if getattr(self.args, 'use_bgs_guidance', False):
-            if not torch.isfinite(teacher_logits).all() or not torch.isfinite(loss):
-                logging.error('BGS nonfinite teacher logits or loss at iteration %d', iter_num)
-                raise FloatingPointError('Nonfinite teacher logits or loss')
         self.optimizer.zero_grad()
         loss.backward()
         self.optimizer.step()

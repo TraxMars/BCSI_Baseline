@@ -1,0 +1,20 @@
+{
+  "recovery_date": "2026-10-08",
+  "launched_at": "2026-10-08T14:22:27.353621",
+  "last_completed_iteration": 15287,
+  "interruption_cause": "User reported resource/memory exhaustion; log ended abruptly without an exception traceback.",
+  "old_checkpoint_type": "EMA model weights only; no Student/optimizer/scheduler/RNG state.",
+  "recovery_method": "Restart full LA 10%, seed42, alpha0.1 experiment from the original seed initialization.",
+  "archived_run": "/home/duanxuelong/BCSI_Baseline_BGCE/Results/experiment_A_bgs_alpha0p1_seed42_interrupted_20261008_iter15287",
+  "new_run": "/home/duanxuelong/BCSI_Baseline_BGCE/Results/experiment_A_bgs_alpha0p1_seed42",
+  "physical_gpu": 3,
+  "logical_device": "cuda:0",
+  "tmux_session": "bgs_A_LA10_seed42_recovery",
+  "recovery_tests_passed": 2,
+  "training_source_unchanged": true,
+  "launch_verified": true,
+  "child_pid": 820380,
+  "first_10_loss_logs_match": true,
+  "first_validation_matches_interrupted_attempt": true,
+  "verified_full_checkpoint_iteration": 200
+}

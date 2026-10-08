@@ -1,0 +1,14 @@
+{
+  "numerical_tests": 7,
+  "passed": true,
+  "protected_files": 116,
+  "disabled_full_step_matches_archived_baseline": true,
+  "alpha_zero_full_step_matches_archived_baseline": true,
+  "training_imports_analysis": false,
+  "recovery_tests": 2,
+  "recovery_tests_passed": true,
+  "epoch_boundary_state_and_dataloader_exact": true,
+  "restart_first_10_losses_exact": true,
+  "restart_first_validation_exact": true,
+  "full_recovery_checkpoint_verified": true
+}

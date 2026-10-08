@@ -1,0 +1,81 @@
+{
+  "command": [
+    "/home/duanxuelong/.conda/envs/SSL/bin/python",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/experiments/bgs_guidance_A/checkpointed_train.py",
+    "--data_path",
+    "/home/duanxuelong/Dataset/LA",
+    "--dataset",
+    "LA",
+    "--labeled_num",
+    "10",
+    "--patch_size",
+    "112",
+    "112",
+    "80",
+    "--batch_size",
+    "4",
+    "--labeled_bs",
+    "2",
+    "--seed",
+    "42",
+    "--base_lr",
+    "0.01",
+    "--max_iterations",
+    "30000",
+    "--test_interval",
+    "200",
+    "--n_fold",
+    "1",
+    "--consistency_rampup",
+    "200",
+    "--consistency",
+    "0.1",
+    "--ema_decay",
+    "0.9",
+    "--device",
+    "cuda:0",
+    "--output_dir",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/Results/experiment_A_bgs_alpha0p1_seed42",
+    "--use_bgs_guidance",
+    "--bgs_alpha",
+    "0.1"
+  ],
+  "device": "cuda:0",
+  "stage": "complete",
+  "start_time": "2026-10-08T14:22:27.466771",
+  "cuda_visible_devices": "3",
+  "recovery_entrypoint_sha256": "a38067f70b53457371d2f2fc17dc3884572922f84ebe55bd012cb08c53d4cbe6",
+  "protected_files": 116,
+  "baseline_best_validation": {
+    "iteration": 27000,
+    "dice": 0.873561,
+    "hd95": 8.888493
+  },
+  "training_source_sha256": {
+    "train.py": "813dbe477e076c913ee5c9c49fdebc2ed1cb9f5a5c620aef7b1a09ec90a888d6",
+    "trainer.py": "59dd7b9061700aba32aa6f2425f82a105e2ac7816ca30960930872fd6cdd6077",
+    "utils/boundary_guidance.py": "389e2a0f4f5e00aaf535c83ba972fa4dc0ac1c80fb84c017bb17b48904152149"
+  },
+  "end_time": "2026-10-08T19:07:08.092554",
+  "best_validation": {
+    "iteration": 29000,
+    "dice": 0.862856,
+    "hd95": 11.416208
+  },
+  "baseline_test": {
+    "n_cases": 20,
+    "dice": 0.8735608027043703,
+    "jaccard": 0.7776845430673537,
+    "hd95": 8.88879185827761,
+    "asd": 2.208701719663264
+  },
+  "guidance_test": {
+    "n_cases": 20,
+    "dice": 0.8628580452755903,
+    "jaccard": 0.7647211835772159,
+    "hd95": 11.416208360297022,
+    "asd": 3.0932342279830585
+  },
+  "guidance_checkpoint": "/home/duanxuelong/BCSI_Baseline_BGCE/Results/experiment_A_bgs_alpha0p1_seed42/result_LA_10l/fold_0/Model_iter_29000.pth",
+  "protected_files_unchanged": true
+}
