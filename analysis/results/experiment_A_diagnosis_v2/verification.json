@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "prediction_rows": 80,
+  "cases": 20,
+  "all_20_cases_included": true,
+  "original_lcc_metrics_reproduced_within": 1e-06,
+  "saved_anomaly_raw_lcc_gt_voxel_exact": true,
+  "models_state_unchanged": [
+    "baseline",
+    "guidance"
+  ],
+  "original_files_hashed": 112,
+  "original_files_unchanged": true,
+  "training_performed": false,
+  "backpropagation_performed": false,
+  "independent_artifact_checks": {
+    "all_80_masks_gt_confusion_overlap_and_component_counts": "passed",
+    "anomaly_hd95_asd_independent_scipy_surface_distances": [
+      {
+        "model": "baseline",
+        "prediction": "raw",
+        "hd95": 50.566787519082126,
+        "asd": 18.750467412395295
+      },
+      {
+        "model": "baseline",
+        "prediction": "lcc",
+        "hd95": 17.233687939614086,
+        "asd": 2.7052407714275684
+      },
+      {
+        "model": "guidance",
+        "prediction": "raw",
+        "hd95": 52.23600269938248,
+        "asd": 18.668400788844888
+      },
+      {
+        "model": "guidance",
+        "prediction": "lcc",
+        "hd95": 53.74011537017761,
+        "asd": 18.011386068631627
+      }
+    ],
+    "all_52_anomaly_components_gt_overlap_conservation": "passed",
+    "all_60_bgs_records_jaccard_and_64_channel_frequencies": "passed"
+  }
+}

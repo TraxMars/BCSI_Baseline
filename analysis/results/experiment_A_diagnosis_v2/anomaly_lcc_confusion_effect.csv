@@ -1,0 +1,3 @@
+case_id,model,raw_tp,raw_fp,raw_fn,lcc_tp,lcc_fp,lcc_fn,removed_tp_voxels,removed_fp_voxels,added_fn_voxels
+WSJB9P4JCXUVHBOYFVWL,baseline,124636,92628,46447,123401,14649,47682,1235,77979,1235
+WSJB9P4JCXUVHBOYFVWL,guidance,125926,127617,45157,122226,108346,48857,3700,19271,3700

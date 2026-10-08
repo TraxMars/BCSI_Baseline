@@ -1,0 +1,4 @@
+phase,start,end_exclusive,actual_records,expected_records,adjacent_pairs,mean_adjacent_jaccard,min_adjacent_jaccard,strict_intersection,frequency_top8
+early,0,10000,20,20,19,0.4910399541978489,0.23076923076923078,[33],"[33, 46, 27, 39, 14, 19, 1, 29]"
+middle,10000,20000,20,20,19,0.4787551629656892,0.23076923076923078,[33],"[33, 39, 46, 59, 14, 27, 1, 19]"
+late,20000,30000,20,20,19,0.33889969679443355,0.14285714285714285,[],"[33, 1, 39, 29, 46, 59, 19, 31]"

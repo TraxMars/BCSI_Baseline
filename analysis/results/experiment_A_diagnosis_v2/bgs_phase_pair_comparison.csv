@@ -1,0 +1,4 @@
+first,second,frequency_top8_jaccard,shared_channels
+early,middle,0.7777777777777778,"[1, 14, 19, 27, 33, 39, 46]"
+early,late,0.6,"[1, 19, 29, 33, 39, 46]"
+middle,late,0.6,"[1, 19, 33, 39, 46, 59]"

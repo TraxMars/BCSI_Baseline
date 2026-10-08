@@ -1,0 +1,77 @@
+{
+  "expected_records": 60,
+  "actual_valid_records": 60,
+  "missing_iterations": [],
+  "invalid_iterations": [],
+  "unexpected_iterations": [],
+  "adjacent_pairs": 59,
+  "adjacent_jaccard_mean": 0.43479797039119067,
+  "adjacent_jaccard_min": 0.14285714285714285,
+  "adjacent_jaccard_max": 1.0,
+  "strict_all_records_intersection": [],
+  "frequent_core_80pct": [
+    33,
+    46
+  ],
+  "frequent_core_80pct_each_phase": [
+    33
+  ],
+  "phases": [
+    {
+      "phase": "early",
+      "start": 0,
+      "end_exclusive": 10000,
+      "actual_records": 20,
+      "expected_records": 20,
+      "adjacent_pairs": 19,
+      "mean_adjacent_jaccard": 0.4910399541978489,
+      "min_adjacent_jaccard": 0.23076923076923078,
+      "strict_intersection": "[33]",
+      "frequency_top8": "[33, 46, 27, 39, 14, 19, 1, 29]"
+    },
+    {
+      "phase": "middle",
+      "start": 10000,
+      "end_exclusive": 20000,
+      "actual_records": 20,
+      "expected_records": 20,
+      "adjacent_pairs": 19,
+      "mean_adjacent_jaccard": 0.4787551629656892,
+      "min_adjacent_jaccard": 0.23076923076923078,
+      "strict_intersection": "[33]",
+      "frequency_top8": "[33, 39, 46, 59, 14, 27, 1, 19]"
+    },
+    {
+      "phase": "late",
+      "start": 20000,
+      "end_exclusive": 30000,
+      "actual_records": 20,
+      "expected_records": 20,
+      "adjacent_pairs": 19,
+      "mean_adjacent_jaccard": 0.33889969679443355,
+      "min_adjacent_jaccard": 0.14285714285714285,
+      "strict_intersection": "[]",
+      "frequency_top8": "[33, 1, 39, 29, 46, 59, 19, 31]"
+    }
+  ],
+  "phase_comparisons": [
+    {
+      "first": "early",
+      "second": "middle",
+      "frequency_top8_jaccard": 0.7777777777777778,
+      "shared_channels": "[1, 14, 19, 27, 33, 39, 46]"
+    },
+    {
+      "first": "early",
+      "second": "late",
+      "frequency_top8_jaccard": 0.6,
+      "shared_channels": "[1, 19, 29, 33, 39, 46]"
+    },
+    {
+      "first": "middle",
+      "second": "late",
+      "frequency_top8_jaccard": 0.6,
+      "shared_channels": "[1, 19, 33, 39, 46, 59]"
+    }
+  ]
+}
