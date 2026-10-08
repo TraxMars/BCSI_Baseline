@@ -1,0 +1,6 @@
+mask,connectivity,component_count,foreground_voxels,largest_component_voxels,second_component_voxels,largest_component_fraction,components_lt_100_voxels
+gt,26,1,171083,171083,0,1.0,0
+baseline_raw,26,23,217264,138050,55323,0.6354020914647618,13
+baseline_final,26,1,138050,138050,0,1.0,0
+guidance_raw,26,29,253543,230572,11031,0.9093999834347626,17
+guidance_final,26,1,230572,230572,0,1.0,0

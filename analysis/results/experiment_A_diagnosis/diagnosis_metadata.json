@@ -1,0 +1,25 @@
+{
+  "experiment": "A-D Failure Mechanism Diagnosis",
+  "baseline_checkpoint": "/home/duanxuelong/BCSI_Baseline_BGCE/Results/seed_42/result_LA_10l/fold_0/Model_iter_27000.pth",
+  "baseline_checkpoint_sha256": "67ac4bda6f010bc28602c86cd73a45348c3a17cc081da6016f47217f9987e86c",
+  "guidance_checkpoint": "/home/duanxuelong/BCSI_Baseline_BGCE/Results/experiment_A_bgs_alpha0p1_seed42/result_LA_10l/fold_0/Model_iter_29000.pth",
+  "guidance_checkpoint_sha256": "5fc4bbe32f2f880a7432a0d0a488a67e66a456c13dd19f627c2f781d40c88dbe",
+  "device": "cuda:0",
+  "anomaly_case": "WSJB9P4JCXUVHBOYFVWL",
+  "all_20_cases_included": true,
+  "training_performed": false,
+  "backpropagation_performed": false,
+  "protected_sources_sha256": {
+    "train.py": "813dbe477e076c913ee5c9c49fdebc2ed1cb9f5a5c620aef7b1a09ec90a888d6",
+    "trainer.py": "59dd7b9061700aba32aa6f2425f82a105e2ac7816ca30960930872fd6cdd6077",
+    "model/vnet.py": "c7d6e7bb755cf856e3a033c4fe5db17b09fb526f55f752ed08988d256c1a89ed",
+    "utils/boundary_guidance.py": "389e2a0f4f5e00aaf535c83ba972fa4dc0ac1c80fb84c017bb17b48904152149",
+    "prediction.py": "d65af70c8d240763933aa39df372a9323611bdd0f34ccbbc789159b9fdcaaca3"
+  },
+  "batchnorm_fixed_batch": [
+    "06SR5RBREL16DQ6M8LWS",
+    "0RZDK210BSMWAA6467LU",
+    "3C2QTUNI0852XV7ZH4Q1",
+    "3DA0T2V6JJ2NLUAV6FWM"
+  ]
+}

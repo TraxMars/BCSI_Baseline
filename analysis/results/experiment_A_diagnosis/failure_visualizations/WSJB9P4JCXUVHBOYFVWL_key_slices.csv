@@ -1,0 +1,4 @@
+z_index,gt_voxels,baseline_error_voxels,guidance_error_voxels,guidance_minus_baseline_error_voxels
+30,0,587,4071,3484
+62,5045,1360,2462,1102
+57,5074,1908,2750,842
