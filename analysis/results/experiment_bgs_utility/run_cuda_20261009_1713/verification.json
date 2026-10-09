@@ -1,0 +1,2777 @@
+{
+  "status": "passed",
+  "protected_files_unchanged": true,
+  "protected_file_count": 280,
+  "changed_files": [],
+  "checkpoint_hashes_unchanged": true,
+  "only_actual_labeled_training_gt": true,
+  "test_gt_loaded": false,
+  "unlabeled_gt_loaded": false,
+  "optimizer_created": false,
+  "parameter_updates": false,
+  "ema_updates": false,
+  "training_performed": false,
+  "model_checks": {
+    "baseline_ema": {
+      "weights_and_buffers_exactly_unchanged": true,
+      "state_tensor_count": 205,
+      "all_parameters_frozen": true,
+      "no_model_parameter_gradients": true,
+      "all_modules_eval": true,
+      "patches": [
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "0RZDK210BSMWAA6467LU",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "0RZDK210BSMWAA6467LU",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "0RZDK210BSMWAA6467LU",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "1GU15S0GJ6PFNARO469W",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "1GU15S0GJ6PFNARO469W",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "1GU15S0GJ6PFNARO469W",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "38CWS74285MFGZZXR09Z",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "38CWS74285MFGZZXR09Z",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "case_id": "38CWS74285MFGZZXR09Z",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        }
+      ]
+    },
+    "experiment_A_ema": {
+      "weights_and_buffers_exactly_unchanged": true,
+      "state_tensor_count": 205,
+      "all_parameters_frozen": true,
+      "no_model_parameter_gradients": true,
+      "all_modules_eval": true,
+      "patches": [
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "0RZDK210BSMWAA6467LU",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "0RZDK210BSMWAA6467LU",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "0RZDK210BSMWAA6467LU",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "1GU15S0GJ6PFNARO469W",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "1GU15S0GJ6PFNARO469W",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "1GU15S0GJ6PFNARO469W",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "38CWS74285MFGZZXR09Z",
+          "patch_index": 0,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "38CWS74285MFGZZXR09Z",
+          "patch_index": 1,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "case_id": "38CWS74285MFGZZXR09Z",
+          "patch_index": 2,
+          "unit_gain_forward_max_abs_error": 0.0,
+          "unit_gain_forward_exact": true,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "cached_features_not_inference": true,
+          "cached_features_unmodified": true,
+          "only_x3_scaled": true,
+          "bgs_matches_existing_helper_exactly": true,
+          "w_requires_grad": false,
+          "only_a_has_grad": true,
+          "all_outputs_finite": true
+        }
+      ]
+    }
+  },
+  "all_numeric_outputs_finite": true,
+  "finite_difference_agreement": {
+    "baseline_ema": {
+      "n": 288,
+      "informative_sign_n": 288,
+      "magnitude_agreement_fraction": 0.9548611111111112,
+      "sign_agreement_fraction": 0.9965277777777778,
+      "median_absolute_error": 0.0003169798147184544,
+      "max_absolute_error": 0.0019100382959476025,
+      "magnitude_mismatches": [
+        {
+          "case_id": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 0,
+          "channel": 57,
+          "utility": -0.007097884081304073,
+          "utility_fd": -0.007903221119669457,
+          "absolute_error": 0.0008053370383653835
+        },
+        {
+          "case_id": "0RZDK210BSMWAA6467LU",
+          "patch_index": 0,
+          "channel": 61,
+          "utility": -0.0026172769721597433,
+          "utility_fd": -0.0029713194155200906,
+          "absolute_error": 0.0003540424433603473
+        },
+        {
+          "case_id": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 0,
+          "channel": 5,
+          "utility": 0.0025300111155956984,
+          "utility_fd": 0.0019937739958164613,
+          "absolute_error": 0.000536237119779237
+        },
+        {
+          "case_id": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 1,
+          "channel": 30,
+          "utility": -0.0037019862793385983,
+          "utility_fd": -0.004179553062719776,
+          "absolute_error": 0.0004775667833811781
+        },
+        {
+          "case_id": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 2,
+          "channel": 36,
+          "utility": 0.0011374324094504118,
+          "utility_fd": 0.0015594368126370384,
+          "absolute_error": 0.0004220044031866266
+        },
+        {
+          "case_id": "1GU15S0GJ6PFNARO469W",
+          "patch_index": 2,
+          "channel": 21,
+          "utility": 0.005636988673359156,
+          "utility_fd": 0.00476484023903434,
+          "absolute_error": 0.0008721484343248154
+        },
+        {
+          "case_id": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 2,
+          "channel": 44,
+          "utility": -0.0012166346423327923,
+          "utility_fd": -0.0008369794607565595,
+          "absolute_error": 0.0003796551815762328
+        },
+        {
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 0,
+          "channel": 52,
+          "utility": 0.0009703276446089149,
+          "utility_fd": 0.0007843244564798013,
+          "absolute_error": 0.00018600318812911354
+        },
+        {
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 0,
+          "channel": 61,
+          "utility": -4.9827853217720985e-05,
+          "utility_fd": 0.0007888434380087794,
+          "absolute_error": 0.0008386712912265004
+        },
+        {
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 0,
+          "channel": 62,
+          "utility": -0.0012394256191328168,
+          "utility_fd": -0.001695705309482376,
+          "absolute_error": 0.0004562796903495592
+        },
+        {
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 1,
+          "channel": 61,
+          "utility": -0.0012826758902519941,
+          "utility_fd": -0.0015923333722955846,
+          "absolute_error": 0.00030965748204359045
+        },
+        {
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 2,
+          "channel": 21,
+          "utility": -0.0022780061699450016,
+          "utility_fd": -0.0014509543542351455,
+          "absolute_error": 0.0008270518157098561
+        },
+        {
+          "case_id": "38CWS74285MFGZZXR09Z",
+          "patch_index": 0,
+          "channel": 15,
+          "utility": 0.00149370520375669,
+          "utility_fd": 0.0017600789730409794,
+          "absolute_error": 0.00026637376928428935
+        }
+      ],
+      "sign_mismatches": [
+        {
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 0,
+          "channel": 61,
+          "utility": -4.9827853217720985e-05,
+          "utility_fd": 0.0007888434380087794
+        }
+      ]
+    },
+    "experiment_A_ema": {
+      "n": 288,
+      "informative_sign_n": 288,
+      "magnitude_agreement_fraction": 0.9409722222222222,
+      "sign_agreement_fraction": 0.9965277777777778,
+      "median_absolute_error": 0.00039293660459682744,
+      "max_absolute_error": 0.0019260487380532432,
+      "magnitude_mismatches": [
+        {
+          "case_id": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 0,
+          "channel": 54,
+          "utility": 0.0005557056865654886,
+          "utility_fd": 0.0002879587929960348,
+          "absolute_error": 0.0002677468935694538
+        },
+        {
+          "case_id": "0RZDK210BSMWAA6467LU",
+          "patch_index": 1,
+          "channel": 10,
+          "utility": -0.001220565289258957,
+          "utility_fd": -0.0017538905829328488,
+          "absolute_error": 0.0005333252936738919
+        },
+        {
+          "case_id": "0RZDK210BSMWAA6467LU",
+          "patch_index": 2,
+          "channel": 27,
+          "utility": -0.00724313547834754,
+          "utility_fd": -0.008504405324240016,
+          "absolute_error": 0.0012612698458924765
+        },
+        {
+          "case_id": "0RZDK210BSMWAA6467LU",
+          "patch_index": 2,
+          "channel": 61,
+          "utility": -0.003998897969722748,
+          "utility_fd": -0.003285217243651495,
+          "absolute_error": 0.000713680726071253
+        },
+        {
+          "case_id": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 2,
+          "channel": 25,
+          "utility": 0.003342015203088522,
+          "utility_fd": 0.0021077627673227184,
+          "absolute_error": 0.0012342524357658036
+        },
+        {
+          "case_id": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 0,
+          "channel": 55,
+          "utility": -0.0010171113535761833,
+          "utility_fd": -0.0008345708418355802,
+          "absolute_error": 0.00018254051174060315
+        },
+        {
+          "case_id": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 1,
+          "channel": 9,
+          "utility": 0.002161100273951888,
+          "utility_fd": 0.0017082935283574407,
+          "absolute_error": 0.00045280674559444734
+        },
+        {
+          "case_id": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 1,
+          "channel": 15,
+          "utility": -5.324056837707758e-05,
+          "utility_fd": 0.0008031832250032789,
+          "absolute_error": 0.0008564237933803565
+        },
+        {
+          "case_id": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 1,
+          "channel": 47,
+          "utility": -0.0047722915187478065,
+          "utility_fd": -0.004242457742748007,
+          "absolute_error": 0.0005298337759997995
+        },
+        {
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 0,
+          "channel": 29,
+          "utility": -0.0034307455644011497,
+          "utility_fd": -0.003960955009458811,
+          "absolute_error": 0.0005302094450576611
+        },
+        {
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 0,
+          "channel": 45,
+          "utility": -0.00556427426636219,
+          "utility_fd": -0.0047760840734023535,
+          "absolute_error": 0.0007881901929598367
+        },
+        {
+          "case_id": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 1,
+          "channel": 27,
+          "utility": 0.002816949039697647,
+          "utility_fd": 0.002201689679489638,
+          "absolute_error": 0.0006152593602080092
+        },
+        {
+          "case_id": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 0,
+          "channel": 17,
+          "utility": 0.0014262781478464603,
+          "utility_fd": 0.0018763812606015229,
+          "absolute_error": 0.00045010311275506254
+        },
+        {
+          "case_id": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 1,
+          "channel": 1,
+          "utility": 0.00262239295989275,
+          "utility_fd": 0.003339574736218598,
+          "absolute_error": 0.0007171817763258481
+        },
+        {
+          "case_id": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 2,
+          "channel": 3,
+          "utility": -0.0004607909359037876,
+          "utility_fd": -0.0009432435160250385,
+          "absolute_error": 0.0004824525801212509
+        },
+        {
+          "case_id": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 2,
+          "channel": 5,
+          "utility": 0.00043122004717588425,
+          "utility_fd": 0.0005562770922218352,
+          "absolute_error": 0.00012505704504595094
+        },
+        {
+          "case_id": "38CWS74285MFGZZXR09Z",
+          "patch_index": 2,
+          "channel": 34,
+          "utility": -0.004983324557542801,
+          "utility_fd": -0.004263625834957097,
+          "absolute_error": 0.0007196987225857043
+        }
+      ],
+      "sign_mismatches": [
+        {
+          "case_id": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 1,
+          "channel": 15,
+          "utility": -5.324056837707758e-05,
+          "utility_fd": 0.0008031832250032789
+        }
+      ]
+    }
+  },
+  "finite_difference_note": "Disagreements are reported observations, not discarded; tolerance is in protocol",
+  "positive_utility_definition": "U=-dL/da; Gplus=L0-Lplus; positive means boundary loss decreases",
+  "gain_sign_analytical_unit_test_passed": true,
+  "unit_test_exit_code": 0,
+  "unit_test_evidence": "test_results.json",
+  "cached_features_created_under": "torch.no_grad; not inference_mode",
+  "post_report_review": {
+    "required_outputs_present": true,
+    "saved_numeric_outputs_finite": true,
+    "all_48_unit_gain_forwards_exact": true,
+    "protected_file_hashes_rechecked": 280,
+    "report_regenerated_from_saved_statistics": true,
+    "no_new_model_execution_or_experiment": true
+  }
+}

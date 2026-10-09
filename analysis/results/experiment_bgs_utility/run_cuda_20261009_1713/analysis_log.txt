@@ -1,0 +1,61 @@
+2026-10-09 17:13:50,169 Dynamic encoder feature shapes: [[1, 16, 112, 112, 80], [1, 32, 56, 56, 40], [1, 64, 28, 28, 20], [1, 128, 14, 14, 10], [1, 256, 7, 7, 5]]
+2026-10-09 17:13:50,724 Sampling 06SR5RBREL16DQ6M8LWS: 3/3 accepted
+2026-10-09 17:13:51,352 Sampling 0RZDK210BSMWAA6467LU: 3/3 accepted
+2026-10-09 17:13:51,949 Sampling 1D7CUD1955YZPGK8XHJX: 3/3 accepted
+2026-10-09 17:13:52,569 Sampling 1GU15S0GJ6PFNARO469W: 3/3 accepted
+2026-10-09 17:13:53,127 Sampling 1MHBF3G6DCPWHSKG7XCP: 3/3 accepted
+2026-10-09 17:13:53,793 Sampling 23X6SY44VT9KFHR7S7OC: 3/3 accepted
+2026-10-09 17:13:54,444 Sampling 2XL5HSFSE93RMOJDRGR4: 3/3 accepted
+2026-10-09 17:13:55,072 Sampling 38CWS74285MFGZZXR09Z: 3/3 accepted
+2026-10-09 17:13:55,844 baseline_ema/06SR5RBREL16DQ6M8LWS/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1882 w/U rho=-0.14023495725374413, FD 11/12 within tolerance
+2026-10-09 17:13:56,463 baseline_ema/06SR5RBREL16DQ6M8LWS/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.2656 w/U rho=-0.21103413418126196, FD 12/12 within tolerance
+2026-10-09 17:13:57,122 baseline_ema/06SR5RBREL16DQ6M8LWS/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.0998 w/U rho=-0.08678206604719199, FD 12/12 within tolerance
+2026-10-09 17:13:57,705 baseline_ema/0RZDK210BSMWAA6467LU/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.3808 w/U rho=-0.3791323144159886, FD 11/12 within tolerance
+2026-10-09 17:13:58,328 baseline_ema/0RZDK210BSMWAA6467LU/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.2068 w/U rho=-0.21077015613935352, FD 12/12 within tolerance
+2026-10-09 17:13:58,949 baseline_ema/0RZDK210BSMWAA6467LU/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.3275 w/U rho=-0.3214352610977903, FD 12/12 within tolerance
+2026-10-09 17:13:59,519 baseline_ema/1D7CUD1955YZPGK8XHJX/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.2738 w/U rho=-0.269136108363301, FD 11/12 within tolerance
+2026-10-09 17:14:00,095 baseline_ema/1D7CUD1955YZPGK8XHJX/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1972 w/U rho=-0.17956514947030808, FD 11/12 within tolerance
+2026-10-09 17:14:00,575 baseline_ema/1D7CUD1955YZPGK8XHJX/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1608 w/U rho=-0.1400375841799943, FD 11/12 within tolerance
+2026-10-09 17:14:01,229 baseline_ema/1GU15S0GJ6PFNARO469W/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1701 w/U rho=-0.1351744281138575, FD 12/12 within tolerance
+2026-10-09 17:14:01,854 baseline_ema/1GU15S0GJ6PFNARO469W/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1631 w/U rho=-0.11807783400765254, FD 12/12 within tolerance
+2026-10-09 17:14:02,423 baseline_ema/1GU15S0GJ6PFNARO469W/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1488 w/U rho=-0.12223813773951363, FD 11/12 within tolerance
+2026-10-09 17:14:03,043 baseline_ema/1MHBF3G6DCPWHSKG7XCP/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1142 w/U rho=-0.10879079886135652, FD 12/12 within tolerance
+2026-10-09 17:14:03,621 baseline_ema/1MHBF3G6DCPWHSKG7XCP/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=0.0578 w/U rho=0.05248437709973032, FD 12/12 within tolerance
+2026-10-09 17:14:04,238 baseline_ema/1MHBF3G6DCPWHSKG7XCP/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.0392 w/U rho=-0.0368723852164399, FD 11/12 within tolerance
+2026-10-09 17:14:04,891 baseline_ema/23X6SY44VT9KFHR7S7OC/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1480 w/U rho=-0.2092763308284474, FD 9/12 within tolerance
+2026-10-09 17:14:05,384 baseline_ema/23X6SY44VT9KFHR7S7OC/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=0.0589 w/U rho=0.08713265344032635, FD 11/12 within tolerance
+2026-10-09 17:14:05,987 baseline_ema/23X6SY44VT9KFHR7S7OC/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.0898 w/U rho=-0.11082509177296918, FD 11/12 within tolerance
+2026-10-09 17:14:06,501 baseline_ema/2XL5HSFSE93RMOJDRGR4/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=0.0515 w/U rho=0.07902865444603117, FD 12/12 within tolerance
+2026-10-09 17:14:07,108 baseline_ema/2XL5HSFSE93RMOJDRGR4/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.2617 w/U rho=-0.2422565220591877, FD 12/12 within tolerance
+2026-10-09 17:14:07,693 baseline_ema/2XL5HSFSE93RMOJDRGR4/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=0.0812 w/U rho=0.10261132772377946, FD 12/12 within tolerance
+2026-10-09 17:14:08,277 baseline_ema/38CWS74285MFGZZXR09Z/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=0.0069 w/U rho=0.0427567581868702, FD 11/12 within tolerance
+2026-10-09 17:14:08,907 baseline_ema/38CWS74285MFGZZXR09Z/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.0844 w/U rho=-0.06104895139112994, FD 12/12 within tolerance
+2026-10-09 17:14:09,452 baseline_ema/38CWS74285MFGZZXR09Z/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.2605 w/U rho=-0.27996063484836736, FD 12/12 within tolerance
+2026-10-09 17:14:10,401 experiment_A_ema/06SR5RBREL16DQ6M8LWS/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1092 w/U rho=-0.09330299155949108, FD 11/12 within tolerance
+2026-10-09 17:14:11,020 experiment_A_ema/06SR5RBREL16DQ6M8LWS/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.0478 w/U rho=-0.020975460640454618, FD 12/12 within tolerance
+2026-10-09 17:14:11,578 experiment_A_ema/06SR5RBREL16DQ6M8LWS/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1631 w/U rho=-0.1507890806814868, FD 12/12 within tolerance
+2026-10-09 17:14:12,213 experiment_A_ema/0RZDK210BSMWAA6467LU/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.2521 w/U rho=-0.21746176678216933, FD 12/12 within tolerance
+2026-10-09 17:14:12,785 experiment_A_ema/0RZDK210BSMWAA6467LU/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.2656 w/U rho=-0.2288300239009234, FD 11/12 within tolerance
+2026-10-09 17:14:13,378 experiment_A_ema/0RZDK210BSMWAA6467LU/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.2048 w/U rho=-0.21046258194107445, FD 10/12 within tolerance
+2026-10-09 17:14:14,027 experiment_A_ema/1D7CUD1955YZPGK8XHJX/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.2807 w/U rho=-0.26614827802368146, FD 12/12 within tolerance
+2026-10-09 17:14:14,677 experiment_A_ema/1D7CUD1955YZPGK8XHJX/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1995 w/U rho=-0.19732463298761121, FD 12/12 within tolerance
+2026-10-09 17:14:15,239 experiment_A_ema/1D7CUD1955YZPGK8XHJX/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.2686 w/U rho=-0.28055613076896313, FD 11/12 within tolerance
+2026-10-09 17:14:15,948 experiment_A_ema/1GU15S0GJ6PFNARO469W/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.3435 w/U rho=-0.33501484311053786, FD 12/12 within tolerance
+2026-10-09 17:14:16,490 experiment_A_ema/1GU15S0GJ6PFNARO469W/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.3148 w/U rho=-0.29916887568562983, FD 12/12 within tolerance
+2026-10-09 17:14:17,138 experiment_A_ema/1GU15S0GJ6PFNARO469W/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.2821 w/U rho=-0.3145227942576949, FD 12/12 within tolerance
+2026-10-09 17:14:17,781 experiment_A_ema/1MHBF3G6DCPWHSKG7XCP/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=0.0941 w/U rho=0.09593787747689243, FD 11/12 within tolerance
+2026-10-09 17:14:18,409 experiment_A_ema/1MHBF3G6DCPWHSKG7XCP/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=0.1192 w/U rho=0.13343259012137956, FD 9/12 within tolerance
+2026-10-09 17:14:19,020 experiment_A_ema/1MHBF3G6DCPWHSKG7XCP/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=0.0543 w/U rho=0.06197657005656791, FD 12/12 within tolerance
+2026-10-09 17:14:19,547 experiment_A_ema/23X6SY44VT9KFHR7S7OC/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1000 w/U rho=-0.04307313272397625, FD 10/12 within tolerance
+2026-10-09 17:14:20,189 experiment_A_ema/23X6SY44VT9KFHR7S7OC/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1109 w/U rho=-0.08797971178866501, FD 11/12 within tolerance
+2026-10-09 17:14:20,789 experiment_A_ema/23X6SY44VT9KFHR7S7OC/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.0908 w/U rho=-0.06916124083969213, FD 12/12 within tolerance
+2026-10-09 17:14:21,374 experiment_A_ema/2XL5HSFSE93RMOJDRGR4/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1156 w/U rho=-0.12667594010617825, FD 11/12 within tolerance
+2026-10-09 17:14:22,038 experiment_A_ema/2XL5HSFSE93RMOJDRGR4/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.0685 w/U rho=-0.09826470035629926, FD 11/12 within tolerance
+2026-10-09 17:14:22,552 experiment_A_ema/2XL5HSFSE93RMOJDRGR4/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.0511 w/U rho=-0.058730719864402835, FD 10/12 within tolerance
+2026-10-09 17:14:23,252 experiment_A_ema/38CWS74285MFGZZXR09Z/patch0 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1616 w/U rho=-0.2003341306138618, FD 12/12 within tolerance
+2026-10-09 17:14:23,967 experiment_A_ema/38CWS74285MFGZZXR09Z/patch1 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.1701 w/U rho=-0.20042466110724066, FD 12/12 within tolerance
+2026-10-09 17:14:24,551 experiment_A_ema/38CWS74285MFGZZXR09Z/patch2 x3=[1, 64, 28, 28, 20] BGS/U rho=-0.0109 w/U rho=-0.006043429121725985, FD 11/12 within tolerance
+2026-10-09 17:14:31,538 Complete; unchanged protected files=280; output=/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_bgs_utility/run_cuda_20261009_1713
+2026-10-09 17:14:31,538 baseline_ema BGS/U: -0.1385 [95% CI -0.2030, -0.0793]
+2026-10-09 17:14:31,538 experiment_A_ema BGS/U: -0.1393 [95% CI -0.2201, -0.0517]
+2026-10-09 17:14:31,538 Recommendation: C. 证据不充分，需要一个明确的、最小成本的补充控制实验。

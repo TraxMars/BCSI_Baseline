@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "stdout": "train total 20 samples\ntrain total 20 samples\n",
+  "stderr": "test_actual_labeled_split_excludes_test_ids (__main__.UtilityTests) ... ok\ntest_balanced_boundary_ce_does_not_weight_region_size (__main__.UtilityTests) ... ok\ntest_bgs_reproduces_existing_helper_with_full_channel_weights (__main__.UtilityTests) ... ok\ntest_case_bootstrap_undefined_correlations_and_nonfinite_rejected (__main__.UtilityTests) ... ok\ntest_crop_seed_coordinates_and_original_padding_rule (__main__.UtilityTests) ... ok\ntest_existing_output_directory_is_refused (__main__.UtilityTests) ... ok\ntest_gradient_sign_analytical_and_central_difference (__main__.UtilityTests) ... ok\ntest_groups_use_signed_bgs_and_record_overlapping_small_models (__main__.UtilityTests) ... ok\ntest_only_x3_scales_and_cached_features_are_unchanged (__main__.UtilityTests) ... ok\ntest_real_vnet_unit_gain_frozen_buffers_and_autograd (__main__.UtilityTests) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.255s\n\nOK\n"
+}

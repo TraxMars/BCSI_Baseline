@@ -1,0 +1,9 @@
+2026-10-09 17:12:52,807 Analysis failed; partial outputs retained; rerun requires a NEW output directory
+Traceback (most recent call last):
+  File "analysis/experiment_bgs_utility.py", line 741, in main
+    torch.cuda.set_device(device)
+  File "/home/duanxuelong/.conda/envs/SSL/lib/python3.8/site-packages/torch/cuda/__init__.py", line 311, in set_device
+    torch._C._cuda_setDevice(device)
+  File "/home/duanxuelong/.conda/envs/SSL/lib/python3.8/site-packages/torch/cuda/__init__.py", line 214, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available
