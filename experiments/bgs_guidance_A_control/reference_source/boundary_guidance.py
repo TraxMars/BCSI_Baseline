@@ -5,35 +5,6 @@ import torch.nn.functional as F
 EPS = 1e-6
 
 
-def resolve_guidance_mode(args):
-    mode = getattr(args, "guidance_mode", None)
-    if mode is None:
-        return "bgs" if getattr(args, "use_bgs_guidance", False) else "none"
-    if mode not in ("none", "bgs", "shuffled_bgs"):
-        raise ValueError("Unknown guidance mode: " + str(mode))
-    if mode == "none" and getattr(args, "use_bgs_guidance", False):
-        raise ValueError("Conflicting guidance mode and legacy flag")
-    return mode
-
-
-@torch.no_grad()
-def shuffle_bgs_weights(w, generator):
-    """Permute weights using only a dedicated CPU RNG, without renormalization."""
-    if generator is None or generator.device.type != "cpu":
-        raise ValueError("Shuffling requires a dedicated CPU torch.Generator")
-    permutation = torch.randperm(w.numel(), generator=generator, device="cpu").to(w.device)
-    shuffled = w.index_select(0, permutation).detach()
-    same_distribution = torch.equal(w.sort().values, shuffled.sort().values)
-    # Reordering can change the last bit of floating-point reductions. The
-    # multiset check is exact; direct FP64 reductions are checked at 1e-12.
-    mean_delta = float((w.double().mean() - shuffled.double().mean()).abs().item())
-    norm_delta = float((w.double().norm() - shuffled.double().norm()).abs().item())
-    if not same_distribution or mean_delta > 1e-12 or norm_delta > 1e-12:
-        raise AssertionError("BGS permutation changed the weight distribution")
-    return shuffled, permutation, dict(shuffle_distribution_equal=same_distribution,
-                                      shuffle_mean_delta=mean_delta, shuffle_norm_delta=norm_delta)
-
-
 def morphology_3d(mask, iterations=1, operation="dilate"):
     if operation not in ("dilate", "erode") or iterations < 0:
         raise ValueError("Expected nonnegative iterations and dilate/erode")
@@ -94,8 +65,7 @@ def compute_bgs(feature, labels, min_band_voxels=8):
     return bgs.detach(), valid
 
 
-def apply_labeled_bgs_guidance(x3, labeled_labels, labeled_bs, alpha=0.1, min_band_voxels=8,
-                               shuffle_generator=None):
+def apply_labeled_bgs_guidance(x3, labeled_labels, labeled_bs, alpha=0.1, min_band_voxels=8):
     """Use only labeled GT/features for detached weights; rescale unlabeled x3."""
     if not 0 < labeled_bs < x3.shape[0] or labeled_labels.shape[0] != labeled_bs:
         raise ValueError("Guidance needs labeled prefix and unlabeled suffix")
@@ -123,9 +93,6 @@ def apply_labeled_bgs_guidance(x3, labeled_labels, labeled_bs, alpha=0.1, min_ba
     if not valid_count:
         diagnostics["relative_change"] = 0.0
         return x3, w, diagnostics
-    if shuffle_generator is not None:
-        w, _, shuffle_diagnostics = shuffle_bgs_weights(w, shuffle_generator)
-        diagnostics.update(shuffle_diagnostics)
     fu = x3[labeled_bs:]
     fu_new = fu + alpha * w[None, :, None, None, None] * fu
     x3_new = torch.cat((x3[:labeled_bs], fu_new), dim=0)

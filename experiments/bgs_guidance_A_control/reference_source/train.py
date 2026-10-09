@@ -74,19 +74,14 @@ parser.add_argument('--consistency_rampup', type=float, default=200.0, help='con
 parser.add_argument('--consistency', type=float, default=0.1, help='consistency')
 parser.add_argument('--ema_decay', type=float, default=0.9, help='ema_decay')
 
-guidance_group = parser.add_mutually_exclusive_group()
-guidance_group.add_argument('--use_bgs_guidance', action='store_true', default=False,
-                            help='Legacy alias for --guidance_mode bgs')
-guidance_group.add_argument('--guidance_mode', choices=['none', 'bgs', 'shuffled_bgs'], default=None,
-                            help='Mutually exclusive channel guidance mode (default: none)')
+parser.add_argument('--use_bgs_guidance', action='store_true', default=False,
+                    help='Experiment A: labeled BGS guidance on unlabeled student x3')
 parser.add_argument('--bgs_alpha', type=float, default=0.1,
                     help='Fixed unlabeled x3 gain (no additional ramp-up)')
 
 parser.add_argument('--device', type=str, default='cuda')
 
 args = parser.parse_args()
-args.guidance_mode = args.guidance_mode or ('bgs' if args.use_bgs_guidance else 'none')
-args.use_bgs_guidance = args.guidance_mode != 'none'
 
 
 def worker_init_fn(worker_id):

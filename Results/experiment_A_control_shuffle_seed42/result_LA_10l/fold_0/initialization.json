@@ -1,0 +1,6 @@
+{
+  "seed": 42,
+  "guidance_mode": "shuffled_bgs",
+  "student_sha256": "618868bac3c99b6ceb4615ee3b6a6467ce44c3ae37b9b328ec7250e59a45d0bb",
+  "teacher_sha256": "618868bac3c99b6ceb4615ee3b6a6467ce44c3ae37b9b328ec7250e59a45d0bb"
+}

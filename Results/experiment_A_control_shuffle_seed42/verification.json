@@ -1,0 +1,21 @@
+{
+  "control_tests": 6,
+  "original_bgs_tests": 7,
+  "recovery_tests": 2,
+  "all_passed": true,
+  "original_bgs_and_none_exact": true,
+  "shuffle_alpha_zero_exact": true,
+  "weight_multiset_exact": true,
+  "mean_norm_checked_fp64_tolerance": 1e-12,
+  "global_rng_unchanged": true,
+  "private_shuffle_rng_recovery_exact": true,
+  "reused_metric_rows": 80,
+  "missing_case_guard_passed": true,
+  "runtime_stage": "training",
+  "same_initialization_verified": true,
+  "full_best_checkpoint_with_private_rng_verified": true,
+  "runtime_checked_iterations": 1901,
+  "runtime_distribution_exact_all": true,
+  "runtime_max_mean_delta": 0.0,
+  "runtime_max_norm_delta": 8.882e-16
+}

@@ -1,0 +1,82 @@
+{
+  "stage": "complete",
+  "best_validation": {
+    "iteration": 27600,
+    "dice": 0.8794102379529762,
+    "hd95": 8.519045
+  },
+  "summary": [
+    {
+      "mode": "none",
+      "prediction": "raw",
+      "n_cases": 20,
+      "checkpoint_iteration": 27000,
+      "primary": false,
+      "severe_failures": 3,
+      "dice": 0.8400099774142868,
+      "jaccard": 0.7292158792183472,
+      "hd95": 23.28301771590121,
+      "asd": 6.940072997297205
+    },
+    {
+      "mode": "none",
+      "prediction": "lcc",
+      "n_cases": 20,
+      "checkpoint_iteration": 27000,
+      "primary": true,
+      "severe_failures": 0,
+      "dice": 0.8735608027043703,
+      "jaccard": 0.7776845430673535,
+      "hd95": 8.88879185827761,
+      "asd": 2.2087017196632637
+    },
+    {
+      "mode": "bgs",
+      "prediction": "raw",
+      "n_cases": 20,
+      "checkpoint_iteration": 29000,
+      "primary": false,
+      "severe_failures": 4,
+      "dice": 0.8436881408048809,
+      "jaccard": 0.7354863941317249,
+      "hd95": 23.575082402073882,
+      "asd": 6.638701224547392
+    },
+    {
+      "mode": "bgs",
+      "prediction": "lcc",
+      "n_cases": 20,
+      "checkpoint_iteration": 29000,
+      "primary": true,
+      "severe_failures": 1,
+      "dice": 0.8628580452755903,
+      "jaccard": 0.7647211835772159,
+      "hd95": 11.416208360297022,
+      "asd": 3.093234227983058
+    },
+    {
+      "mode": "shuffled_bgs",
+      "prediction": "raw",
+      "n_cases": 20,
+      "checkpoint_iteration": 27600,
+      "primary": false,
+      "severe_failures": 3,
+      "dice": 0.8562498061482613,
+      "jaccard": 0.7532002369837475,
+      "hd95": 17.714100311319964,
+      "asd": 5.52518321712118
+    },
+    {
+      "mode": "shuffled_bgs",
+      "prediction": "lcc",
+      "n_cases": 20,
+      "checkpoint_iteration": 27600,
+      "primary": true,
+      "severe_failures": 0,
+      "dice": 0.879410088059138,
+      "jaccard": 0.7863049913097124,
+      "hd95": 8.519045114197265,
+      "asd": 2.2478124028885484
+    }
+  ]
+}

@@ -42,11 +42,11 @@ def loader():
                       pin_memory=True, worker_init_fn=worker_init_fn)
 
 
-def args(start=0):
+def args(start=0, mode='bgs'):
     return SimpleNamespace(in_channels=1, num_classes=2, device="cpu", base_lr=0.01,
                            max_iterations=30000, labeled_bs=2, ema_decay=0.9,
                            consistency=0.1, consistency_rampup=200, seed=42,
-                           use_bgs_guidance=True, bgs_alpha=0.1, start_iteration=start,
+                           use_bgs_guidance=True, guidance_mode=mode, bgs_alpha=0.1, start_iteration=start,
                            dataset="LA", labeled_num=10, patch_size=[32, 32, 32])
 
 
@@ -67,9 +67,9 @@ class RecoveryChecks(unittest.TestCase):
         else:
             self.assertEqual(a, b)
 
-    def test_epoch_boundary_resumes_sampler_augmentation_and_full_training_state(self):
+    def check_epoch_boundary(self, mode):
         random.seed(42); np.random.seed(42); torch.manual_seed(42)
-        trainer = Trainer(args())
+        trainer = Trainer(args(mode=mode))
         train_loader = loader()
         iterator = iter(train_loader)
         for iteration in range(len(train_loader)):
@@ -93,7 +93,8 @@ class RecoveryChecks(unittest.TestCase):
             expected_optimizer = copy.deepcopy(trainer.optimizer.state_dict())
             expected_scheduler = copy.deepcopy(trainer.scheduler.state_dict())
             expected_rng = (random.getstate(), np.random.get_state(), torch.get_rng_state())
-            recovered = Trainer(args(4))
+            expected_shuffle_rng = trainer.bgs_shuffle_generator.get_state() if trainer.bgs_shuffle_generator is not None else None
+            recovered = Trainer(args(4,mode))
             restore_recovery_state(recovered, state)
             for iteration, batch in enumerate(loader(), 4):
                 self.equal_tree(expected_batches[iteration - 4], (batch["index"], batch["image"]))
@@ -104,7 +105,14 @@ class RecoveryChecks(unittest.TestCase):
             self.equal_tree(expected_scheduler, recovered.scheduler.state_dict())
             self.equal_tree(expected_rng, (random.getstate(), np.random.get_state(), torch.get_rng_state()))
             self.assertEqual(recovered.best_performance, 0.5)
+            if expected_shuffle_rng is not None:
+                self.assertTrue(torch.equal(expected_shuffle_rng,recovered.bgs_shuffle_generator.get_state()))
             self.assertTrue(all(p.grad is None for p in recovered.ema_model.parameters()))
+
+    def test_epoch_boundary_resumes_sampler_augmentation_and_full_training_state(self):
+        for mode in ('bgs', 'shuffled_bgs'):
+            with self.subTest(mode=mode):
+                self.check_epoch_boundary(mode)
 
     def test_partial_epoch_checkpoint_is_rejected(self):
         with tempfile.TemporaryDirectory() as directory:

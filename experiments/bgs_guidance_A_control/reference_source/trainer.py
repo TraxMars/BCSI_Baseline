@@ -10,7 +10,7 @@ import torch.nn.functional as F
 from model.vnet import VNet
 from prediction import test_calculate_metric
 from utils.losses import DiceLoss
-from utils.boundary_guidance import apply_labeled_bgs_guidance, resolve_guidance_mode
+from utils.boundary_guidance import apply_labeled_bgs_guidance
 
 
 class PolyWarmRestartScheduler(torch.optim.lr_scheduler._LRScheduler):
@@ -60,11 +60,6 @@ class Trainer(nn.Module):
             power=0.9, warm_restart_iters=8000)
         self.dice_loss = DiceLoss(args.num_classes)
         self.ce_loss = nn.CrossEntropyLoss()
-        self.guidance_mode = resolve_guidance_mode(args)
-        self.bgs_shuffle_generator = None
-        if self.guidance_mode == 'shuffled_bgs':
-            self.bgs_shuffle_generator = torch.Generator(device='cpu')
-            self.bgs_shuffle_generator.manual_seed(getattr(args, 'seed', 42))
 
     def sigmoid_rampup(self, current, rampup_length):
         if rampup_length == 0:
@@ -83,13 +78,12 @@ class Trainer(nn.Module):
         volume_batch = sampled_batch['image'].to(self.args.device)
         label_batch = sampled_batch['label'].to(self.args.device)
         labeled_bs = self.args.labeled_bs
-        if self.guidance_mode != 'none':
+        if getattr(self.args, 'use_bgs_guidance', False):
             features = self.model.encoder(volume_batch)
             try:
                 features[2], w, diagnostics = apply_labeled_bgs_guidance(
                     features[2], label_batch[:labeled_bs], labeled_bs,
-                    alpha=getattr(self.args, 'bgs_alpha', 0.1),
-                    shuffle_generator=self.bgs_shuffle_generator)
+                    alpha=getattr(self.args, 'bgs_alpha', 0.1))
             except FloatingPointError:
                 logging.exception('BGS nonfinite measurement at iteration %d', iter_num)
                 raise
@@ -103,11 +97,6 @@ class Trainer(nn.Module):
                 diagnostics['w_mean'], diagnostics['w_max'],
                 diagnostics['relative_change'], diagnostics['skipped'],
                 diagnostics['nonfinite'])
-            if self.guidance_mode == 'shuffled_bgs':
-                logging.info('BGS shuffle iteration %d : distribution_equal %s mean_delta %.3e norm_delta %.3e skip %s',
-                             iter_num, diagnostics.get('shuffle_distribution_equal', True),
-                             diagnostics.get('shuffle_mean_delta', 0.0),
-                             diagnostics.get('shuffle_norm_delta', 0.0), diagnostics['skipped'])
             if iter_num % 500 == 0:
                 logging.info('BGS iteration %d : diagnostic Top-8 w channels %s', iter_num,
                              torch.topk(w, min(8, w.numel())).indices.cpu().tolist())
@@ -125,7 +114,7 @@ class Trainer(nn.Module):
             torch.softmax(teacher_logits[labeled_bs:], dim=1))
         consistency_weight = self.get_current_consistency_weight(iter_num // 150)
         loss = supervised_loss + consistency_weight * consistency_loss
-        if self.guidance_mode != 'none':
+        if getattr(self.args, 'use_bgs_guidance', False):
             if not torch.isfinite(teacher_logits).all() or not torch.isfinite(loss):
                 logging.error('BGS nonfinite teacher logits or loss at iteration %d', iter_num)
                 raise FloatingPointError('Nonfinite teacher logits or loss')

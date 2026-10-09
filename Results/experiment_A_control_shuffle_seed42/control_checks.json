@@ -1,0 +1,12 @@
+{
+  "logged_iterations": 30000,
+  "distribution_exact": true,
+  "max_fp64_mean_delta": 0.0,
+  "max_fp64_norm_delta": 8.882e-16,
+  "skipped_iterations": 0,
+  "same_initialization": true,
+  "complete_best_checkpoint_matches_ema": true,
+  "shuffle_rng_saved": true,
+  "all_20_cases_retained": true,
+  "primary": "LCC Dice"
+}

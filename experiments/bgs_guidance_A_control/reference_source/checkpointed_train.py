@@ -28,15 +28,6 @@ def source_hashes():
             for name in SOURCE_FILES}
 
 
-def tensor_state_digest(state):
-    digest = hashlib.sha256()
-    for name, value in state.items():
-        digest.update(name.encode())
-        digest.update(str((tuple(value.shape), str(value.dtype))).encode())
-        digest.update(value.detach().cpu().contiguous().numpy().tobytes())
-    return digest.hexdigest()
-
-
 def save_recovery_state(trainer, completed_iterations, path, epoch_length):
     if completed_iterations % epoch_length:
         raise ValueError("Recovery snapshot must be at a complete epoch boundary")
@@ -51,9 +42,6 @@ def save_recovery_state(trainer, completed_iterations, path, epoch_length):
         python_rng=random.getstate(), numpy_rng=np.random.get_state(),
         torch_rng=torch.get_rng_state(),
         cuda_rng=torch.cuda.get_rng_state(device) if device.type == "cuda" else None)
-    generator = getattr(trainer, 'bgs_shuffle_generator', None)
-    state['guidance_mode'] = getattr(trainer, 'guidance_mode', 'bgs')
-    state['bgs_shuffle_rng'] = generator.get_state() if generator is not None else None
     path = Path(path)
     temporary = path.with_name(path.name + ".tmp")
     torch.save(state, temporary)
@@ -83,14 +71,6 @@ def restore_recovery_state(trainer, state):
     trainer.optimizer.load_state_dict(state["optimizer"])
     trainer.scheduler.load_state_dict(state["scheduler"])
     trainer.best_performance = state["best_performance"]
-    generator = getattr(trainer, 'bgs_shuffle_generator', None)
-    shuffle_state = state.get('bgs_shuffle_rng')
-    if (generator is None) != (shuffle_state is None):
-        raise ValueError('Recovery shuffle RNG does not match the guidance mode')
-    if state.get('guidance_mode', 'bgs') != getattr(trainer, 'guidance_mode', 'bgs'):
-        raise ValueError('Recovery guidance mode differs')
-    if generator is not None:
-        generator.set_state(shuffle_state)
     random.setstate(state["python_rng"])
     np.random.set_state(state["numpy_rng"])
     torch.set_rng_state(state["torch_rng"])
@@ -123,38 +103,18 @@ def main():
 
     def recovering_init(self, args):
         original_init(self, args)
-        if args.n_fold != 1:
-            raise ValueError("This recovery launcher requires a single training run")
+        if not args.use_bgs_guidance or args.n_fold != 1:
+            raise ValueError("This recovery launcher is for the single Experiment A run")
         if state:
             restore_recovery_state(self, state)
             logging.info("Restored complete training state at iteration %d",
                          state["completed_iterations"])
-        else:
-            import json
-            if args.start_iteration != 0:
-                raise ValueError('Fresh training must start at iteration zero')
-            folder = Path(args.output_dir) / ('result_%s_%sl' % (args.dataset.strip('/').replace(' ', '_'), args.labeled_num)) / 'fold_0'
-            epoch_length = patients_to_slices(args.dataset, args.labeled_num) // args.labeled_bs
-            save_recovery_state(self, 0, folder / 'recovery_initial.pt', epoch_length)
-            (folder / 'initialization.json').write_text(json.dumps(dict(
-                seed=args.seed, guidance_mode=self.guidance_mode,
-                student_sha256=tensor_state_digest(self.model.state_dict()),
-                teacher_sha256=tensor_state_digest(self.ema_model.state_dict())), indent=2) + '\n')
 
     def checkpointed_test(self, snapshot_path, iter_num):
-        import shutil
-        previous_best = self.best_performance
         original_test(self, snapshot_path, iter_num)
         epoch_length = patients_to_slices(self.args.dataset, self.args.labeled_num) // self.args.labeled_bs
         if iter_num % epoch_length == 0:
             save_recovery_state(self, iter_num, Path(snapshot_path) / "recovery_latest.pt", epoch_length)
-            for name, required in [('recovery_best.pt', self.best_performance > previous_best),
-                                   ('recovery_final.pt', iter_num == self.args.max_iterations)]:
-                if required:
-                    destination = Path(snapshot_path) / name
-                    temporary = destination.with_name(destination.name + '.tmp')
-                    shutil.copyfile(Path(snapshot_path) / 'recovery_latest.pt', temporary)
-                    temporary.replace(destination)
             logging.info("Saved full recovery state at iteration %d", iter_num)
 
     Trainer.__init__, Trainer.test = recovering_init, checkpointed_test
