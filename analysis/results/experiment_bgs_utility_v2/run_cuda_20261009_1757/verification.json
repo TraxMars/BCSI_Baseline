@@ -1,0 +1,2941 @@
+{
+  "status": "passed",
+  "protected_files_unchanged": true,
+  "protected_file_count": 302,
+  "checkpoint_sha256_unchanged": true,
+  "original_experiments_unchanged": true,
+  "replay_exact": true,
+  "no_sampling_performed": true,
+  "test_gt_read": false,
+  "unlabeled_gt_read": false,
+  "no_training": true,
+  "no_backward": true,
+  "no_autograd_grad": true,
+  "no_optimizer": true,
+  "no_ema_update": true,
+  "receiver_gt_does_not_construct_weights": true,
+  "no_receiver_utility_weight_optimization": true,
+  "bootstrap_unit": "case; eight receivers expected, not 24 patches or 480 shuffles",
+  "expected_receivers": 8,
+  "checkpoint_checks": {
+    "baseline_ema": {
+      "weights_and_buffers_exactly_unchanged": true,
+      "state_tensor_count": 205,
+      "all_parameters_frozen": true,
+      "no_model_parameter_gradients": true,
+      "all_modules_eval": true,
+      "receivers": [
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "ee3a5610e8d2065a9155550856993f90904d7ca568acb1c5bd1e73a6c9745bb6",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "2f8532dfac75e726978ba62a67fb73d1cb03f831b1f2857a6b7e8180501dec64",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "bec9b159864dc1f1e416514f713c6ed16cd8e0afa56dd0cac84ace09e6b6a4dc",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "0RZDK210BSMWAA6467LU",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "ea94b4923b522291464d433f7fd1e55f5948a145764393f5fa62b96228246992",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "0RZDK210BSMWAA6467LU",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "aac98ad638a2f514313bc54b34b0f0515513a57f0dbc4013d7d49bdc6244c7e0",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "0RZDK210BSMWAA6467LU",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "5fa21104cd180394e134df7edb6bfe2c62076b245825f8245dc7fab2ddac7a34",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 1.1175870895385742e-08,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "0481ca47e92e187b97da820d08b5c2e87bdcdfdef51149f2799052a282cea70f",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "7851ac8d4e5834cb1b82a837ecf9245f53df1ffc943c05b3f82f69c56a160d2e",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "f90b42cb008ae0ebfc158d3f27eb7424e958139ea3929980fd81212ad52f7606",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 7.450580596923828e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "1GU15S0GJ6PFNARO469W",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "15ff91561363021e59bb67964e065d5b9f8556cfeb5159baa8755ec62782f3ea",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "1GU15S0GJ6PFNARO469W",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "9e7093795adc3450b584399fa1e47dc42a1015418e339be8147dcf08d263cc7a",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "1GU15S0GJ6PFNARO469W",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "3142a0e084a0bfc6e7beb9aa0156cbebeb854d31bfb22fb44f370eb7cd14d26b",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "b58bc6352b8383bb99e6123d5dc418dbd852096a5447249bc5805ba144f471b0",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 7.450580596923828e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "1d4ebbe7df537ad90acd8abb686ff01d389f85a7c1bd2787531c7c32f1267bc7",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "359f59c706df6d4371d906a00fbccb32a20c870332846aa5a8a39c284ed96fc6",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "1376fea9caa5054e970a8e1f961072dee91ee357276df4594e288d9e72dd63a3",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "443d416996aa5a8acd64d10de6147fc2fee73cd0f8f1b22301c95b08100afaab",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "1a67f39b3a05a488e0169384856dd233487f768f25ca6c2646ad0703decc9513",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 7.450580596923828e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "0e12850de7567eeb31c702477e17ca55c3ba5daeadc2e4206c7615e2caecedf8",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "9596ea253cd4f92f711f42bd4fedd55f8f5ee5131814c01b015a68c68d9ff65e",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "4147c7497dde138ea2ab891d67739ef7444143bc8a277ef36524e6c1e2ad8eb8",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "38CWS74285MFGZZXR09Z",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "5c78977b08afcbecd6402aad899eb1be39bea51e57f089d40af40d98d819314a",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "38CWS74285MFGZZXR09Z",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "ac78f4d597cf46dd51476a8a69f2f66abe2f9f7ab983705683268a7c0166c9ca",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "baseline_ema",
+          "receiver_case": "38CWS74285MFGZZXR09Z",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "aba4ef2c0b710c2512d28a00d3e62042f736f00362e612e9e96f4434d4facf6a",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        }
+      ]
+    },
+    "experiment_A_ema": {
+      "weights_and_buffers_exactly_unchanged": true,
+      "state_tensor_count": 205,
+      "all_parameters_frozen": true,
+      "no_model_parameter_gradients": true,
+      "all_modules_eval": true,
+      "receivers": [
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "caa675b510719e08a7e75a3a4a6c0dbd975ee9598372c087c3312c06aba62f57",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "53c989a3c70f1193c8e1d4373f59cea6b13316e6996055f45046a57149c0d4dd",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "06SR5RBREL16DQ6M8LWS",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "b82b89fd56790bb980695acf2ce50fbdad53f6ac49c6c70d904e19d4fd7618b5",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "0RZDK210BSMWAA6467LU",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "db1521ae2c596aee8fd06e29ca89f144ecbc1ee474b97868334e73445ead10c4",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "0RZDK210BSMWAA6467LU",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "d1165a3c2e44191fbb254311622ec8e3eb0bc145ade9805438cfdcdf7d689b4d",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "0RZDK210BSMWAA6467LU",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "6b54096ba741a49f4e601e7d319a307b1e2b140393197a73650f6919e32322a9",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "5e384379d69ea7cf7d27a7da52cb2a344348726dd6bfbb55b939f6f0ca2ce1d4",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "7a3d339eefd170772eaf91b9088ddc33a17250bbde5ac427daee8fec0b187c53",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "1D7CUD1955YZPGK8XHJX",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "1a541ea6cf82a06c40bc83ef053bb10637121e5d981de5a9131f51c2bf6a5f43",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "1GU15S0GJ6PFNARO469W",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "a4da66f7a2a0ab80b10e47cb26092b669380cbfaf16055596734eda4e0f8a836",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "1GU15S0GJ6PFNARO469W",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "26e5d6f6c30f68faddfc8d5ca133c37962b09939d16ad2bc3b0a675ba462288e",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "1GU15S0GJ6PFNARO469W",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "1c6807f598134fcef194a49ad73b3723db8b2bbbc71758c2577f671bc495de45",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 7.450580596923828e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "78229cd72953585349fa867449b8139709e275557c1f88a92e854c299c7f1436",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "cba47e9183ce47b76be7c67def14ba8d75263224a2374157391a9e94328f2daf",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "1MHBF3G6DCPWHSKG7XCP",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "9d23c411fa9706728b959c9363e10b4e9c9223f563e683fc556b0fd02f1236f4",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "d8cb8b1b0d1e8f7ddb99fcf68077dce46234a5c782df02829ac1adc6e3f1382d",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "95716e75acfc70686397f8bf6e8ff1b8153d32f3ba4fe283cf9c43317f074925",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "23X6SY44VT9KFHR7S7OC",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "6f101b1bb81bc686c3fa72b222b9de16cf846170cd3db768208cf73f6475f1a7",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "a53a83a1396d20579bdb7b017b28f3a9fda913ccfd28b89d078903e80ecdf998",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "6000a5504236b2b7e6a22ba63ac937b138ddd93b2543813a5e3aca9fd6e0d89f",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "2XL5HSFSE93RMOJDRGR4",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "dd82f5059b4d2ce9c71fe547e80dbd7faec59459893dd0fba34095b0dd942fcb",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "38CWS74285MFGZZXR09Z",
+          "patch_index": 0,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "df4b11005122a6713e5c8c10d4a447556d042034bfc79623b0c040fbef289545",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 3.725290298461914e-09,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "38CWS74285MFGZZXR09Z",
+          "patch_index": 1,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "584636573c3eefa42e96eeae9efc7eeea014d0dc860c4a3f537d34026d50d583",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 0.0
+        },
+        {
+          "checkpoint": "experiment_A_ema",
+          "receiver_case": "38CWS74285MFGZZXR09Z",
+          "patch_index": 2,
+          "no_gain_forward_exact": true,
+          "no_gain_forward_max_error": 0.0,
+          "feature_shapes": [
+            [
+              1,
+              16,
+              112,
+              112,
+              80
+            ],
+            [
+              1,
+              32,
+              56,
+              56,
+              40
+            ],
+            [
+              1,
+              64,
+              28,
+              28,
+              20
+            ],
+            [
+              1,
+              128,
+              14,
+              14,
+              10
+            ],
+            [
+              1,
+              256,
+              7,
+              7,
+              5
+            ]
+          ],
+          "only_x3_changed": true,
+          "original_features_unchanged": true,
+          "weights_match_experiment_A_exactly": true,
+          "receiver_gt_excluded_from_signature_and_plan": true,
+          "donor_ids_distinct_from_receiver": true,
+          "valid_donors": 2,
+          "strategies_sealed_before_gt_evaluation": true,
+          "strategy_plan_sha256": "513f72020ee48d480d4fa85bc83945c9d26d60ef8777eef813a27a77ada51349",
+          "shuffle_count": 20,
+          "shuffle_all_repetitions_kept": true,
+          "global_rng_unchanged": true,
+          "historical_U_verified": true,
+          "historical_U_skip_reason": "",
+          "historical_baseline_loss_max_difference": 0.0,
+          "max_shuffle_mean_delta": 0.0,
+          "max_shuffle_norm_delta": 4.440892098500626e-16
+        }
+      ]
+    }
+  },
+  "historical_U_matched_patches": 48,
+  "valid_receiver_model_patches": 48,
+  "invalid_groups": 0,
+  "all_numeric_outputs_finite": true,
+  "shuffle_repetitions_saved": 960,
+  "expected_shuffle_repetitions": 960,
+  "all_twenty_shuffles_used": true,
+  "unit_test_exit_code": 0,
+  "unit_test_evidence": "test_results.json",
+  "independent_output_review": {
+    "rows": {
+      "receiver_comparison": 192,
+      "shuffle_repetitions": 960,
+      "cases": 16
+    },
+    "all_twenty_draws_present_per_patch": true,
+    "gains_and_paired_signs_recomputed": true,
+    "shuffle_then_patch_then_case_aggregation_verified": true,
+    "primary_means_recomputed_from_eight_cases": true,
+    "original_protected_hashes_rechecked": 302
+  }
+}

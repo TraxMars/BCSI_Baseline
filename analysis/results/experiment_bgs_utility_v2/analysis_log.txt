@@ -1,0 +1,39 @@
+2026-10-09 17:55:54,119 BGS-U2 failed; outputs retained and directory cannot be overwritten
+Traceback (most recent call last):
+  File "analysis/experiment_bgs_utility_v2.py", line 692, in main
+    raise AssertionError("BGS-U2 tests failed: " + tests.stderr)
+AssertionError: BGS-U2 tests failed: test_actual_A_weight_match_and_receiver_gt_not_an_argument (__main__.TransferTests) ... ok
+test_alignment_negative_weights_and_sign (__main__.TransferTests) ... ok
+test_case_clustering_and_twenty_shuffle_averages (__main__.TransferTests) ... ok
+test_end_to_end_receiver_loop_retains_every_shuffle_and_skips_unverified_U (__main__.TransferTests) ... ERROR
+test_exact_padding_and_coordinates_and_rejection (__main__.TransferTests) ... ok
+test_fixed_donors_all_receivers_are_distinct_and_wrap (__main__.TransferTests) ... ok
+test_invalid_donors_are_skipped_without_receiver_rescue (__main__.TransferTests) ... ok
+test_loss_gain_sign_and_prediction_metrics (__main__.TransferTests) ... ok
+test_no_output_overwrite (__main__.TransferTests) ... ok
+test_only_x3_and_uniform_matches_mean_not_energy (__main__.TransferTests) ... ok
+test_real_eval_no_gain_and_frozen_buffers (__main__.TransferTests) ... ok
+test_shuffle_independent_reproducible_and_all_permutations_preserved (__main__.TransferTests) ... ok
+test_signed_average_before_relu_normalization (__main__.TransferTests) ... ok
+
+======================================================================
+ERROR: test_end_to_end_receiver_loop_retains_every_shuffle_and_skips_unverified_U (__main__.TransferTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/test_experiment_bgs_utility_v2.py", line 227, in test_end_to_end_receiver_loop_retains_every_shuffle_and_skips_unverified_U
+    comp, reps, alignment, weights, mapping, invalid, checks = audit.analyze_model(
+  File "/home/duanxuelong/.conda/envs/SSL/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 28, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/experiment_bgs_utility_v2.py", line 369, in analyze_model
+    original_logits = model(torch.from_numpy(receiver["image"])[None, None].to(args.device))
+  File "/home/duanxuelong/.conda/envs/SSL/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/duanxuelong/.conda/envs/SSL/lib/python3.8/site-packages/torch/nn/modules/module.py", line 201, in _forward_unimplemented
+    raise NotImplementedError
+NotImplementedError
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.216s
+
+FAILED (errors=1)
+
