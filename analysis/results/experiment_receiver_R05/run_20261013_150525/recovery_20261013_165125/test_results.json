@@ -1,0 +1,27 @@
+{
+  "status": "passed_before_interruption",
+  "exit_code": 0,
+  "n_tests": 13,
+  "test_names": [
+    "test_flip_inverse_axes",
+    "test_direction_definitions_and_historical_D",
+    "test_pooling_coordinates_and_trilinear_centers",
+    "test_error_count_thresholds_and_lift",
+    "test_fixed_budgets_and_independent_random_state",
+    "test_GT_lock_and_missing_target",
+    "test_existing_directory_and_absolute_code_paths",
+    "test_output_overwrite_refused_preserves_bytes",
+    "test_AP_ties_and_target_severity",
+    "test_case_bootstrap_not_voxels",
+    "test_interior_strict_distance",
+    "test_actual_VNet_frozen_eval_features",
+    "test_small_complete_evaluation_pipeline_and_gain_sign"
+  ],
+  "command": "conda run -n SSL python -B analysis/test_experiment_receiver_R05.py",
+  "evidence_source": "Prior completed tool output in this conversation, unified exec session 13542",
+  "captured_result": "Ran 13 tests in 0.213s; OK; exit_code=0",
+  "rerun_in_recovery": false,
+  "source_sha256": "56b26f82730c90e1100828356239f95c8e4c26328b5036888b74e91d5d3ff4fd",
+  "source_matches_recorded_completed_version": true,
+  "initial_11_test_record_preserved": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_receiver_R05/run_20261013_150525/test_results.json"
+}

@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_GT_lock_and_missing_target (__main__.R05Tests) ... ok\ntest_actual_VNet_frozen_eval_features (__main__.R05Tests) ... ok\ntest_case_bootstrap_not_voxels (__main__.R05Tests) ... ok\ntest_direction_definitions_and_historical_D (__main__.R05Tests) ... ok\ntest_error_count_thresholds_and_lift (__main__.R05Tests) ... ok\ntest_existing_directory_and_absolute_code_paths (__main__.R05Tests) ... ok\ntest_fixed_budgets_and_independent_random_state (__main__.R05Tests) ... ok\ntest_flip_inverse_axes (__main__.R05Tests) ... ok\ntest_interior_strict_distance (__main__.R05Tests) ... ok\ntest_pooling_coordinates_and_trilinear_centers (__main__.R05Tests) ... ok\ntest_small_complete_evaluation_pipeline_and_gain_sign (__main__.R05Tests) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.215s\n\nOK\n"
+}

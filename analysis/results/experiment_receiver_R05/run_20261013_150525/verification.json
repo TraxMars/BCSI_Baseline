@@ -1,0 +1,536 @@
+{
+  "status": "passed",
+  "protected_file_count": 394,
+  "protected_files_SHA256_unchanged": true,
+  "baseline_checkpoint_SHA256_unchanged": true,
+  "model_parameters_and_BN_buffers_unchanged": true,
+  "model_state_tensor_count": 205,
+  "model_eval_frozen": true,
+  "no_backward_no_optimizer_no_EMA": true,
+  "all_predictions_no_grad": true,
+  "no_BGS_no_donor_no_feature_modification": true,
+  "no_test_GT_read": true,
+  "phase_A_GT_reads": 0,
+  "all_scores_mappings_and_budgets_saved_before_GT": true,
+  "phase_A_SHA256_unchanged": true,
+  "R0_prediction_match_atol": 2e-06,
+  "prediction_checks": [
+    {
+      "case_id": "06SR5RBREL16DQ6M8LWS",
+      "patch_index": 0,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "06SR5RBREL16DQ6M8LWS",
+      "patch_index": 1,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "06SR5RBREL16DQ6M8LWS",
+      "patch_index": 2,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "0RZDK210BSMWAA6467LU",
+      "patch_index": 0,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "0RZDK210BSMWAA6467LU",
+      "patch_index": 1,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "0RZDK210BSMWAA6467LU",
+      "patch_index": 2,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1D7CUD1955YZPGK8XHJX",
+      "patch_index": 0,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1D7CUD1955YZPGK8XHJX",
+      "patch_index": 1,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1D7CUD1955YZPGK8XHJX",
+      "patch_index": 2,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1GU15S0GJ6PFNARO469W",
+      "patch_index": 0,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1GU15S0GJ6PFNARO469W",
+      "patch_index": 1,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1GU15S0GJ6PFNARO469W",
+      "patch_index": 2,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1MHBF3G6DCPWHSKG7XCP",
+      "patch_index": 0,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1MHBF3G6DCPWHSKG7XCP",
+      "patch_index": 1,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1MHBF3G6DCPWHSKG7XCP",
+      "patch_index": 2,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "23X6SY44VT9KFHR7S7OC",
+      "patch_index": 0,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "23X6SY44VT9KFHR7S7OC",
+      "patch_index": 1,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "23X6SY44VT9KFHR7S7OC",
+      "patch_index": 2,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "2XL5HSFSE93RMOJDRGR4",
+      "patch_index": 0,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "2XL5HSFSE93RMOJDRGR4",
+      "patch_index": 1,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "2XL5HSFSE93RMOJDRGR4",
+      "patch_index": 2,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "38CWS74285MFGZZXR09Z",
+      "patch_index": 0,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "38CWS74285MFGZZXR09Z",
+      "patch_index": 1,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "38CWS74285MFGZZXR09Z",
+      "patch_index": 2,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "probability_max_abs_diff": 0.0,
+      "flip_max_abs_diff": 0.0,
+      "D_max_abs_diff": 0.0,
+      "D_historical_reconstruction_exact": true,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    }
+  ],
+  "flip_inverse_unit_test_passed": true,
+  "no_historical_patch_reselection": true,
+  "cases": 8,
+  "patches": 24,
+  "grid_error_count_conserved": true,
+  "all_methods_same_domain_same_budget": true,
+  "independent_validation_available": false,
+  "bootstrap_unit": "case",
+  "bootstrap_repetitions": 10000,
+  "all_outputs_finite": true,
+  "explicit_undefined_values": true,
+  "unit_test_exit_code": 0,
+  "no_best_axis_selection": true
+}

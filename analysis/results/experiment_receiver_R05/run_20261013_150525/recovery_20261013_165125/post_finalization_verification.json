@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "original_R05_result_files_unchanged": true,
+  "n_original_R05_files": 74,
+  "both_R05_code_files_unchanged": true,
+  "original_project_files_unchanged": true,
+  "n_protected_project_files": 394,
+  "previous_results_and_checkpoint_not_overwritten": true,
+  "experiment_not_rerun": true,
+  "predictions_mappings_selection_not_rerun": true,
+  "no_process_terminated": true,
+  "no_training": true,
+  "prior_13_test_execution_record_persisted_without_rerun": true,
+  "pending_report_and_path_manifest_completed": true,
+  "model_state_evidence": "Parent verification.json records tensor equality before/after the completed run; recovery never reinstantiated model",
+  "numerical_audit": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_receiver_R05/run_20261013_150525/recovery_20261013_165125/verification.json",
+  "recommendation": {
+    "status": "exploratory_without_independent_validation",
+    "candidate_score": "Dxyz",
+    "mapping": "max",
+    "budget": 0.02,
+    "perturbations": "all three fixed flips; no best-axis selection",
+    "mapping_decision": "joint exploratory rank: case-mean severe10 AP + 2% error-voxel coverage; all mappings reported",
+    "alternative_budget": 0.05,
+    "alternative_score": "Dxyz",
+    "R1": "limited feasibility study only; independent validation and receiver need assessment remain required",
+    "no_Dice_improvement_claim": true
+  }
+}

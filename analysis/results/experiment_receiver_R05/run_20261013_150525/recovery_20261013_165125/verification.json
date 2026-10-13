@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "all_NPZ_finite": true,
+  "error_count_conserved": true,
+  "grid_thresholds_exact": true,
+  "candidate_count_and_domain_correct": true,
+  "AP_independent_sklearn_max_abs_diff": 4.440892098500626e-16,
+  "n_NPZ_files": 48,
+  "n_array_checks": 10656,
+  "n_grid_candidate_checks": 6912,
+  "phaseA_hashes_unchanged": true,
+  "GT_only_phase_B": true,
+  "original_project_files_unchanged": true,
+  "source_code_unchanged": true,
+  "data_source_SHA256_matches_R0": true,
+  "no_training_backward_optimizer_calls_in_analysis_AST": true,
+  "visualizations_inspected": [
+    "06SR5RBREL16DQ6M8LWS_p0_preselected.png",
+    "06SR5RBREL16DQ6M8LWS_p0_first_confident_error.png"
+  ],
+  "visualization_alignment_and_shared_risk_color_range": "passed: original coordinate slice and nearest block display labeled; all risk maps [0,1]",
+  "original_files_checked": 74,
+  "original_project_files_checked": 394
+}

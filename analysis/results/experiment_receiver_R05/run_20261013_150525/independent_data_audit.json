@@ -1,0 +1,19 @@
+{
+  "available_LA_cases": 100,
+  "training_cases": 80,
+  "checkpoint_selection_cases": 20,
+  "train_selection_overlap": [],
+  "available_cases_outside_training_and_selection": [],
+  "independent_validation_available": false,
+  "reason": "All available LA cases belong to training or checkpoint-selection lists",
+  "data_root": "/home/duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet",
+  "no_test_GT_read": true,
+  "evidence": {
+    "/home/duanxuelong/Dataset/LA/train.list": "e88c3f0bae70edcca4bc16eca890673eee2bf3f7b74418249cb01b8cde2f924e",
+    "/home/duanxuelong/Dataset/LA/test.list": "e55b18069e27d6eab3dc21b8d1dc05a99ef83110fedc789f81c461d7bb152199",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/trainer.py": "b661f27d50db5cc5b8855816fe67326e36824400db05210dc9e49fe6ae37abf6",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/prediction.py": "d65af70c8d240763933aa39df372a9323611bdd0f34ccbbc789159b9fdcaaca3"
+  },
+  "checkpoint_selection_evidence": "trainer.py validate uses test_calculate_metric(val=True); LA prediction.py reads test.list",
+  "scope": "Available LA dataset only; external independent cohorts were not supplied"
+}

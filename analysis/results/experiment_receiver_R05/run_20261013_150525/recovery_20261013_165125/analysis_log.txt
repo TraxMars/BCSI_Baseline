@@ -1,0 +1,2 @@
+Recovery finalized 2026-10-13T16:55:24.194808+08:00
+Read-only initial audit; host R05 processes none. No experiment or tests rerun. Original code and 74 original result files unchanged. Pending report interpretation and relocated-file manifest saved in this new directory only.
