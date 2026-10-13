@@ -1,0 +1,7 @@
+{
+  "status": "failed_before_predictions",
+  "reason": "Python 3.8 relative __file__ in source-manifest path; fixed by resolving both new source paths",
+  "receiver_GT_dataset_reads": 0,
+  "predictions_generated": 0,
+  "existing_files_or_checkpoints_modified": false
+}

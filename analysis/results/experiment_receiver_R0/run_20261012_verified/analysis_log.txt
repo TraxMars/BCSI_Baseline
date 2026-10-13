@@ -1,0 +1,50 @@
+2026-10-12 17:48:27,233 Phase A saved 06SR5RBREL16DQ6M8LWS patch0: pseudo-neighborhood=174337, GT reads=0
+2026-10-12 17:48:33,525 Phase A saved 06SR5RBREL16DQ6M8LWS patch1: pseudo-neighborhood=163204, GT reads=0
+2026-10-12 17:48:39,697 Phase A saved 06SR5RBREL16DQ6M8LWS patch2: pseudo-neighborhood=155331, GT reads=0
+2026-10-12 17:48:46,356 Phase A saved 0RZDK210BSMWAA6467LU patch0: pseudo-neighborhood=180971, GT reads=0
+2026-10-12 17:48:52,344 Phase A saved 0RZDK210BSMWAA6467LU patch1: pseudo-neighborhood=193743, GT reads=0
+2026-10-12 17:48:58,075 Phase A saved 0RZDK210BSMWAA6467LU patch2: pseudo-neighborhood=132591, GT reads=0
+2026-10-12 17:49:03,724 Phase A saved 1D7CUD1955YZPGK8XHJX patch0: pseudo-neighborhood=93052, GT reads=0
+2026-10-12 17:49:09,600 Phase A saved 1D7CUD1955YZPGK8XHJX patch1: pseudo-neighborhood=192857, GT reads=0
+2026-10-12 17:49:15,483 Phase A saved 1D7CUD1955YZPGK8XHJX patch2: pseudo-neighborhood=149674, GT reads=0
+2026-10-12 17:49:21,399 Phase A saved 1GU15S0GJ6PFNARO469W patch0: pseudo-neighborhood=153394, GT reads=0
+2026-10-12 17:49:27,180 Phase A saved 1GU15S0GJ6PFNARO469W patch1: pseudo-neighborhood=152729, GT reads=0
+2026-10-12 17:49:32,963 Phase A saved 1GU15S0GJ6PFNARO469W patch2: pseudo-neighborhood=150650, GT reads=0
+2026-10-12 17:49:38,596 Phase A saved 1MHBF3G6DCPWHSKG7XCP patch0: pseudo-neighborhood=155050, GT reads=0
+2026-10-12 17:49:44,453 Phase A saved 1MHBF3G6DCPWHSKG7XCP patch1: pseudo-neighborhood=155454, GT reads=0
+2026-10-12 17:49:50,345 Phase A saved 1MHBF3G6DCPWHSKG7XCP patch2: pseudo-neighborhood=149805, GT reads=0
+2026-10-12 17:49:55,998 Phase A saved 23X6SY44VT9KFHR7S7OC patch0: pseudo-neighborhood=125948, GT reads=0
+2026-10-12 17:50:01,854 Phase A saved 23X6SY44VT9KFHR7S7OC patch1: pseudo-neighborhood=166565, GT reads=0
+2026-10-12 17:50:07,668 Phase A saved 23X6SY44VT9KFHR7S7OC patch2: pseudo-neighborhood=156187, GT reads=0
+2026-10-12 17:50:13,687 Phase A saved 2XL5HSFSE93RMOJDRGR4 patch0: pseudo-neighborhood=175332, GT reads=0
+2026-10-12 17:50:19,365 Phase A saved 2XL5HSFSE93RMOJDRGR4 patch1: pseudo-neighborhood=124223, GT reads=0
+2026-10-12 17:50:25,293 Phase A saved 2XL5HSFSE93RMOJDRGR4 patch2: pseudo-neighborhood=157328, GT reads=0
+2026-10-12 17:50:31,401 Phase A saved 38CWS74285MFGZZXR09Z patch0: pseudo-neighborhood=155940, GT reads=0
+2026-10-12 17:50:37,404 Phase A saved 38CWS74285MFGZZXR09Z patch1: pseudo-neighborhood=169004, GT reads=0
+2026-10-12 17:50:43,090 Phase A saved 38CWS74285MFGZZXR09Z patch2: pseudo-neighborhood=123556, GT reads=0
+2026-10-12 17:50:44,600 All 24 score/candidate maps sealed; first GT access now permitted
+2026-10-12 17:50:48,191 Phase B 06SR5RBREL16DQ6M8LWS patch0: errors=14472 confident=5301 farFP=1403
+2026-10-12 17:50:51,783 Phase B 06SR5RBREL16DQ6M8LWS patch1: errors=12202 confident=3574 farFP=705
+2026-10-12 17:50:55,224 Phase B 06SR5RBREL16DQ6M8LWS patch2: errors=14320 confident=5932 farFP=1644
+2026-10-12 17:50:58,624 Phase B 0RZDK210BSMWAA6467LU patch0: errors=15414 confident=4831 farFP=0
+2026-10-12 17:51:02,001 Phase B 0RZDK210BSMWAA6467LU patch1: errors=14365 confident=4549 farFP=0
+2026-10-12 17:51:05,246 Phase B 0RZDK210BSMWAA6467LU patch2: errors=10581 confident=4493 farFP=0
+2026-10-12 17:51:08,473 Phase B 1D7CUD1955YZPGK8XHJX patch0: errors=8257 confident=3071 farFP=66
+2026-10-12 17:51:11,920 Phase B 1D7CUD1955YZPGK8XHJX patch1: errors=18901 confident=7378 farFP=0
+2026-10-12 17:51:15,238 Phase B 1D7CUD1955YZPGK8XHJX patch2: errors=15613 confident=7090 farFP=0
+2026-10-12 17:51:18,529 Phase B 1GU15S0GJ6PFNARO469W patch0: errors=10823 confident=4060 farFP=0
+2026-10-12 17:51:21,951 Phase B 1GU15S0GJ6PFNARO469W patch1: errors=10797 confident=4053 farFP=0
+2026-10-12 17:51:25,356 Phase B 1GU15S0GJ6PFNARO469W patch2: errors=11086 confident=4635 farFP=0
+2026-10-12 17:51:28,777 Phase B 1MHBF3G6DCPWHSKG7XCP patch0: errors=12148 confident=4840 farFP=0
+2026-10-12 17:51:32,349 Phase B 1MHBF3G6DCPWHSKG7XCP patch1: errors=12568 confident=5313 farFP=0
+2026-10-12 17:51:36,071 Phase B 1MHBF3G6DCPWHSKG7XCP patch2: errors=12950 confident=5951 farFP=0
+2026-10-12 17:51:39,680 Phase B 23X6SY44VT9KFHR7S7OC patch0: errors=11107 confident=4319 farFP=44
+2026-10-12 17:51:42,998 Phase B 23X6SY44VT9KFHR7S7OC patch1: errors=15266 confident=5187 farFP=0
+2026-10-12 17:51:46,398 Phase B 23X6SY44VT9KFHR7S7OC patch2: errors=14641 confident=5827 farFP=468
+2026-10-12 17:51:49,886 Phase B 2XL5HSFSE93RMOJDRGR4 patch0: errors=16760 confident=6138 farFP=0
+2026-10-12 17:51:53,357 Phase B 2XL5HSFSE93RMOJDRGR4 patch1: errors=13761 confident=5875 farFP=1438
+2026-10-12 17:51:56,719 Phase B 2XL5HSFSE93RMOJDRGR4 patch2: errors=16166 confident=5587 farFP=7
+2026-10-12 17:52:00,107 Phase B 38CWS74285MFGZZXR09Z patch0: errors=11558 confident=3929 farFP=0
+2026-10-12 17:52:03,453 Phase B 38CWS74285MFGZZXR09Z patch1: errors=12388 confident=3905 farFP=0
+2026-10-12 17:52:06,981 Phase B 38CWS74285MFGZZXR09Z patch2: errors=9262 confident=3305 farFP=179
+2026-10-12 17:52:24,948 R0 complete: /home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_receiver_R0/run_20261012_verified; 321 protected files unchanged; recommendation={'choice': 'B', 'candidate_method': 'disagreement', 'combination_supported': False, 'confident_error_observations': 119143, 'confident_far_fp_observations': 2035, 'rule': 'Prefer simple entropy unless D or combination improves common-domain AP with case CI>0 and >=6/8 positive paired cases, without lowering global boundary recall at5%. C if no stable advantage over boundary prior or top10% recall<50% for >=50 high-confidence errors/farFP. These are exploratory gates, not clinical thresholds.', 'interpretation': '优先采用单指标；没有证据支持更复杂组合，R1仍需独立病例验证。'}

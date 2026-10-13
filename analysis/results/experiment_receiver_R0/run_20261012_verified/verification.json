@@ -1,0 +1,283 @@
+{
+  "status": "passed",
+  "protected_files_unchanged": true,
+  "protected_file_count": 321,
+  "checkpoint_sha256_unchanged": true,
+  "model_state_tensor_count": 205,
+  "model_parameters_and_BN_buffers_unchanged": true,
+  "all_modules_eval": true,
+  "all_model_parameters_frozen": true,
+  "no_model_parameter_gradients": true,
+  "no_training_no_optimizer_no_EMA": true,
+  "no_backward": true,
+  "no_BGS_no_feature_modulation": true,
+  "no_fake_student_teacher_comparison": true,
+  "test_GT_read": false,
+  "phase_A_GT_reads": 0,
+  "all_phase_A_maps_saved_before_first_GT": true,
+  "phase_A_map_hashes_unchanged": true,
+  "no_reselection_of_patches": true,
+  "patches": 24,
+  "cases": 8,
+  "same_domain_budgets_across_methods": true,
+  "bootstrap_unit": "case",
+  "bootstrap_repetitions": 10000,
+  "all_outputs_finite": true,
+  "undefined_values_explicit": true,
+  "unit_test_exit_code": 0,
+  "no_aug_forward_checks": [
+    {
+      "case_id": "06SR5RBREL16DQ6M8LWS",
+      "patch_index": 0,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "06SR5RBREL16DQ6M8LWS",
+      "patch_index": 1,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "06SR5RBREL16DQ6M8LWS",
+      "patch_index": 2,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "0RZDK210BSMWAA6467LU",
+      "patch_index": 0,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "0RZDK210BSMWAA6467LU",
+      "patch_index": 1,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "0RZDK210BSMWAA6467LU",
+      "patch_index": 2,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1D7CUD1955YZPGK8XHJX",
+      "patch_index": 0,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1D7CUD1955YZPGK8XHJX",
+      "patch_index": 1,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1D7CUD1955YZPGK8XHJX",
+      "patch_index": 2,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1GU15S0GJ6PFNARO469W",
+      "patch_index": 0,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1GU15S0GJ6PFNARO469W",
+      "patch_index": 1,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1GU15S0GJ6PFNARO469W",
+      "patch_index": 2,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1MHBF3G6DCPWHSKG7XCP",
+      "patch_index": 0,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1MHBF3G6DCPWHSKG7XCP",
+      "patch_index": 1,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "1MHBF3G6DCPWHSKG7XCP",
+      "patch_index": 2,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "23X6SY44VT9KFHR7S7OC",
+      "patch_index": 0,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "23X6SY44VT9KFHR7S7OC",
+      "patch_index": 1,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "23X6SY44VT9KFHR7S7OC",
+      "patch_index": 2,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "2XL5HSFSE93RMOJDRGR4",
+      "patch_index": 0,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "2XL5HSFSE93RMOJDRGR4",
+      "patch_index": 1,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "2XL5HSFSE93RMOJDRGR4",
+      "patch_index": 2,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "38CWS74285MFGZZXR09Z",
+      "patch_index": 0,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "38CWS74285MFGZZXR09Z",
+      "patch_index": 1,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    },
+    {
+      "case_id": "38CWS74285MFGZZXR09Z",
+      "patch_index": 2,
+      "no_aug_forward_exact": true,
+      "transforms": [
+        "flip_x",
+        "flip_y",
+        "flip_z"
+      ]
+    }
+  ],
+  "flip_inverse_unit_test_passed": true,
+  "independent_output_review": {
+    "all_24_phase_A_hashes_unchanged": true,
+    "all_1152_candidate_budgets_and_score_orderings_verified": true,
+    "image_accesses_before_label_accesses": 24,
+    "labels_read_only_after_all_candidates_saved": true,
+    "all_8_cases_and_24_patches_retained": true,
+    "numeric_statistics_reproduced_max_difference": 0.0,
+    "core_error_missing_reasons_explicit": true,
+    "post_schema_unit_tests_passed": 15,
+    "original_protected_hashes_rechecked": 321,
+    "evidence_note": "Assertions completed in the preceding review call; its only failure was relative output path during report formatting, corrected without rerunning predictions."
+  }
+}
