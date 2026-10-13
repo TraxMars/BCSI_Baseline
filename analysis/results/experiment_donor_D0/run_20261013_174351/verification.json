@@ -1,0 +1,265 @@
+{
+  "status": "passed",
+  "protected_file_count": 484,
+  "all_existing_project_SHA256_unchanged": true,
+  "baseline_checkpoint_SHA256_unchanged": true,
+  "weights_and_buffers_exactly_unchanged": true,
+  "state_tensor_count": 205,
+  "all_parameters_frozen": true,
+  "no_model_parameter_gradients": true,
+  "all_modules_eval": true,
+  "no_MT_training_no_optimizer_no_EMA_no_backward": true,
+  "all_VNet_predictions_no_grad": true,
+  "only_x3_intervened": true,
+  "no_channel_dropout_training_no_extra_decoder": true,
+  "no_BGS_gain_no_transfer_no_D0B": true,
+  "test_GT_read": false,
+  "held_out_not_in_fold_selection_or_probe_fit": true,
+  "fold_plans_saved_before_held_GT": true,
+  "GT_not_input_to_probe_predict": true,
+  "random20_repetitions_all_retained": true,
+  "bootstrap_unit": "case",
+  "bootstrap_repetitions": 10000,
+  "cases": 8,
+  "patches": 24,
+  "n_channel_contribution_rows": 6144,
+  "n_LOCO_patch_rows": 1152,
+  "all_outputs_finite": true,
+  "undefined_metrics_explicit": true,
+  "unit_test_exit_code": 0,
+  "patch_checks": [
+    {
+      "case_id": "06SR5RBREL16DQ6M8LWS",
+      "patch_index": 0,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "06SR5RBREL16DQ6M8LWS",
+      "patch_index": 1,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "06SR5RBREL16DQ6M8LWS",
+      "patch_index": 2,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "0RZDK210BSMWAA6467LU",
+      "patch_index": 0,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "0RZDK210BSMWAA6467LU",
+      "patch_index": 1,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "0RZDK210BSMWAA6467LU",
+      "patch_index": 2,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "1D7CUD1955YZPGK8XHJX",
+      "patch_index": 0,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "1D7CUD1955YZPGK8XHJX",
+      "patch_index": 1,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "1D7CUD1955YZPGK8XHJX",
+      "patch_index": 2,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "1GU15S0GJ6PFNARO469W",
+      "patch_index": 0,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "1GU15S0GJ6PFNARO469W",
+      "patch_index": 1,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "1GU15S0GJ6PFNARO469W",
+      "patch_index": 2,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "1MHBF3G6DCPWHSKG7XCP",
+      "patch_index": 0,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "1MHBF3G6DCPWHSKG7XCP",
+      "patch_index": 1,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "1MHBF3G6DCPWHSKG7XCP",
+      "patch_index": 2,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "23X6SY44VT9KFHR7S7OC",
+      "patch_index": 0,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "23X6SY44VT9KFHR7S7OC",
+      "patch_index": 1,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "23X6SY44VT9KFHR7S7OC",
+      "patch_index": 2,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "2XL5HSFSE93RMOJDRGR4",
+      "patch_index": 0,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "2XL5HSFSE93RMOJDRGR4",
+      "patch_index": 1,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "2XL5HSFSE93RMOJDRGR4",
+      "patch_index": 2,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "38CWS74285MFGZZXR09Z",
+      "patch_index": 0,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "38CWS74285MFGZZXR09Z",
+      "patch_index": 1,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    },
+    {
+      "case_id": "38CWS74285MFGZZXR09Z",
+      "patch_index": 2,
+      "baseline_forward_exact": true,
+      "batch_decoder_max_abs_diff": 0.0,
+      "BGS_matches_history": true,
+      "historical_FD_max_abs_diff": 0.0,
+      "other_features_unchanged": true
+    }
+  ],
+  "probe_convergence_warnings": 0,
+  "independent_output_audit": {
+    "status": "passed",
+    "NPZ_arrays_checked": 112,
+    "all_numeric_CSV_and_JSON_finite": true,
+    "all_single_channel_results_retained": true,
+    "LOCO_records": 1152,
+    "all384_probe_models_retained": true,
+    "developer_only_selection_recomputed_exact": true,
+    "developer_only_scaler_recomputed": true,
+    "held_prediction_max_abs_difference": 0,
+    "probe_metrics_independently_recomputed": 1152,
+    "all_data_source_SHA256_unchanged": true,
+    "protected484_files_still_unchanged": true,
+    "final_source_SHA256_matches_metadata": true,
+    "visualization_inspected": true
+  }
+}

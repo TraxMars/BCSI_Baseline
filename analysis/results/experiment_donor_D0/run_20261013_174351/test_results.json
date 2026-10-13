@@ -1,0 +1,6 @@
+{
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_balanced_samples_and_probe_prediction_without_GT (__main__.D0Tests) ... ok\ntest_bootstrap_units_and_missing_values (__main__.D0Tests) ... ok\ntest_complete_LOCO_aggregation_preserves_random20_and_pairs (__main__.D0Tests) ... ok\ntest_contribution_sign_and_first_order_identity (__main__.D0Tests) ... ok\ntest_developer_only_standardization_and_equal_case_weights (__main__.D0Tests) ... ok\ntest_frozen_real_VNet_batch_eval (__main__.D0Tests) ... ok\ntest_interventions_preserve_inputs_other_layers_and_means (__main__.D0Tests) ... ok\ntest_loco_selection_excludes_held_out_and_randoms_complete (__main__.D0Tests) ... ok\ntest_output_refusal_and_absolute_code_paths (__main__.D0Tests) ... ok\ntest_per_intervention_loss_never_pooled_dice (__main__.D0Tests) ... ok\ntest_role_GT_gate (__main__.D0Tests) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.501s\n\nOK\n",
+  "n_tests": 11
+}

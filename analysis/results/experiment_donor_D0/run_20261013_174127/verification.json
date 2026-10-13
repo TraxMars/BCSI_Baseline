@@ -1,0 +1,4 @@
+{
+  "status": "failed",
+  "error": "AssertionError('Batched frozen decoder changes per-example inference')"
+}

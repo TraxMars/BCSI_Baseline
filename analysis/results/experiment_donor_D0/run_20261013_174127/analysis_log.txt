@@ -1,0 +1,5 @@
+2026-10-13 17:41:48,647 D0 failed; partial outputs retained without overwrite
+Traceback (most recent call last):
+  File "analysis/experiment_donor_D0.py", line 544, in main
+    raise AssertionError("Batched frozen decoder changes per-example inference")
+AssertionError: Batched frozen decoder changes per-example inference

@@ -1,0 +1,43 @@
+2026-10-13 17:44:16,284 Donor 06SR5RBREL16DQ6M8LWS p0: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:44:23,348 Donor 06SR5RBREL16DQ6M8LWS p1: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:44:30,345 Donor 06SR5RBREL16DQ6M8LWS p2: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:44:37,391 Donor 0RZDK210BSMWAA6467LU p0: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:44:44,327 Donor 0RZDK210BSMWAA6467LU p1: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:44:50,995 Donor 0RZDK210BSMWAA6467LU p2: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:44:57,268 Donor 1D7CUD1955YZPGK8XHJX p0: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:45:04,171 Donor 1D7CUD1955YZPGK8XHJX p1: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:45:11,164 Donor 1D7CUD1955YZPGK8XHJX p2: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:45:18,249 Donor 1GU15S0GJ6PFNARO469W p0: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:45:25,312 Donor 1GU15S0GJ6PFNARO469W p1: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:45:32,433 Donor 1GU15S0GJ6PFNARO469W p2: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:45:39,648 Donor 1MHBF3G6DCPWHSKG7XCP p0: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:45:47,653 Donor 1MHBF3G6DCPWHSKG7XCP p1: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:45:56,595 Donor 1MHBF3G6DCPWHSKG7XCP p2: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:46:05,164 Donor 23X6SY44VT9KFHR7S7OC p0: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:46:13,806 Donor 23X6SY44VT9KFHR7S7OC p1: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:46:22,665 Donor 23X6SY44VT9KFHR7S7OC p2: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:46:31,310 Donor 2XL5HSFSE93RMOJDRGR4 p0: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:46:40,046 Donor 2XL5HSFSE93RMOJDRGR4 p1: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:46:48,266 Donor 2XL5HSFSE93RMOJDRGR4 p2: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:46:56,496 Donor 38CWS74285MFGZZXR09Z p0: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:47:05,562 Donor 38CWS74285MFGZZXR09Z p1: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:47:14,338 Donor 38CWS74285MFGZZXR09Z p2: all 64 x4 interventions done; shape=[1, 64, 28, 28, 20]; batchdiff=0 FDdiff=0 probe_sample={'valid': True, 'reason': '', 'samples_per_class': 512}
+2026-10-13 17:47:17,020 Fold0 06SR5RBREL16DQ6M8LWS: 48 developer-only selections/probes sealed; held-out GT now unlocked
+2026-10-13 17:47:24,434 Fold0 06SR5RBREL16DQ6M8LWS complete: all 3 held-out patches, all20 random repetitions/K retained
+2026-10-13 17:47:25,861 Fold1 0RZDK210BSMWAA6467LU: 48 developer-only selections/probes sealed; held-out GT now unlocked
+2026-10-13 17:47:33,370 Fold1 0RZDK210BSMWAA6467LU complete: all 3 held-out patches, all20 random repetitions/K retained
+2026-10-13 17:47:34,963 Fold2 1D7CUD1955YZPGK8XHJX: 48 developer-only selections/probes sealed; held-out GT now unlocked
+2026-10-13 17:47:42,194 Fold2 1D7CUD1955YZPGK8XHJX complete: all 3 held-out patches, all20 random repetitions/K retained
+2026-10-13 17:47:43,682 Fold3 1GU15S0GJ6PFNARO469W: 48 developer-only selections/probes sealed; held-out GT now unlocked
+2026-10-13 17:47:51,053 Fold3 1GU15S0GJ6PFNARO469W complete: all 3 held-out patches, all20 random repetitions/K retained
+2026-10-13 17:47:52,451 Fold4 1MHBF3G6DCPWHSKG7XCP: 48 developer-only selections/probes sealed; held-out GT now unlocked
+2026-10-13 17:47:59,956 Fold4 1MHBF3G6DCPWHSKG7XCP complete: all 3 held-out patches, all20 random repetitions/K retained
+2026-10-13 17:48:01,466 Fold5 23X6SY44VT9KFHR7S7OC: 48 developer-only selections/probes sealed; held-out GT now unlocked
+2026-10-13 17:48:09,082 Fold5 23X6SY44VT9KFHR7S7OC complete: all 3 held-out patches, all20 random repetitions/K retained
+2026-10-13 17:48:10,582 Fold6 2XL5HSFSE93RMOJDRGR4: 48 developer-only selections/probes sealed; held-out GT now unlocked
+2026-10-13 17:48:17,449 Fold6 2XL5HSFSE93RMOJDRGR4 complete: all 3 held-out patches, all20 random repetitions/K retained
+2026-10-13 17:48:18,939 Fold7 38CWS74285MFGZZXR09Z: 48 developer-only selections/probes sealed; held-out GT now unlocked
+2026-10-13 17:48:26,094 Fold7 38CWS74285MFGZZXR09Z complete: all 3 held-out patches, all20 random repetitions/K retained
+2026-10-13 17:48:34,701 D0-A complete /home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_donor_D0/run_20261013_174351; decision={'choice': 'B', 'reason': '至少一个预定K的简单BGS对照Probe达到相近或更好结果；边界消融重要性尚不足支持增加贡献筛选复杂度，保留全部K差异。', 'rule': 'A requires BC-minus-random ablation CI>0 and BC-minus-BGS/random AUROC CI>0 at bothK plus consistent candidates; B if BGS within .01 AUROC at eitherK, else C; exploratory, no equivalence proof'}; 484 protected files unchanged
+
+Final report and saved-output audit completed 2026-10-13T17:59:52.721658+08:00; all computational outputs retained; no model computation rerun.
