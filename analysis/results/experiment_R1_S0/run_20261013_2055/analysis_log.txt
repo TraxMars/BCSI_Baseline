@@ -1,0 +1,58 @@
+2026-10-13 20:52:32,626 Hashing all pre-existing project files and checkpoints
+2026-10-13 20:52:43,280 Image-only feature cache 06SR5RBREL16DQ6M8LWS x3=(1, 64, 28, 28, 20)
+2026-10-13 20:52:43,605 Image-only feature cache 0RZDK210BSMWAA6467LU x3=(1, 64, 28, 28, 20)
+2026-10-13 20:52:43,818 Image-only feature cache 1D7CUD1955YZPGK8XHJX x3=(1, 64, 28, 28, 20)
+2026-10-13 20:52:44,243 Image-only feature cache 1GU15S0GJ6PFNARO469W x3=(1, 64, 28, 28, 20)
+2026-10-13 20:52:44,446 Image-only feature cache 1MHBF3G6DCPWHSKG7XCP x3=(1, 64, 28, 28, 20)
+2026-10-13 20:52:44,776 Image-only feature cache 23X6SY44VT9KFHR7S7OC x3=(1, 64, 28, 28, 20)
+2026-10-13 20:52:44,990 Image-only feature cache 2XL5HSFSE93RMOJDRGR4 x3=(1, 64, 28, 28, 20)
+2026-10-13 20:52:45,433 Image-only feature cache 38CWS74285MFGZZXR09Z x3=(1, 64, 28, 28, 20)
+2026-10-13 20:52:56,071 Fold 0 receiver=06SR5RBREL16DQ6M8LWS boundary sources=7; per-case counts={'0RZDK210BSMWAA6467LU': {'boundary_fg': 3818, 'boundary_bg': 6131, 'nonboundary_fg': 3997, 'nonboundary_bg': 31661}, '1D7CUD1955YZPGK8XHJX': {'boundary_fg': 3433, 'boundary_bg': 5327, 'nonboundary_fg': 2750, 'nonboundary_bg': 34219}, '1GU15S0GJ6PFNARO469W': {'boundary_fg': 3454, 'boundary_bg': 5622, 'nonboundary_fg': 2315, 'nonboundary_bg': 34285}, '1MHBF3G6DCPWHSKG7XCP': {'boundary_fg': 3477, 'boundary_bg': 5692, 'nonboundary_fg': 2313, 'nonboundary_bg': 34219}, '23X6SY44VT9KFHR7S7OC': {'boundary_fg': 3612, 'boundary_bg': 5364, 'nonboundary_fg': 3488, 'nonboundary_bg': 33252}, '2XL5HSFSE93RMOJDRGR4': {'boundary_fg': 3667, 'boundary_bg': 5258, 'nonboundary_fg': 3433, 'nonboundary_bg': 33347}, '38CWS74285MFGZZXR09Z': {'boundary_fg': 3379, 'boundary_bg': 5633, 'nonboundary_fg': 2873, 'nonboundary_bg': 33855}}
+2026-10-13 21:00:29,745 Fold 0 patch 0 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 21:07:54,072 Fold 0 patch 1 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 21:15:14,985 Fold 0 patch 2 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 21:15:31,543 Fold 0 sealed 1071 predictions; now Phase B GT evaluation
+2026-10-13 21:19:48,400 Fold 0 finished
+2026-10-13 21:19:53,721 Fold 1 receiver=0RZDK210BSMWAA6467LU boundary sources=7; per-case counts={'06SR5RBREL16DQ6M8LWS': {'boundary_fg': 3386, 'boundary_bg': 5891, 'nonboundary_fg': 2407, 'nonboundary_bg': 33978}, '1D7CUD1955YZPGK8XHJX': {'boundary_fg': 3433, 'boundary_bg': 5327, 'nonboundary_fg': 2750, 'nonboundary_bg': 34219}, '1GU15S0GJ6PFNARO469W': {'boundary_fg': 3454, 'boundary_bg': 5622, 'nonboundary_fg': 2315, 'nonboundary_bg': 34285}, '1MHBF3G6DCPWHSKG7XCP': {'boundary_fg': 3477, 'boundary_bg': 5692, 'nonboundary_fg': 2313, 'nonboundary_bg': 34219}, '23X6SY44VT9KFHR7S7OC': {'boundary_fg': 3612, 'boundary_bg': 5364, 'nonboundary_fg': 3488, 'nonboundary_bg': 33252}, '2XL5HSFSE93RMOJDRGR4': {'boundary_fg': 3667, 'boundary_bg': 5258, 'nonboundary_fg': 3433, 'nonboundary_bg': 33347}, '38CWS74285MFGZZXR09Z': {'boundary_fg': 3379, 'boundary_bg': 5633, 'nonboundary_fg': 2873, 'nonboundary_bg': 33855}}
+2026-10-13 21:27:17,771 Fold 1 patch 0 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 21:35:09,473 Fold 1 patch 1 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 21:42:05,945 Fold 1 patch 2 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 21:42:16,234 Fold 1 sealed 1071 predictions; now Phase B GT evaluation
+2026-10-13 21:46:34,366 Fold 1 finished
+2026-10-13 21:46:39,569 Fold 2 receiver=1D7CUD1955YZPGK8XHJX boundary sources=7; per-case counts={'06SR5RBREL16DQ6M8LWS': {'boundary_fg': 3386, 'boundary_bg': 5891, 'nonboundary_fg': 2407, 'nonboundary_bg': 33978}, '0RZDK210BSMWAA6467LU': {'boundary_fg': 3818, 'boundary_bg': 6131, 'nonboundary_fg': 3997, 'nonboundary_bg': 31661}, '1GU15S0GJ6PFNARO469W': {'boundary_fg': 3454, 'boundary_bg': 5622, 'nonboundary_fg': 2315, 'nonboundary_bg': 34285}, '1MHBF3G6DCPWHSKG7XCP': {'boundary_fg': 3477, 'boundary_bg': 5692, 'nonboundary_fg': 2313, 'nonboundary_bg': 34219}, '23X6SY44VT9KFHR7S7OC': {'boundary_fg': 3612, 'boundary_bg': 5364, 'nonboundary_fg': 3488, 'nonboundary_bg': 33252}, '2XL5HSFSE93RMOJDRGR4': {'boundary_fg': 3667, 'boundary_bg': 5258, 'nonboundary_fg': 3433, 'nonboundary_bg': 33347}, '38CWS74285MFGZZXR09Z': {'boundary_fg': 3379, 'boundary_bg': 5633, 'nonboundary_fg': 2873, 'nonboundary_bg': 33855}}
+2026-10-13 21:53:21,664 Fold 2 patch 0 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 22:01:08,194 Fold 2 patch 1 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 22:08:26,687 Fold 2 patch 2 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 22:08:43,323 Fold 2 sealed 1071 predictions; now Phase B GT evaluation
+2026-10-13 22:13:07,430 Fold 2 finished
+2026-10-13 22:13:12,745 Fold 3 receiver=1GU15S0GJ6PFNARO469W boundary sources=7; per-case counts={'06SR5RBREL16DQ6M8LWS': {'boundary_fg': 3386, 'boundary_bg': 5891, 'nonboundary_fg': 2407, 'nonboundary_bg': 33978}, '0RZDK210BSMWAA6467LU': {'boundary_fg': 3818, 'boundary_bg': 6131, 'nonboundary_fg': 3997, 'nonboundary_bg': 31661}, '1D7CUD1955YZPGK8XHJX': {'boundary_fg': 3433, 'boundary_bg': 5327, 'nonboundary_fg': 2750, 'nonboundary_bg': 34219}, '1MHBF3G6DCPWHSKG7XCP': {'boundary_fg': 3477, 'boundary_bg': 5692, 'nonboundary_fg': 2313, 'nonboundary_bg': 34219}, '23X6SY44VT9KFHR7S7OC': {'boundary_fg': 3612, 'boundary_bg': 5364, 'nonboundary_fg': 3488, 'nonboundary_bg': 33252}, '2XL5HSFSE93RMOJDRGR4': {'boundary_fg': 3667, 'boundary_bg': 5258, 'nonboundary_fg': 3433, 'nonboundary_bg': 33347}, '38CWS74285MFGZZXR09Z': {'boundary_fg': 3379, 'boundary_bg': 5633, 'nonboundary_fg': 2873, 'nonboundary_bg': 33855}}
+2026-10-13 22:20:46,360 Fold 3 patch 0 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 22:28:20,503 Fold 3 patch 1 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 22:35:43,469 Fold 3 patch 2 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 22:35:49,838 Fold 3 sealed 1071 predictions; now Phase B GT evaluation
+2026-10-13 22:40:00,131 Fold 3 finished
+2026-10-13 22:40:05,102 Fold 4 receiver=1MHBF3G6DCPWHSKG7XCP boundary sources=7; per-case counts={'06SR5RBREL16DQ6M8LWS': {'boundary_fg': 3386, 'boundary_bg': 5891, 'nonboundary_fg': 2407, 'nonboundary_bg': 33978}, '0RZDK210BSMWAA6467LU': {'boundary_fg': 3818, 'boundary_bg': 6131, 'nonboundary_fg': 3997, 'nonboundary_bg': 31661}, '1D7CUD1955YZPGK8XHJX': {'boundary_fg': 3433, 'boundary_bg': 5327, 'nonboundary_fg': 2750, 'nonboundary_bg': 34219}, '1GU15S0GJ6PFNARO469W': {'boundary_fg': 3454, 'boundary_bg': 5622, 'nonboundary_fg': 2315, 'nonboundary_bg': 34285}, '23X6SY44VT9KFHR7S7OC': {'boundary_fg': 3612, 'boundary_bg': 5364, 'nonboundary_fg': 3488, 'nonboundary_bg': 33252}, '2XL5HSFSE93RMOJDRGR4': {'boundary_fg': 3667, 'boundary_bg': 5258, 'nonboundary_fg': 3433, 'nonboundary_bg': 33347}, '38CWS74285MFGZZXR09Z': {'boundary_fg': 3379, 'boundary_bg': 5633, 'nonboundary_fg': 2873, 'nonboundary_bg': 33855}}
+2026-10-13 22:47:03,510 Fold 4 patch 0 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 22:54:08,583 Fold 4 patch 1 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 23:01:09,000 Fold 4 patch 2 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 23:01:33,672 Fold 4 sealed 1071 predictions; now Phase B GT evaluation
+2026-10-13 23:05:38,404 Fold 4 finished
+2026-10-13 23:05:44,284 Fold 5 receiver=23X6SY44VT9KFHR7S7OC boundary sources=7; per-case counts={'06SR5RBREL16DQ6M8LWS': {'boundary_fg': 3386, 'boundary_bg': 5891, 'nonboundary_fg': 2407, 'nonboundary_bg': 33978}, '0RZDK210BSMWAA6467LU': {'boundary_fg': 3818, 'boundary_bg': 6131, 'nonboundary_fg': 3997, 'nonboundary_bg': 31661}, '1D7CUD1955YZPGK8XHJX': {'boundary_fg': 3433, 'boundary_bg': 5327, 'nonboundary_fg': 2750, 'nonboundary_bg': 34219}, '1GU15S0GJ6PFNARO469W': {'boundary_fg': 3454, 'boundary_bg': 5622, 'nonboundary_fg': 2315, 'nonboundary_bg': 34285}, '1MHBF3G6DCPWHSKG7XCP': {'boundary_fg': 3477, 'boundary_bg': 5692, 'nonboundary_fg': 2313, 'nonboundary_bg': 34219}, '2XL5HSFSE93RMOJDRGR4': {'boundary_fg': 3667, 'boundary_bg': 5258, 'nonboundary_fg': 3433, 'nonboundary_bg': 33347}, '38CWS74285MFGZZXR09Z': {'boundary_fg': 3379, 'boundary_bg': 5633, 'nonboundary_fg': 2873, 'nonboundary_bg': 33855}}
+2026-10-13 23:12:36,932 Fold 5 patch 0 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 23:19:55,133 Fold 5 patch 1 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 23:27:30,512 Fold 5 patch 2 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 23:28:23,185 Fold 5 sealed 1071 predictions; now Phase B GT evaluation
+2026-10-13 23:32:46,940 Fold 5 finished
+2026-10-13 23:32:52,794 Fold 6 receiver=2XL5HSFSE93RMOJDRGR4 boundary sources=7; per-case counts={'06SR5RBREL16DQ6M8LWS': {'boundary_fg': 3386, 'boundary_bg': 5891, 'nonboundary_fg': 2407, 'nonboundary_bg': 33978}, '0RZDK210BSMWAA6467LU': {'boundary_fg': 3818, 'boundary_bg': 6131, 'nonboundary_fg': 3997, 'nonboundary_bg': 31661}, '1D7CUD1955YZPGK8XHJX': {'boundary_fg': 3433, 'boundary_bg': 5327, 'nonboundary_fg': 2750, 'nonboundary_bg': 34219}, '1GU15S0GJ6PFNARO469W': {'boundary_fg': 3454, 'boundary_bg': 5622, 'nonboundary_fg': 2315, 'nonboundary_bg': 34285}, '1MHBF3G6DCPWHSKG7XCP': {'boundary_fg': 3477, 'boundary_bg': 5692, 'nonboundary_fg': 2313, 'nonboundary_bg': 34219}, '23X6SY44VT9KFHR7S7OC': {'boundary_fg': 3612, 'boundary_bg': 5364, 'nonboundary_fg': 3488, 'nonboundary_bg': 33252}, '38CWS74285MFGZZXR09Z': {'boundary_fg': 3379, 'boundary_bg': 5633, 'nonboundary_fg': 2873, 'nonboundary_bg': 33855}}
+2026-10-13 23:40:21,731 Fold 6 patch 0 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 23:47:24,657 Fold 6 patch 1 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 23:54:04,808 Fold 6 patch 2 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-13 23:54:52,715 Fold 6 sealed 1071 predictions; now Phase B GT evaluation
+2026-10-13 23:59:10,202 Fold 6 finished
+2026-10-13 23:59:16,041 Fold 7 receiver=38CWS74285MFGZZXR09Z boundary sources=7; per-case counts={'06SR5RBREL16DQ6M8LWS': {'boundary_fg': 3386, 'boundary_bg': 5891, 'nonboundary_fg': 2407, 'nonboundary_bg': 33978}, '0RZDK210BSMWAA6467LU': {'boundary_fg': 3818, 'boundary_bg': 6131, 'nonboundary_fg': 3997, 'nonboundary_bg': 31661}, '1D7CUD1955YZPGK8XHJX': {'boundary_fg': 3433, 'boundary_bg': 5327, 'nonboundary_fg': 2750, 'nonboundary_bg': 34219}, '1GU15S0GJ6PFNARO469W': {'boundary_fg': 3454, 'boundary_bg': 5622, 'nonboundary_fg': 2315, 'nonboundary_bg': 34285}, '1MHBF3G6DCPWHSKG7XCP': {'boundary_fg': 3477, 'boundary_bg': 5692, 'nonboundary_fg': 2313, 'nonboundary_bg': 34219}, '23X6SY44VT9KFHR7S7OC': {'boundary_fg': 3612, 'boundary_bg': 5364, 'nonboundary_fg': 3488, 'nonboundary_bg': 33252}, '2XL5HSFSE93RMOJDRGR4': {'boundary_fg': 3667, 'boundary_bg': 5258, 'nonboundary_fg': 3433, 'nonboundary_bg': 33347}}
+2026-10-14 00:06:47,090 Fold 7 patch 0 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-14 00:14:22,680 Fold 7 patch 1 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-14 00:21:37,678 Fold 7 patch 2 Phase A complete: 364 strategies; Receiver GT still locked
+2026-10-14 00:22:22,319 Fold 7 sealed 1071 predictions; now Phase B GT evaluation
+2026-10-14 00:26:42,452 Fold 7 finished
+2026-10-14 00:27:38,378 complete output=/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_2055

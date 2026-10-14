@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-10-13T13:10:21.946129+00:00",
+  "scope": "configuration and source sealed before first Receiver GT evaluation; some Phase-A predictions already generated",
+  "seed": 42,
+  "random_repetitions": 20,
+  "checkpoint": {
+    "name": "baseline_ema",
+    "path": "/home/duanxuelong/BCSI_Baseline_BGCE/Results/seed_42/result_LA_10l/fold_0/Model_iter_27000.pth",
+    "sha256": "67ac4bda6f010bc28602c86cd73a45348c3a17cc081da6016f47217f9987e86c",
+    "type": "EMA plain state_dict"
+  },
+  "artifacts": [
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_2055/execution_provenance/execution_source.py",
+      "sha256": "daaeb880f4dda1e9109e1848c6170777cb82bf67f1a6310bceec9d42fb82e4df"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_2055/execution_provenance/execution_tests.py",
+      "sha256": "b267d68e022cf8a98c181f90ebda49b8630b2993c5bc36bae2529431633ac689"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_2055/execution_provenance/initial_metadata.json",
+      "sha256": "96b7b27c13fd11b53a53487ff95b166108dcc07fb35adfdbd70d078cdafc9ba8"
+    }
+  ],
+  "receiver_GT_evaluation_not_yet_unlocked": true
+}

@@ -1,0 +1,298 @@
+{
+  "fold": 0,
+  "receiver_case": "06SR5RBREL16DQ6M8LWS",
+  "donor_cases": [
+    "0RZDK210BSMWAA6467LU",
+    "1D7CUD1955YZPGK8XHJX",
+    "1GU15S0GJ6PFNARO469W",
+    "1MHBF3G6DCPWHSKG7XCP",
+    "23X6SY44VT9KFHR7S7OC",
+    "2XL5HSFSE93RMOJDRGR4",
+    "38CWS74285MFGZZXR09Z"
+  ],
+  "artifacts": [
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/donor_prototypes.npz",
+      "sha256": "87ac91b66f42f16dff7fcf698ff79e7ebbb7d47ee1c3252c01d5d470b849908b",
+      "kind": "donor_library"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/no_correction.npz",
+      "sha256": "fbd18fa74439f0967d4629496d74e03199f0b86400ba65346abc1010fd4292fe",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/matching_maps.npz",
+      "sha256": "8f0256d855b9a45d85733159c1a412bb7dd7e9c432391e669e4d18249ef8c350",
+      "kind": "image_only_maps"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_true_boundary_a0p02_rsingle.npz",
+      "sha256": "f3b27ddb62291e3a0a0feebe2e1fb99e2024ef0ae4351b26044b81bde05f265f",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_opposite_match_a0p02_rsingle.npz",
+      "sha256": "4ef42aa5af99706219e724a3da967ddb73b05b0086bf63cd4c25e79b4e631bcd",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_opposite_match_energy_matched_a0p02_rsingle.npz",
+      "sha256": "c3e944c16183e87f6ae8441d490e76dab7413163451617c2083b916b39e46a35",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_nonboundary_a0p02_rsingle.npz",
+      "sha256": "1bf94994e3340d8062a2ad6797217757724e38b5b7a0dbb7b3aad422db2182aa",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_nonboundary_energy_matched_a0p02_rsingle.npz",
+      "sha256": "6d95fd9b345c857e90027216b7baf5a7f51dd9936658faaeda4d04764e3dadb7",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_boundary_count_matched_a0p02_rsingle.npz",
+      "sha256": "f8e45fd4901e6b57be958fad70936dba45007c6266294a690eaced6a38957a19",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_boundary_count_matched_energy_matched_a0p02_rsingle.npz",
+      "sha256": "4d15df39c9742fa304be5bbd14791b252199dc719b85ad5c10b79274adb45640",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_self_a0p02_rsingle.npz",
+      "sha256": "27c288d702a677ad785b48f1da1bf1cd0603a005f1903b22ef09018c07ac1176",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_self_energy_matched_a0p02_rsingle.npz",
+      "sha256": "24162edca5d08bd07f6ef35e4ae563b48071030ef3aa9a26ae779742a1f48734",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_random_mask_a0p02_r0.npz",
+      "sha256": "a8e465b8deb3b9e8789d919d64f4fc59f528f684f29ed4bcdb6685321f17b36c",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_random_mask_energy_matched_a0p02_r0.npz",
+      "sha256": "30dcf409d0fd37c82cc6b8ac6eae58bdb9f1eb4dbec32e6f245354830767c25b",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_random_match_a0p02_r0.npz",
+      "sha256": "31acaa0086229469a1da0766f27fdf6d95d7263410578bf157ad833db1eaf047",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_random_match_energy_matched_a0p02_r0.npz",
+      "sha256": "70b66d4f118d8a6414c83a535342fea3aeac8830b0320420225e8a992854ddba",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_true_boundary_a0p05_rsingle.npz",
+      "sha256": "0b31d0e544bdc446797a0938896649e50844947f29c2318d22b0fa2bb5262227",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_opposite_match_a0p05_rsingle.npz",
+      "sha256": "917cd6d222d871b0630aa68eac67674bbc4c309404ef1b8a6b6cf65d14224cbd",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_opposite_match_energy_matched_a0p05_rsingle.npz",
+      "sha256": "1357a84f3f912583ec4c46dd2a99cdb71c832fb4a8b4cbf9689c0d1e81f4c712",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_nonboundary_a0p05_rsingle.npz",
+      "sha256": "7fac5df12d9bdd24a4e8748b9f662034ec6558eff01daf57af1f390827899b81",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_nonboundary_energy_matched_a0p05_rsingle.npz",
+      "sha256": "645ecba1e565117ec68613f4bfd0504372112d9f3b943a9f25796dad585052b1",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_boundary_count_matched_a0p05_rsingle.npz",
+      "sha256": "dd5526a3a160df583a8410c8deabe9f33c76c48f191c2508b7628ca603c7e63d",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_boundary_count_matched_energy_matched_a0p05_rsingle.npz",
+      "sha256": "052a72f285ceb29ef14a4f0bfea2e0c4b3617d4a0ad8e70a4ce84806baa01c83",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_self_a0p05_rsingle.npz",
+      "sha256": "5b32fee24e72b48e8af2774ab87c3f07597949e315aae3fd7f99c45a939ef851",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_self_energy_matched_a0p05_rsingle.npz",
+      "sha256": "c3a77a63246016d1cbacf7e7040be689e23fb9525c8c206d6b8c4513af608ffc",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_random_mask_a0p05_r0.npz",
+      "sha256": "8cc23c8c965fb7ce6212f27c381b61f7f71999ebee1524eb430b33321da73e74",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_random_mask_energy_matched_a0p05_r0.npz",
+      "sha256": "c14a705128797ae496f1ae907d7417c324682b52dcc3cfecddf8143edbde4811",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_random_match_a0p05_r0.npz",
+      "sha256": "30db6eba1752aa0cb8da6f3536733b24a116015303fa645d0ecf0182c56f1afc",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/max_random_match_energy_matched_a0p05_r0.npz",
+      "sha256": "6b116c3e87ff181d1b2562ebd389a254113c2c16ee5b28164fac23d2a9e4201f",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_true_boundary_a0p02_rsingle.npz",
+      "sha256": "2e7ebe9ff9fde5dd61a5501ae07da234d89b08ae28d93ab82f8e24b6b25009bd",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_opposite_match_a0p02_rsingle.npz",
+      "sha256": "f0e3089af431924fa689c2d4da788b9823f96450ee2708f498eb5a5f50f7578b",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_opposite_match_energy_matched_a0p02_rsingle.npz",
+      "sha256": "764d6e8fc946d986973b9060ed119ad6670d2d1ac3f8f6a14e55201dec90b3f8",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_nonboundary_a0p02_rsingle.npz",
+      "sha256": "abb8fc8f1bf10fb7488d457eac074ec21aeb8c5989339ba86dc00c341be6977f",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_nonboundary_energy_matched_a0p02_rsingle.npz",
+      "sha256": "05c9a2ac93a1cec28df2f30246fbb37cbcb75ea4a257580861c1bdaf8116802a",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_boundary_count_matched_a0p02_rsingle.npz",
+      "sha256": "357f37becce84fe7216660b1c7dc90fa2369359ddee11a0722365cfd26d733da",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_boundary_count_matched_energy_matched_a0p02_rsingle.npz",
+      "sha256": "ab50b9e30e3146552d5f5b0cd941f5375b8ea860c6b53f05b876ce4fa403852a",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_self_a0p02_rsingle.npz",
+      "sha256": "04cd5f648ec02bc70ba1b26ece88d7339e49a8d3c03543360553a0e819aa0fcf",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_self_energy_matched_a0p02_rsingle.npz",
+      "sha256": "d6f57bcffdc424d343d5a6da06653dfd7f0ede84df45cda600e44154aa708337",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_random_mask_a0p02_r0.npz",
+      "sha256": "a8e465b8deb3b9e8789d919d64f4fc59f528f684f29ed4bcdb6685321f17b36c",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_random_mask_energy_matched_a0p02_r0.npz",
+      "sha256": "8a90f0ad45ba04a26177aa88771c2987df6f1284ccb1d241b6ba6e564130228c",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_random_match_a0p02_r0.npz",
+      "sha256": "8fba31b12df8a8636a244cfed09797babe364f9b81985c0ab9262f2ae5e6e044",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_random_match_energy_matched_a0p02_r0.npz",
+      "sha256": "301f34f2d04fd236f7d5f089d374c7dce12f9ab63f5e742bb5e2a619605b699a",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_true_boundary_a0p05_rsingle.npz",
+      "sha256": "164512f3ffed9344353f1284dd6036dbf9cde19c532cb7b1fe2f8619165216e6",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_opposite_match_a0p05_rsingle.npz",
+      "sha256": "4ad258b15ec573617db84d8ab6fcbd72d09e4d7bb8fd8632544d34d6eceff061",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_opposite_match_energy_matched_a0p05_rsingle.npz",
+      "sha256": "af5fce8a28bddc6d73f9c04189f2328e931fa0bd6a8e201f4c4f52361a6fb2b0",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_nonboundary_a0p05_rsingle.npz",
+      "sha256": "89ac5dda2ece74ebe15b63771977fd172dcd72e2c5e0604bea35566ae3df8b0b",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_nonboundary_energy_matched_a0p05_rsingle.npz",
+      "sha256": "d671727690fcbfffc7460f0d167bce49ceba461065086c909eb0ecdef5cf360b",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_boundary_count_matched_a0p05_rsingle.npz",
+      "sha256": "57cad2a78c3d4f08e4b280719c988473e67d3eafa665419680bd396d2e480dd6",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_boundary_count_matched_energy_matched_a0p05_rsingle.npz",
+      "sha256": "8b25f51c9d74521b49dfe664016b159f3d3735acdde627be07b71cd887a91b54",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_self_a0p05_rsingle.npz",
+      "sha256": "decb3dd0ee282fae64ebab441828d8c590aa94836749cea7fac8b51982485c8e",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_self_energy_matched_a0p05_rsingle.npz",
+      "sha256": "56751b62785b59c485a13207dd9b3090c2b4f513ffd1c0f60371853f6a3e731d",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_random_mask_a0p05_r0.npz",
+      "sha256": "8cc23c8c965fb7ce6212f27c381b61f7f71999ebee1524eb430b33321da73e74",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_random_mask_energy_matched_a0p05_r0.npz",
+      "sha256": "d95262a297f4df1b580dc69cd4cb2a068fe8ff61a9715a1cef2cd8d510774f5b",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_random_match_a0p05_r0.npz",
+      "sha256": "ee7f7c24e1ed8549dd9e8d22f5e521423a32d57fffd9d3febcf03d972567642a",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA/06SR5RBREL16DQ6M8LWS_p0/trilinear_random_match_energy_matched_a0p05_r0.npz",
+      "sha256": "02d7eb18c17f7af4e3d260aaf8411c7ec39887ad009d9018aede70d94fd9c34b",
+      "kind": "prediction"
+    },
+    {
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA_plan.json",
+      "sha256": "62b5e5214b2c84061ffc88b0e81c3fa387749db1ad8340f0a7d8d0819dd40588",
+      "kind": "predefined_strategy_plan"
+    }
+  ],
+  "prediction_count": 53,
+  "receiver_GT_read": false,
+  "sealed_utc": "2026-10-13T12:49:26.866231+00:00"
+}

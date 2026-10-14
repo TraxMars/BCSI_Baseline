@@ -1,0 +1,528 @@
+{
+  "weights_and_buffers_exactly_unchanged": true,
+  "state_tensor_count": 205,
+  "all_parameters_frozen": true,
+  "no_model_parameter_gradients": true,
+  "all_modules_eval": true,
+  "protected_file_sha256_unchanged": true,
+  "protected_file_count": 673,
+  "all_receiver_GT_reads_after_fold_seal": true,
+  "no_test_GT_access": true,
+  "no_training_or_backward_or_optimizer_or_EMA": true,
+  "no_BGS_gain": true,
+  "exact_historical_risk_and_masks": true,
+  "forward_replay_exact": true,
+  "other_encoder_features_unchanged": true,
+  "label_swap_invariant": true,
+  "opposite_match_authorized": true,
+  "random_repetitions_all_saved": true,
+  "no_nonfinite_outputs": true,
+  "bootstrap_unit": "case",
+  "all_8_cases_24patches": true,
+  "patch_checks": [
+    {
+      "case_id": "06SR5RBREL16DQ6M8LWS",
+      "patch_index": 0,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1203,
+        2292
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "06SR5RBREL16DQ6M8LWS",
+      "patch_index": 1,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1155,
+        2153
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "06SR5RBREL16DQ6M8LWS",
+      "patch_index": 2,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1079,
+        2050
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "0RZDK210BSMWAA6467LU",
+      "patch_index": 0,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1383,
+        2134
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "0RZDK210BSMWAA6467LU",
+      "patch_index": 1,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1449,
+        2470
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "0RZDK210BSMWAA6467LU",
+      "patch_index": 2,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        964,
+        1699
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "1D7CUD1955YZPGK8XHJX",
+      "patch_index": 0,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        625,
+        1240
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "1D7CUD1955YZPGK8XHJX",
+      "patch_index": 1,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1491,
+        2232
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "1D7CUD1955YZPGK8XHJX",
+      "patch_index": 2,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1247,
+        1679
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "1GU15S0GJ6PFNARO469W",
+      "patch_index": 0,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1158,
+        1974
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "1GU15S0GJ6PFNARO469W",
+      "patch_index": 1,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1117,
+        1971
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "1GU15S0GJ6PFNARO469W",
+      "patch_index": 2,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1092,
+        1904
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "1MHBF3G6DCPWHSKG7XCP",
+      "patch_index": 0,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1138,
+        1904
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "1MHBF3G6DCPWHSKG7XCP",
+      "patch_index": 1,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1115,
+        1964
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "1MHBF3G6DCPWHSKG7XCP",
+      "patch_index": 2,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1097,
+        1806
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "23X6SY44VT9KFHR7S7OC",
+      "patch_index": 0,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        936,
+        1698
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "23X6SY44VT9KFHR7S7OC",
+      "patch_index": 1,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1388,
+        1924
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "23X6SY44VT9KFHR7S7OC",
+      "patch_index": 2,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1205,
+        2039
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "2XL5HSFSE93RMOJDRGR4",
+      "patch_index": 0,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1354,
+        2084
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "2XL5HSFSE93RMOJDRGR4",
+      "patch_index": 1,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        897,
+        1661
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "2XL5HSFSE93RMOJDRGR4",
+      "patch_index": 2,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1345,
+        1679
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "38CWS74285MFGZZXR09Z",
+      "patch_index": 0,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1172,
+        1918
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "38CWS74285MFGZZXR09Z",
+      "patch_index": 1,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1272,
+        2132
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "38CWS74285MFGZZXR09Z",
+      "patch_index": 2,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        904,
+        1615
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    }
+  ]
+}

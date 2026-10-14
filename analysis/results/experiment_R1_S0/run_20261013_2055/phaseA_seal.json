@@ -1,0 +1,46 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_2055/fold_0/phaseA_seal.json",
+      "sha256": "6a140032520761ee348d2a62fd1478f930963cfb4544653aed8266eec23e6a56"
+    },
+    {
+      "fold": 1,
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_2055/fold_1/phaseA_seal.json",
+      "sha256": "9d603916c9dd98319626f03ce26f57f1ac2c642d223a64481a750c3742fec620"
+    },
+    {
+      "fold": 2,
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_2055/fold_2/phaseA_seal.json",
+      "sha256": "9de56ff9a4ec3579fd8542536f42ced5f8e3c7d69d557446485a7b8bca661e61"
+    },
+    {
+      "fold": 3,
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_2055/fold_3/phaseA_seal.json",
+      "sha256": "b5c41a32a793f93cf8be6d36a56237dc5bbcc721fedf74cc68568d117e31981e"
+    },
+    {
+      "fold": 4,
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_2055/fold_4/phaseA_seal.json",
+      "sha256": "72def297b84a179ad2702cb8b1840a2d126739d72e4566a1a5c0df08aadfd4b1"
+    },
+    {
+      "fold": 5,
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_2055/fold_5/phaseA_seal.json",
+      "sha256": "bf20baf2b57a056bab55cc7ee49ac4533980edcfba854c416dfe990990fd6cae"
+    },
+    {
+      "fold": 6,
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_2055/fold_6/phaseA_seal.json",
+      "sha256": "f4f9cdb67b2ba90ae4573af024a8376350c77e90711b61314c59c66aec66ae03"
+    },
+    {
+      "fold": 7,
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_2055/fold_7/phaseA_seal.json",
+      "sha256": "476f0af27e558a559e0c612cd270c230f068024a2a1e485b276a7d681f6b8ae8"
+    }
+  ],
+  "scope": "per-fold: all3patch/allstrategies sealed before that Receiver GT",
+  "mode": "full"
+}

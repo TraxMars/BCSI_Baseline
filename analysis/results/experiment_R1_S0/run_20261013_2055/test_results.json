@@ -1,0 +1,10 @@
+{
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "test_case_statistics_not_patch_or_random_independence (__main__.R1Tests) ... ok\ntest_donor_equal_case_weight_and_receiver_exclusion (__main__.R1Tests) ... ok\ntest_existing_output_rejected (__main__.R1Tests) ... ok\ntest_gain_correction_harm_sign_and_loss_consistency (__main__.R1Tests) ... ok\ntest_gt_to_grid_purity_and_boundary_geometry (__main__.R1Tests) ... ok\ntest_historical_top2_tie_rule_and_flip_inverse (__main__.R1Tests) ... ok\ntest_invalid_or_tied_match_allows_no_correction (__main__.R1Tests) ... ok\ntest_lossless_prediction_storage (__main__.R1Tests) ... ok\ntest_matching_raw_space_label_swap_and_opposite (__main__.R1Tests) ... ok\ntest_original_forward_replay_frozen_and_alpha_zero (__main__.R1Tests) ... ok\ntest_phaseA_api_does_not_accept_receiver_labels (__main__.R1Tests) ... ok\ntest_random_reproducibility_independence_and_budget (__main__.R1Tests) ... ok\ntest_receiver_GT_gate_and_seal (__main__.R1Tests) ... ok\ntest_residual_shape_mask_cap_and_energy_fairness (__main__.R1Tests) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.189s\n\nOK\n",
+  "command": [
+    "/home/duanxuelong/.conda/envs/SSL/bin/python",
+    "-B",
+    "analysis/test_experiment_R1_S0.py"
+  ]
+}

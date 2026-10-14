@@ -1,0 +1,2 @@
+executed,reason,gate_passed
+False,完整64维未满足预定收益与副作用门槛；按协议停止TopK复杂化，不把D0-A重要性等同可迁移性。,False

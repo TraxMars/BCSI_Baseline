@@ -1,0 +1,66 @@
+{
+  "weights_and_buffers_exactly_unchanged": true,
+  "state_tensor_count": 205,
+  "all_parameters_frozen": true,
+  "no_model_parameter_gradients": true,
+  "all_modules_eval": true,
+  "protected_file_sha256_unchanged": true,
+  "protected_file_count": 550,
+  "all_receiver_GT_reads_after_fold_seal": true,
+  "no_test_GT_access": true,
+  "no_training_or_backward_or_optimizer_or_EMA": true,
+  "no_BGS_gain": true,
+  "exact_historical_risk_and_masks": true,
+  "forward_replay_exact": true,
+  "other_encoder_features_unchanged": true,
+  "label_swap_invariant": true,
+  "opposite_match_authorized": true,
+  "random_repetitions_all_saved": true,
+  "no_nonfinite_outputs": true,
+  "bootstrap_unit": "case",
+  "all_8_cases_24patches": false,
+  "patch_checks": [
+    {
+      "case_id": "06SR5RBREL16DQ6M8LWS",
+      "patch_index": 0,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1203,
+        2292
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    },
+    {
+      "case_id": "1GU15S0GJ6PFNARO469W",
+      "patch_index": 0,
+      "forward_replay_exact": true,
+      "all_other_features_unchanged": true,
+      "historical_probability_and_D_and_masks_exact": true,
+      "x3_shape": [
+        1,
+        64,
+        28,
+        28,
+        20
+      ],
+      "label_swap_invariant": true,
+      "self_candidate_counts": [
+        1158,
+        1974
+      ],
+      "nonfinite_outputs": false,
+      "cpu_gpu_probability_max_difference": 1.1920928955078125e-07
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_0/phaseA_seal.json",
+      "sha256": "230e9ba95398a63fc220c58b8f2334a48712e4acae8695933eb813672bb63418"
+    },
+    {
+      "fold": 3,
+      "path": "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_S0/run_20261013_engineering_smoke/fold_3/phaseA_seal.json",
+      "sha256": "57f7a5ad3a81cf8d4ee3e4eb871c99a8873dc17e1dd3dd431c884a3eb34fb26c"
+    }
+  ],
+  "scope": "per-fold: all3patch/allstrategies sealed before that Receiver GT",
+  "mode": "smoke"
+}
