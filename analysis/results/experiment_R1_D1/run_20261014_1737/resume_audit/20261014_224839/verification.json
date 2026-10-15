@@ -1,0 +1,16 @@
+{
+  "status": "blocked_on_numerical_protocol_confirmation",
+  "created_utc": "2026-10-14T09:57:18.612183+00:00",
+  "unit_tests_passed": 12,
+  "phaseA_complete": true,
+  "candidate_count": 768,
+  "post_failure_artifacts_verified": 805,
+  "artifact_sha256_mismatches": 0,
+  "historical_logit_max_difference": 0.0,
+  "original_TF32_finite_difference_passed": false,
+  "strict_fp32_first_patch_primary_t_check_passed": true,
+  "all_fixed_patches_finite_difference_verified": false,
+  "full_analysis_complete": false,
+  "formal_final_model_state_check_completed": false,
+  "formal_final_protected_manifest_check_completed": false
+}

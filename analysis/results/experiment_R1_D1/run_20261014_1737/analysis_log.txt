@@ -1,0 +1,96 @@
+2026-10-14 17:37:29,403 Read-only SHA256 inventory of protected existing files
+2026-10-14 17:39:39,585 Phase A fold=0 patch=0 32 candidates complete; Receiver GT locked
+2026-10-14 17:40:01,584 Phase A fold=0 patch=1 32 candidates complete; Receiver GT locked
+2026-10-14 17:40:23,574 Phase A fold=0 patch=2 32 candidates complete; Receiver GT locked
+2026-10-14 17:40:57,656 Phase A fold=1 patch=0 32 candidates complete; Receiver GT locked
+2026-10-14 17:41:19,866 Phase A fold=1 patch=1 32 candidates complete; Receiver GT locked
+2026-10-14 17:41:41,869 Phase A fold=1 patch=2 32 candidates complete; Receiver GT locked
+2026-10-14 17:42:12,956 Phase A fold=2 patch=0 32 candidates complete; Receiver GT locked
+2026-10-14 17:42:34,832 Phase A fold=2 patch=1 32 candidates complete; Receiver GT locked
+2026-10-14 17:42:57,383 Phase A fold=2 patch=2 32 candidates complete; Receiver GT locked
+2026-10-14 17:43:32,345 Phase A fold=3 patch=0 32 candidates complete; Receiver GT locked
+2026-10-14 17:43:54,461 Phase A fold=3 patch=1 32 candidates complete; Receiver GT locked
+2026-10-14 17:44:16,845 Phase A fold=3 patch=2 32 candidates complete; Receiver GT locked
+2026-10-14 17:44:51,513 Phase A fold=4 patch=0 32 candidates complete; Receiver GT locked
+2026-10-14 17:45:14,689 Phase A fold=4 patch=1 32 candidates complete; Receiver GT locked
+2026-10-14 17:45:36,962 Phase A fold=4 patch=2 32 candidates complete; Receiver GT locked
+2026-10-14 17:46:10,922 Phase A fold=5 patch=0 32 candidates complete; Receiver GT locked
+2026-10-14 17:46:34,164 Phase A fold=5 patch=1 32 candidates complete; Receiver GT locked
+2026-10-14 17:46:57,571 Phase A fold=5 patch=2 32 candidates complete; Receiver GT locked
+2026-10-14 17:47:33,515 Phase A fold=6 patch=0 32 candidates complete; Receiver GT locked
+2026-10-14 17:47:54,806 Phase A fold=6 patch=1 32 candidates complete; Receiver GT locked
+2026-10-14 17:48:17,704 Phase A fold=6 patch=2 32 candidates complete; Receiver GT locked
+2026-10-14 17:48:51,962 Phase A fold=7 patch=0 32 candidates complete; Receiver GT locked
+2026-10-14 17:49:15,206 Phase A fold=7 patch=1 32 candidates complete; Receiver GT locked
+2026-10-14 17:49:39,839 Phase A fold=7 patch=2 32 candidates complete; Receiver GT locked
+2026-10-14 17:51:44,749 Starting fixed Phase B stage AB
+2026-10-14 17:51:45,996 Oracle fold=0 patch=0 gradient L2=0.048538651 nonzero=0.830292
+2026-10-14 17:51:47,217 R1-D1 stopped; no scientific thresholds changed
+Traceback (most recent call last):
+  File "analysis/experiment_R1_D1.py", line 814, in main
+    phase_b_patch(model,reader,case,ci,patch,rr,pd,tables,hm,stage)
+  File "analysis/experiment_R1_D1.py", line 534, in phase_b_patch
+    if not fd[-1]['central_pass']: raise AssertionError('Fixed central finite difference failed; diagnose before interpreting results')
+AssertionError: Fixed central finite difference failed; diagnose before interpreting results
+2026-10-14 22:48:39,872 Authenticated Phase-B-only resume; original Phase A stays immutable
+2026-10-14 22:48:48,563 All original Phase-A artifacts authenticated; checking protected historical files
+2026-10-14 22:54:46,783 Precision preflight fold=0 method=true_boundary mode=historical_tf32 center(.01) error=0.0004165467 pass=False
+2026-10-14 22:54:46,929 Precision preflight fold=0 method=true_boundary mode=strict_fp32 center(.01) error=5.408273e-07 pass=True
+2026-10-14 22:54:47,061 Precision preflight fold=0 method=nonboundary mode=historical_tf32 center(.01) error=0.00072211804 pass=False
+2026-10-14 22:54:47,179 Precision preflight fold=0 method=nonboundary mode=strict_fp32 center(.01) error=9.8590376e-07 pass=True
+2026-10-14 22:54:48,316 Precision preflight fold=3 method=true_boundary mode=historical_tf32 center(.01) error=0.00027036685 pass=False
+2026-10-14 22:54:48,426 Precision preflight fold=3 method=true_boundary mode=strict_fp32 center(.01) error=3.6238931e-06 pass=True
+2026-10-14 22:54:48,573 Precision preflight fold=3 method=nonboundary mode=historical_tf32 center(.01) error=0.00036684067 pass=False
+2026-10-14 22:54:48,677 Precision preflight fold=3 method=nonboundary mode=strict_fp32 center(.01) error=1.4596375e-06 pass=True
+2026-10-14 22:54:49,231 Strict Oracle evaluation stage AB; native TF32 prediction metrics
+2026-10-14 22:55:10,628 Resumed Phase B AB fold=0 patch=0 complete
+2026-10-14 22:55:30,153 Resumed Phase B AB fold=0 patch=1 complete
+2026-10-14 22:55:49,625 Resumed Phase B AB fold=0 patch=2 complete
+2026-10-14 22:56:09,039 Resumed Phase B AB fold=1 patch=0 complete
+2026-10-14 22:56:29,196 Resumed Phase B AB fold=1 patch=1 complete
+2026-10-14 22:56:48,354 Resumed Phase B AB fold=1 patch=2 complete
+2026-10-14 22:57:07,727 Resumed Phase B AB fold=2 patch=0 complete
+2026-10-14 22:57:27,035 Resumed Phase B AB fold=2 patch=1 complete
+2026-10-14 22:57:46,459 Resumed Phase B AB fold=2 patch=2 complete
+2026-10-14 22:58:07,895 Resumed Phase B AB fold=3 patch=0 complete
+2026-10-14 22:58:27,523 Resumed Phase B AB fold=3 patch=1 complete
+2026-10-14 22:58:47,266 Resumed Phase B AB fold=3 patch=2 complete
+2026-10-14 22:59:07,592 Resumed Phase B AB fold=4 patch=0 complete
+2026-10-14 22:59:30,564 Resumed Phase B AB fold=4 patch=1 complete
+2026-10-14 22:59:51,670 Resumed Phase B AB fold=4 patch=2 complete
+2026-10-14 23:00:12,960 Resumed Phase B AB fold=5 patch=0 complete
+2026-10-14 23:00:34,334 Resumed Phase B AB fold=5 patch=1 complete
+2026-10-14 23:00:55,654 Resumed Phase B AB fold=5 patch=2 complete
+2026-10-14 23:01:16,670 Resumed Phase B AB fold=6 patch=0 complete
+2026-10-14 23:01:38,439 Resumed Phase B AB fold=6 patch=1 complete
+2026-10-14 23:01:59,378 Resumed Phase B AB fold=6 patch=2 complete
+2026-10-14 23:02:21,019 Resumed Phase B AB fold=7 patch=0 complete
+2026-10-14 23:02:42,320 Resumed Phase B AB fold=7 patch=1 complete
+2026-10-14 23:03:03,386 Resumed Phase B AB fold=7 patch=2 complete
+2026-10-14 23:03:05,605 Strict Oracle evaluation stage C; native TF32 prediction metrics
+2026-10-14 23:03:11,005 Resumed Phase B C fold=0 patch=0 complete
+2026-10-14 23:03:16,708 Resumed Phase B C fold=0 patch=1 complete
+2026-10-14 23:03:22,216 Resumed Phase B C fold=0 patch=2 complete
+2026-10-14 23:03:27,742 Resumed Phase B C fold=1 patch=0 complete
+2026-10-14 23:03:33,058 Resumed Phase B C fold=1 patch=1 complete
+2026-10-14 23:03:38,337 Resumed Phase B C fold=1 patch=2 complete
+2026-10-14 23:03:43,580 Resumed Phase B C fold=2 patch=0 complete
+2026-10-14 23:03:49,175 Resumed Phase B C fold=2 patch=1 complete
+2026-10-14 23:03:55,020 Resumed Phase B C fold=2 patch=2 complete
+2026-10-14 23:04:02,724 Resumed Phase B C fold=3 patch=0 complete
+2026-10-14 23:04:08,456 Resumed Phase B C fold=3 patch=1 complete
+2026-10-14 23:04:14,120 Resumed Phase B C fold=3 patch=2 complete
+2026-10-14 23:04:20,831 Resumed Phase B C fold=4 patch=0 complete
+2026-10-14 23:04:26,070 Resumed Phase B C fold=4 patch=1 complete
+2026-10-14 23:04:31,610 Resumed Phase B C fold=4 patch=2 complete
+2026-10-14 23:04:36,844 Resumed Phase B C fold=5 patch=0 complete
+2026-10-14 23:04:42,746 Resumed Phase B C fold=5 patch=1 complete
+2026-10-14 23:04:48,540 Resumed Phase B C fold=5 patch=2 complete
+2026-10-14 23:04:54,685 Resumed Phase B C fold=6 patch=0 complete
+2026-10-14 23:05:00,502 Resumed Phase B C fold=6 patch=1 complete
+2026-10-14 23:05:06,096 Resumed Phase B C fold=6 patch=2 complete
+2026-10-14 23:05:11,937 Resumed Phase B C fold=7 patch=0 complete
+2026-10-14 23:05:17,859 Resumed Phase B C fold=7 patch=1 complete
+2026-10-14 23:05:23,818 Resumed Phase B C fold=7 patch=2 complete
+2026-10-14 23:05:36,038 Final model state passed; verifying historical SHA256 and immutable Phase A
+2026-10-14 23:08:20,020 R1-D1 full diagnosis complete; same original run /home/duanxuelong/BCSI_Baseline_BGCE/analysis/results/experiment_R1_D1/run_20261014_1737

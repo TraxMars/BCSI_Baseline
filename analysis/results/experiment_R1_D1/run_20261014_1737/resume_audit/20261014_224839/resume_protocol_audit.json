@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-14T14:48:39.863201+00:00",
+  "reason": "User authorized strict FP32 Oracle/FD only; restore Phase B from unchanged candidates",
+  "prior_source_sha256": {
+    "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/experiment_R1_D1.py": "3b6744a8819cd3d94462038aac507ecb1391b2a00290e8a151398fe12fd29ce3",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/test_experiment_R1_D1.py": "51741d9df5e6b8d41d3c49535fa820d88738207cbbad3024639714188b35b4be"
+  },
+  "resume_source_sha256": {
+    "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/experiment_R1_D1.py": "392abd3a07f718b31dcc8c473d07d42ebb4a5f64f1d2b10fb7fe3e698f3ef600",
+    "/home/duanxuelong/BCSI_Baseline_BGCE/analysis/test_experiment_R1_D1.py": "02e775ff4d738b95c81d428631ffb60a8def5bad1c51fac56cf6c8c4e51ef778"
+  },
+  "original_phaseA_seal_sha256": "ec4aee831cfb121898c448f7c60134031daef1bd42aea7c0de1609af3e1dfc7c",
+  "phaseA_protocol_unchanged": true,
+  "phaseA_helpers_AST_unchanged": [
+    "phase_a_patch",
+    "match_bank",
+    "build_banks",
+    "save_candidate",
+    "load_candidate",
+    "create_output",
+    "semantic_metrics",
+    "alignment",
+    "alignment_stats",
+    "q_groups",
+    "group_case"
+  ],
+  "source_resolution": "Only original source entries resolve to authenticated failure snapshots; all candidate paths/hashes unchanged",
+  "no_phaseA_execution": true,
+  "strict_oracle": true,
+  "historical_predictions_and_actual_losses": "original TF32 archives",
+  "fd_t_and_tolerance_unchanged": true,
+  "resume_after_GT_first_read": true
+}

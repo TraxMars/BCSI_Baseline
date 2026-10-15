@@ -1,0 +1,617 @@
+{
+  "statistical_unit": "case",
+  "oracle_precision": "strict_fp32",
+  "methods": {
+    "local": {
+      "strict_net_directional_derivative": {
+        "n_cases": 8,
+        "mean": -9.272416884303445e-05,
+        "median": -0.00011913465275482273,
+        "std": 0.000171151964796905,
+        "ci95": [
+          -0.0002005592603565564,
+          2.34360885885232e-05
+        ],
+        "positive_cases": 3,
+        "negative_cases": 5,
+        "zero_cases": 0,
+        "minimum": -0.0003526211901221827,
+        "maximum": 0.00020540876517565634
+      },
+      "strict_predicted_loss_decrease_components": {
+        "n_cases": 8,
+        "mean": 0.0008916953065172056,
+        "median": 0.0008441888747267381,
+        "std": 0.0001904519566788179,
+        "ci95": [
+          0.0007826095479641664,
+          0.0010244222554336093
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0007319972729542874,
+        "maximum": 0.0012890021393702391
+      },
+      "strict_predicted_loss_increase_components": {
+        "n_cases": 8,
+        "mean": 0.0007989711376741711,
+        "median": 0.0007780810818647284,
+        "std": 0.00017166132689456096,
+        "ci95": [
+          0.000690623827039705,
+          0.0009119122582571565
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0005970914428084696,
+        "maximum": 0.001055334513089184
+      }
+    },
+    "local_energy_matched": {
+      "strict_net_directional_derivative": {
+        "n_cases": 8,
+        "mean": -0.0001660784982938094,
+        "median": -0.00020252768726712324,
+        "std": 0.00031517976272946006,
+        "ci95": [
+          -0.00036171778511521894,
+          4.9140313306514034e-05
+        ],
+        "positive_cases": 2,
+        "negative_cases": 6,
+        "zero_cases": 0,
+        "minimum": -0.0006140134985934998,
+        "maximum": 0.00039968792085742907
+      },
+      "strict_predicted_loss_decrease_components": {
+        "n_cases": 8,
+        "mean": 0.0016512605165623416,
+        "median": 0.001484479465952504,
+        "std": 0.00034840322940655626,
+        "ci95": [
+          0.0014452641877204786,
+          0.0018908559288832207
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0012820058864550412,
+        "maximum": 0.002338698839554149
+      },
+      "strict_predicted_loss_increase_components": {
+        "n_cases": 8,
+        "mean": 0.0014851820182685321,
+        "median": 0.0013784154697476171,
+        "std": 0.00034705569359758375,
+        "ci95": [
+          0.0012700952834780964,
+          0.0017177900418263808
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0011091801755990468,
+        "maximum": 0.002007290716710309
+      }
+    },
+    "multi": {
+      "strict_net_directional_derivative": {
+        "n_cases": 8,
+        "mean": -5.7416636878368505e-05,
+        "median": -9.456305918332982e-05,
+        "std": 0.0005991541367095347,
+        "ci95": [
+          -0.0004553086571266925,
+          0.00031940411369037164
+        ],
+        "positive_cases": 3,
+        "negative_cases": 5,
+        "zero_cases": 0,
+        "minimum": -0.0011023922698789696,
+        "maximum": 0.0007800411612278839
+      },
+      "strict_predicted_loss_decrease_components": {
+        "n_cases": 8,
+        "mean": 0.0016952870358198022,
+        "median": 0.001627051796257105,
+        "std": 0.0004472341886754735,
+        "ci95": [
+          0.0014054350009906804,
+          0.0019874778288228624
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.001007375335509613,
+        "maximum": 0.002457114312056283
+      },
+      "strict_predicted_loss_increase_components": {
+        "n_cases": 8,
+        "mean": 0.0016378703989414337,
+        "median": 0.001728637191162451,
+        "std": 0.00045931154488225646,
+        "ci95": [
+          0.001339696452295835,
+          0.0019331050511094735
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0009460450892596244,
+        "maximum": 0.002234603502584244
+      }
+    },
+    "multi_energy_matched": {
+      "strict_net_directional_derivative": {
+        "n_cases": 8,
+        "mean": -7.007225933801743e-05,
+        "median": -0.00011072925824533407,
+        "std": 0.0007028591119273452,
+        "ci95": [
+          -0.0005345560214557255,
+          0.00037380551679275036
+        ],
+        "positive_cases": 3,
+        "negative_cases": 5,
+        "zero_cases": 0,
+        "minimum": -0.0012839608836972887,
+        "maximum": 0.0009242744347652021
+      },
+      "strict_predicted_loss_decrease_components": {
+        "n_cases": 8,
+        "mean": 0.0019750893538962562,
+        "median": 0.0019122242576040283,
+        "std": 0.0005091725381874161,
+        "ci95": [
+          0.0016398688435297212,
+          0.0023065060637317723
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0011892062621131666,
+        "maximum": 0.002806257316970044
+      },
+      "strict_predicted_loss_increase_components": {
+        "n_cases": 8,
+        "mean": 0.0019050170945582386,
+        "median": 0.0020117973769655864,
+        "std": 0.0005231873632992503,
+        "ci95": [
+          0.001566025945671344,
+          0.002237560288156034
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0011004186448306443,
+        "maximum": 0.002527921640451316
+      }
+    },
+    "no_correction": {
+      "strict_net_directional_derivative": {
+        "n_cases": 8,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive_cases": 0,
+        "negative_cases": 0,
+        "zero_cases": 8,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "strict_predicted_loss_decrease_components": {
+        "n_cases": 8,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive_cases": 0,
+        "negative_cases": 0,
+        "zero_cases": 8,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "strict_predicted_loss_increase_components": {
+        "n_cases": 8,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "positive_cases": 0,
+        "negative_cases": 0,
+        "zero_cases": 8,
+        "minimum": 0.0,
+        "maximum": 0.0
+      }
+    },
+    "nonboundary": {
+      "strict_net_directional_derivative": {
+        "n_cases": 8,
+        "mean": -0.0005490476564415537,
+        "median": -0.000396648688145138,
+        "std": 0.0007357961808725099,
+        "ci95": [
+          -0.0010711414967225605,
+          -0.00012815017441917398
+        ],
+        "positive_cases": 2,
+        "negative_cases": 6,
+        "zero_cases": 0,
+        "minimum": -0.0020607519716190174,
+        "maximum": 0.00016885650180053957
+      },
+      "strict_predicted_loss_decrease_components": {
+        "n_cases": 8,
+        "mean": 0.002183466807871982,
+        "median": 0.0021303872185215143,
+        "std": 0.0006429931517516144,
+        "ci95": [
+          0.0017833346290561758,
+          0.0026073802077753367
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0014487193375502224,
+        "maximum": 0.0031824297342219095
+      },
+      "strict_predicted_loss_increase_components": {
+        "n_cases": 8,
+        "mean": 0.0016344191514304288,
+        "median": 0.001576359319565162,
+        "std": 0.0005781796134143737,
+        "ci95": [
+          0.0013107819759428558,
+          0.0020501223851131286
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0010702947738217773,
+        "maximum": 0.00289545350053411
+      }
+    },
+    "nonboundary_energy_matched": {
+      "strict_net_directional_derivative": {
+        "n_cases": 8,
+        "mean": -0.0005460537518480039,
+        "median": -0.0003951767868761759,
+        "std": 0.000753370353068688,
+        "ci95": [
+          -0.0010842801012630016,
+          -0.00011727856858319426
+        ],
+        "positive_cases": 2,
+        "negative_cases": 6,
+        "zero_cases": 0,
+        "minimum": -0.0021168327003428106,
+        "maximum": 0.00017390216434845325
+      },
+      "strict_predicted_loss_decrease_components": {
+        "n_cases": 8,
+        "mean": 0.0021364846623715406,
+        "median": 0.002089411925421036,
+        "std": 0.0006066592219562473,
+        "ci95": [
+          0.0017658052907353527,
+          0.002549392808514175
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.001473015856674336,
+        "maximum": 0.003273665890846144
+      },
+      "strict_predicted_loss_increase_components": {
+        "n_cases": 8,
+        "mean": 0.0015904309105235362,
+        "median": 0.001537173070289952,
+        "std": 0.00048589833778772104,
+        "ci95": [
+          0.0013112173567974862,
+          0.0019299432092391463
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0010558290510771378,
+        "maximum": 0.0026060644637628852
+      }
+    },
+    "opposite_match": {
+      "strict_net_directional_derivative": {
+        "n_cases": 8,
+        "mean": 0.0018327566694792958,
+        "median": 0.0022221041242747415,
+        "std": 0.0013730894777707434,
+        "ci95": [
+          0.0008888488504795768,
+          0.002648038382186767
+        ],
+        "positive_cases": 7,
+        "negative_cases": 1,
+        "zero_cases": 0,
+        "minimum": -0.0008083482780677009,
+        "maximum": 0.0037063097919050915
+      },
+      "strict_predicted_loss_decrease_components": {
+        "n_cases": 8,
+        "mean": 0.002102176387819574,
+        "median": 0.002088481109337522,
+        "std": 0.0006217531906569685,
+        "ci95": [
+          0.001703715183048661,
+          0.0025070608010211363
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.001156076101415048,
+        "maximum": 0.0029690411582425857
+      },
+      "strict_predicted_loss_increase_components": {
+        "n_cases": 8,
+        "mean": 0.00393493305729887,
+        "median": 0.004207008706442061,
+        "std": 0.0010125722792552218,
+        "ci95": [
+          0.003266102558617335,
+          0.0045428094395195025
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.002117837285623112,
+        "maximum": 0.005098695992027399
+      }
+    },
+    "opposite_match_energy_matched": {
+      "strict_net_directional_derivative": {
+        "n_cases": 8,
+        "mean": 0.0015761731971324086,
+        "median": 0.0019052310991815122,
+        "std": 0.001170782750100631,
+        "ci95": [
+          0.0007688822222666851,
+          0.002271747163772526
+        ],
+        "positive_cases": 7,
+        "negative_cases": 1,
+        "zero_cases": 0,
+        "minimum": -0.0006836180732679858,
+        "maximum": 0.0031402865358056225
+      },
+      "strict_predicted_loss_decrease_components": {
+        "n_cases": 8,
+        "mean": 0.0018006099811604054,
+        "median": 0.0017907911749560103,
+        "std": 0.000522631657253406,
+        "ci95": [
+          0.0014611908623214237,
+          0.0021371412887893917
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0009800091341662473,
+        "maximum": 0.002535618515811195
+      },
+      "strict_predicted_loss_increase_components": {
+        "n_cases": 8,
+        "mean": 0.003376783178292814,
+        "median": 0.003648252138982743,
+        "std": 0.0008722461803777171,
+        "ci95": [
+          0.002794089262711294,
+          0.0038940044179699607
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0017835690123971682,
+        "maximum": 0.004339270107738427
+      }
+    },
+    "random_match": {
+      "strict_net_directional_derivative": {
+        "n_cases": 8,
+        "mean": 0.0011703084056611174,
+        "median": 0.0013298664819410971,
+        "std": 0.0010180111057925914,
+        "ci95": [
+          0.000475283010710488,
+          0.0017872807439469648
+        ],
+        "positive_cases": 7,
+        "negative_cases": 1,
+        "zero_cases": 0,
+        "minimum": -0.0008037391507586438,
+        "maximum": 0.0026760947543255586
+      },
+      "strict_predicted_loss_decrease_components": {
+        "n_cases": 8,
+        "mean": 0.0018469046730960098,
+        "median": 0.0017890931973178273,
+        "std": 0.00047106729242122735,
+        "ci95": [
+          0.0015332222828790736,
+          0.0021444587717626665
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0010315459967843224,
+        "maximum": 0.002481377087534046
+      },
+      "strict_predicted_loss_increase_components": {
+        "n_cases": 8,
+        "mean": 0.003017213078757127,
+        "median": 0.003129622603062899,
+        "std": 0.000801083804217787,
+        "ci95": [
+          0.0024874584054472627,
+          0.0035041570605666306
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.001581615859830907,
+        "maximum": 0.004014322026633501
+      }
+    },
+    "self": {
+      "strict_net_directional_derivative": {
+        "n_cases": 8,
+        "mean": 0.0005017410096105585,
+        "median": 0.0004209695275846631,
+        "std": 0.0006548951433990466,
+        "ci95": [
+          5.576568643900965e-05,
+          0.0008968705452481808
+        ],
+        "positive_cases": 7,
+        "negative_cases": 1,
+        "zero_cases": 0,
+        "minimum": -0.0007761123133146154,
+        "maximum": 0.001388209061412702
+      },
+      "strict_predicted_loss_decrease_components": {
+        "n_cases": 8,
+        "mean": 0.001545004620196075,
+        "median": 0.0015596796012226268,
+        "std": 0.0003421768116384169,
+        "ci95": [
+          0.0013204062063911946,
+          0.0017669278481626787
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0010448272191864898,
+        "maximum": 0.0021002422861511752
+      },
+      "strict_predicted_loss_increase_components": {
+        "n_cases": 8,
+        "mean": 0.002046745629806634,
+        "median": 0.002101236463668859,
+        "std": 0.0005862637789187234,
+        "ci95": [
+          0.0016585168612176981,
+          0.002408223376185169
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0010428633536927782,
+        "maximum": 0.002681509415231527
+      }
+    },
+    "self_energy_matched": {
+      "strict_net_directional_derivative": {
+        "n_cases": 8,
+        "mean": 0.0005214799101997399,
+        "median": 0.00043800789391660797,
+        "std": 0.0006770433148825358,
+        "ci95": [
+          5.783246803312789e-05,
+          0.0009323176701848807
+        ],
+        "positive_cases": 7,
+        "negative_cases": 1,
+        "zero_cases": 0,
+        "minimum": -0.0007910996355937296,
+        "maximum": 0.0014264670506717305
+      },
+      "strict_predicted_loss_decrease_components": {
+        "n_cases": 8,
+        "mean": 0.0015867276271611004,
+        "median": 0.0015690575974610815,
+        "std": 0.0003481638739939939,
+        "ci95": [
+          0.0013589418785671067,
+          0.0018108926293795135
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0010730399026537415,
+        "maximum": 0.002143807553881845
+      },
+      "strict_predicted_loss_increase_components": {
+        "n_cases": 8,
+        "mean": 0.0021082075373608407,
+        "median": 0.0021345179071058113,
+        "std": 0.0006194130864404081,
+        "ci95": [
+          0.0016981656900632493,
+          0.002493315101221899
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.001064830271276403,
+        "maximum": 0.0029037546553019127
+      }
+    },
+    "true_boundary": {
+      "strict_net_directional_derivative": {
+        "n_cases": 8,
+        "mean": 0.0004931010920097882,
+        "median": 0.0004434420061883963,
+        "std": 0.0007111145711883361,
+        "ci95": [
+          1.5220300410287432e-05,
+          0.0009355949255973775
+        ],
+        "positive_cases": 7,
+        "negative_cases": 1,
+        "zero_cases": 0,
+        "minimum": -0.0008216217639223865,
+        "maximum": 0.0015692425926383668
+      },
+      "strict_predicted_loss_decrease_components": {
+        "n_cases": 8,
+        "mean": 0.0015969412511654922,
+        "median": 0.0015849062786082203,
+        "std": 0.00039499066874127466,
+        "ci95": [
+          0.0013311916762261576,
+          0.0018487231768651974
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0009442972640630892,
+        "maximum": 0.002160388569421585
+      },
+      "strict_predicted_loss_increase_components": {
+        "n_cases": 8,
+        "mean": 0.0020900423431752806,
+        "median": 0.0020818463303763812,
+        "std": 0.0006142562901169011,
+        "ci95": [
+          0.0016881100532861384,
+          0.0024747426943933014
+        ],
+        "positive_cases": 8,
+        "negative_cases": 0,
+        "zero_cases": 0,
+        "minimum": 0.0010297013005780122,
+        "maximum": 0.0028755745708874667
+      }
+    }
+  }
+}

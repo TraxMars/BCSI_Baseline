@@ -1,0 +1,3 @@
+case_id,fold,patch_index,method,repetition,t,autograd_directional_derivative,forward_difference,central_difference,forward_absolute_error,central_absolute_error,tolerance,forward_pass,central_pass,numerical_note
+06SR5RBREL16DQ6M8LWS,0,0,true_boundary,,0.001,0.0012948180757748886,-0.005394601115260578,-0.00034093575762561557,0.006689419191035466,0.0016357538334005042,8.474090378874444e-05,False,False,"FP32 decoder/features and CE; FP64 reduction; fixed t, no parameter search"
+06SR5RBREL16DQ6M8LWS,0,0,true_boundary,,0.01,0.0012948180757748886,0.002668667074245956,0.0017113647734101622,0.0013738489984710675,0.0004165466976352736,8.474090378874444e-05,False,False,"FP32 decoder/features and CE; FP64 reduction; fixed t, no parameter search"

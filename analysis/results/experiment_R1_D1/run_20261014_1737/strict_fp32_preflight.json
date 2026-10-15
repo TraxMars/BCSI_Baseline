@@ -1,0 +1,12 @@
+{
+  "completed_utc": "2026-10-14T14:54:48.685731+00:00",
+  "passed": true,
+  "primary_checks": 4,
+  "primary_t": 0.01,
+  "small_t": 0.001,
+  "atol": 2e-05,
+  "rtol": 0.05,
+  "all_failures_retained": true,
+  "rows": 18,
+  "no_t_or_tolerance_change": true
+}

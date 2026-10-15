@@ -1,0 +1,3 @@
+2026-10-14 17:21:52,067 Read-only SHA256 inventory of protected existing files
+2026-10-14 17:29:37,100 Phase A fold=0 patch=0 32 candidates complete; Receiver GT locked
+2026-10-14 17:30:11,920 Phase A fold=3 patch=0 32 candidates complete; Receiver GT locked

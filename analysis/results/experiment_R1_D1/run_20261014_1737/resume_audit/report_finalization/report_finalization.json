@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-14T15:12:14.867179+00:00",
+  "scope": "post-completion read-only decomposition and report interpretation; no candidate/model/GT selection changes",
+  "report_sha256_before": "1b011afcb97a545d916f5273bcf5d31bf6d3cb626feb24a6334117750654afbe",
+  "report_sha256_after": "f009ff8540a2fc711669347f7b89fa0ce5093d006af1d70fecede3504c7097b6",
+  "source_sha256": "dafcde8e9f0e9da0cef294bf484aaa0d2e6f95bd79efa0f5cf7bc28b45b4f68f",
+  "primary_summary_sha256": "fb783b6c2999c1c81717d0673f90d8d1a250165ed1a9eb4a3bb76373c9c2d1fd"
+}

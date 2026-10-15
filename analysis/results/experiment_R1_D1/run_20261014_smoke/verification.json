@@ -1,0 +1,11 @@
+{
+  "weights_and_buffers_exactly_unchanged": true,
+  "state_tensor_count": 205,
+  "all_parameters_frozen": true,
+  "no_model_parameter_gradients": true,
+  "all_modules_eval": true,
+  "no_receiver_GT_reads": true,
+  "historical_predictions_masks_matching_reproduced": true,
+  "candidate_count": 64,
+  "protected_file_sha256_unchanged": true
+}

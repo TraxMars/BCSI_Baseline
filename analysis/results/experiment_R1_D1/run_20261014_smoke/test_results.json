@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "test_actual_residual_cap_mask_and_energy (__main__.D1Tests) ... ok\ntest_bank_class_identity_and_global_equivalence (__main__.D1Tests) ... ok\ntest_case_aggregation_not_random_or_patch_independence (__main__.D1Tests) ... ok\ntest_direction_sign_and_undefined_zero_norm (__main__.D1Tests) ... ok\ntest_finite_difference_analytic_boundary_loss (__main__.D1Tests) ... ok\ntest_frozen_forward_leaf_gradient_and_other_features (__main__.D1Tests) ... ok\ntest_global_GT_gate_and_tamper_detection (__main__.D1Tests) ... ok\ntest_local_bank_donor_identity_determinism_and_cluster_inverse (__main__.D1Tests) ... ok\ntest_lossless_archive_and_refuse_existing_output (__main__.D1Tests) ... ok\ntest_mixed_GT_not_forced_class_and_correction_sign (__main__.D1Tests) ... ok\ntest_phase_A_no_receiver_GT_or_oracle_API (__main__.D1Tests) ... ok\ntest_q_bins_include_one_exactly_once (__main__.D1Tests) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 1.934s\n\nOK\n"
+}
